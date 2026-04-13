@@ -1,6 +1,2 @@
 file,cer_percent,reference_len,hypothesis_len
-CaterinaSapiente-Calvino.txt,2.31,12361,12420
-CaterinaSapiente-Pitre.txt,79.98,13714,18966
-Cenerentola-Bernoni-1-2.txt,23.16,1455,1731
-Cenerentola-Calvino-1.txt,3.16,4028,4046
-Cenerentola-Comparetti-1-2.txt,7.77,2162,2158
+pitre-test.txt,7.14,85,86

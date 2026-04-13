@@ -1,4 +1,5 @@
 import argparse
+import difflib
 import os
 import re
 import shutil
@@ -102,6 +103,7 @@ def evaluate_all(merged_dir, manual_dir, output_csv=None):
         clear_directory(str(Path(output_csv).parent))
     merged_files = collect_txt_files(merged_dir)
     results = []
+    detailed_output = []
 
     for merged_path in merged_files:
         manual_path = Path(manual_dir) / merged_path.name
@@ -112,9 +114,31 @@ def evaluate_all(merged_dir, manual_dir, output_csv=None):
         hyp = merged_path.read_text(encoding="utf-8", errors="replace")
         ref = manual_path.read_text(encoding="utf-8", errors="replace")
 
+        distance = levenshtein_distance(hyp, ref)
         cer = character_error_rate(hyp, ref)
         results.append((merged_path.name, cer, len(ref), len(hyp)))
-        print(f"{merged_path.name}: CER={cer:.2f}% (ref_len={len(ref)}, hyp_len={len(hyp)})")
+        print(f"{merged_path.name}: CER={cer:.2f}% (distance={distance}, ref_len={len(ref)}, hyp_len={len(hyp)})")
+
+        # Collect detailed output
+        detailed_output.append(f"=== {merged_path.name} ===")
+        detailed_output.append(f"CER: {cer:.2f}% (distance={distance}, ref_len={len(ref)}, hyp_len={len(hyp)})")
+        detailed_output.append(f"Reference preview: {ref[:200]}{'...' if len(ref) > 200 else ''}")
+        detailed_output.append(f"Hypothesis preview: {hyp[:200]}{'...' if len(hyp) > 200 else ''}")
+        
+        # Show differences
+        matcher = difflib.SequenceMatcher(None, ref, hyp)
+        count = 0
+        max_diffs = 50
+        for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+            if tag != 'equal' and count < max_diffs:
+                ref_part = ref[i1:i2][:100]
+                hyp_part = hyp[j1:j2][:100]
+                detailed_output.append(f"  {tag.upper()}: ref='{ref_part}' hyp='{hyp_part}'")
+                count += 1
+            elif count >= max_diffs:
+                detailed_output.append(f"  ... (stopped after {max_diffs} differences)")
+                break
+        detailed_output.append("")
 
     if output_csv:
         output_csv_path = Path(output_csv)
@@ -124,6 +148,12 @@ def evaluate_all(merged_dir, manual_dir, output_csv=None):
             for name, cer, ref_len, hyp_len in results:
                 f.write(f"{name},{cer:.2f},{ref_len},{hyp_len}\n")
         print(f"Wrote report to {output_csv}")
+
+        # Write detailed output to file
+        detailed_file = output_csv_path.parent / "evaluation_detailed.txt"
+        with open(detailed_file, "w", encoding="utf-8") as f:
+            f.write("\n".join(detailed_output))
+        print(f"Wrote detailed differences to {detailed_file}")
 
     return results
 

@@ -1,0 +1,11 @@
+=== pitre-test.txt ===
+CER: 7.14% (distance=6, ref_len=85, hyp_len=86)
+Reference preview: Nca, Signuri, si riccunta ca cc’era ‘na vota ‘n Palermu un gran niguzianti maritatu. 
+Hypothesis preview: 'Nca, Signuri, si riccunta ca cc'era 'na vota 'n Palermo
+un gran niguzianti maritatu. 
+  INSERT: ref='' hyp='''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='‘' hyp='''
+  REPLACE: ref='‘' hyp='''
+  REPLACE: ref='u ' hyp='o
+'
