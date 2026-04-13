@@ -1,0 +1,928 @@
+file,span_index,original,annotated,features
+CaterinaSapiente-Calvino.txt,1,"""Caterina la Sapiente""","""Caterina la Sapiente""",
+CaterinaSapiente-Calvino.txt,2,"Signori, voi sapete che ho una figlia che è la pupilla dei miei occhi. Ma da che è morta sua madre, sta chiusa in casa come un gatto, e non vuole metter fuori neanche la punta del naso.
+
+Il Consiglio rispose:","Signori, <ab type=""pron"" ana=""2"">voi</ab> sapete che ho una figlia che è la pupilla dei miei occhi. Ma da che è morta sua madre, sta chiusa in casa come un gatto, e non vuole metter fuori neanche la punta del naso.
+
+Il Consiglio rispose:",voi:2
+CaterinaSapiente-Calvino.txt,3,"L'idea mi piace, - disse il padre. Chiamò la figlia. - Sentì, figlia mia, visto che non vuoi nessuna distrazione, ho pensato di aprire un collegio, e tu ne sarai padrona. Ti piace?","L'idea mi piace, - disse il padre. Chiamò la figlia. - Sentì, figlia mia, visto che non vuoi nessuna distrazione, ho pensato di aprire un collegio, e <ab type=""pron"" ana=""2"">tu</ab> ne sarai padrona. <ab type=""pron"" ana=""2"">Ti</ab> piace?",tu:2|Ti:2
+CaterinaSapiente-Calvino.txt,4,Ma quello è un carbonaio!,Ma quello è un carbonaio!,
+CaterinaSapiente-Calvino.txt,5,Alzati! Mio figlio s'è incapricciato di tua figlia. Cosa dobbiamo fare? Sposiamoli.,Alzati! Mio figlio s'è incapricciato di tua figlia. Cosa dobbiamo fare? Sposiamoli.,
+CaterinaSapiente-Calvino.txt,6,"Come volete, Maestà. Ma io sono mercante e vostro figlio è sangue reale.","Come <ab type=""pron"" ana=""verb_2"">volete</ab>, Maestà. Ma io sono mercante e vostro figlio è sangue reale.",volete:verb_2
+CaterinaSapiente-Calvino.txt,7,Non fa niente: è mio figlio che la vuole...,"Non fa niente: è mio figlio che <ab type=""pron"" ana=""3"">la</ab> vuole...",la:3
+CaterinaSapiente-Calvino.txt,8,Io lo piglio.,Io lo piglio.,
+CaterinaSapiente-Calvino.txt,9,"Non c'è bisogno di gente che spogli né che vesta, né di guardie dietro la porta.","Non c'<ab type=""pron"" ana=""verb_3"">è</ab> bisogno di gente che <ab type=""pron"" ana=""verb_2"">spogli</ab> né che <ab type=""pron"" ana=""verb_3"">vesta</ab>, né di guardie dietro la porta.",è:verb_3|spogli:verb_2|vesta:verb_3
+CaterinaSapiente-Calvino.txt,10,"Caterina, ti ricordi di quel manrovescio che m'hai dato? Ti sei pentita?","Caterina, <ab type=""pron"" ana=""2"">ti</ab> ricordi di quel manrovescio che m'hai dato? <ab type=""pron"" ana=""2"">Ti</ab> sei pentita?",ti:2|Ti:2
+CaterinaSapiente-Calvino.txt,11,Come? Non sei pentita?,Come? Non sei pentita?,
+CaterinaSapiente-Calvino.txt,12,Manco per sogno.,Manco per sogno.,
+CaterinaSapiente-Calvino.txt,13,E non ti vuoi pentire?,"E non <ab type=""pron"" ana=""2"">ti</ab> vuoi pentire?",ti:2
+CaterinaSapiente-Calvino.txt,14,E chi ci pensa?,"E chi ci <ab type=""pron"" ana=""verb_3"">pensa</ab>?",pensa:verb_3
+CaterinaSapiente-Calvino.txt,15,"Caterina, o ti penti, o ti calo nel trabocchetto!","Caterina, o <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab> penti, o ti calo nel trabocchetto!",ti:2|ti:2
+CaterinaSapiente-Calvino.txt,16,"""ben levata""","""ben levata""",
+CaterinaSapiente-Calvino.txt,17,"Non si può entrare, - disse il Reuzzo, - Caterina non si sente bene.","Non si può entrare, - <ab type=""pron"" ana=""verb_3"">disse</ab> il Reuzzo, - Caterina non si <ab type=""pron"" ana=""verb_3"">sente</ab> bene.",disse:verb_3|sente:verb_3
+CaterinaSapiente-Calvino.txt,18,"Bella fresca, - rispose Caterina.","Bella fresca, - <ab type=""pron"" ana=""verb_3"">rispose</ab> Caterina.",rispose:verb_3
+CaterinaSapiente-Calvino.txt,19,Ci pensi al manrovescio che m'hai dato?,"Ci <ab type=""pron"" ana=""verb_3"">pensi</ab> al manrovescio che m'hai dato?",pensi:verb_3
+CaterinaSapiente-Calvino.txt,20,Penso a quello che vi devo dare.,"Penso a quello che <ab type=""pron"" ana=""2"">vi</ab> devo dare.",vi:2
+CaterinaSapiente-Calvino.txt,21,"Caterina, ti sei pentita dello schiaffo che m'hai dato?","Caterina, <ab type=""pron"" ana=""2"">ti</ab> sei pentita dello schiaffo che m'hai dato?",ti:2
+CaterinaSapiente-Calvino.txt,22,"Tanto piacere, divertitevi, quando arrivate scrivetemi.","Tanto piacere, divertitevi, quando <ab type=""pron"" ana=""verb_2"">arrivate</ab> scrivetemi.",arrivate:verb_2
+CaterinaSapiente-Calvino.txt,23,Allora vado?,Allora vado?,
+CaterinaSapiente-Calvino.txt,24,Come? Ancora lì siete?,"Come? Ancora lì <ab type=""pron"" ana=""verb_2"">siete</ab>?",siete:verb_2
+CaterinaSapiente-Calvino.txt,25,Come assomiglia a Caterina la Sapiente!,Come assomiglia a Caterina la Sapiente!,
+CaterinaSapiente-Calvino.txt,26,Padrone! - lei rispose.,"Padrone! - <ab type=""pron"" ana=""3"">lei</ab> rispose.",lei:3
+CaterinaSapiente-Calvino.txt,27,"E voi, Signora, siete ancora da sposare?","E <ab type=""pron"" ana=""2"">voi</ab>, Signora, siete ancora da sposare?",voi:2
+CaterinaSapiente-Calvino.txt,28,"Anch'io. Ve l'ho a dire? Voi, Signora, somigliate a una ragazza che mi piaceva a Palermo. Vi vorrei per moglie.","Anch'io. Ve l'ho a dire? <ab type=""pron"" ana=""2"">Voi</ab>, Signora, somigliate a una ragazza che mi piaceva a Palermo. <ab type=""pron"" ana=""2"">Vi</ab> vorrei per moglie.",Voi:2|Vi:2
+CaterinaSapiente-Calvino.txt,29,"Ne ho gran piacere, Reuzzo -. E di lì a otto giorni si sposarono.","Ne ho gran piacere, Reuzzo -. E di lì a otto giorni si <ab type=""pron"" ana=""verb_3"">sposarono</ab>.",sposarono:verb_3
+CaterinaSapiente-Calvino.txt,30,"Napoli, - disse Caterina. E gli misero nome Napoli.","Napoli, - <ab type=""pron"" ana=""verb_3"">disse</ab> Caterina. E gli misero nome Napoli.",disse:verb_3
+CaterinaSapiente-Calvino.txt,31,Come assomiglia a Caterina la Sapiente e anche a mia moglie di Napoli!,Come assomiglia a Caterina la Sapiente e anche a mia moglie di Napoli!,
+CaterinaSapiente-Calvino.txt,32,"Vedova, - rispose Caterina. - E voi?","Vedova, - rispose Caterina. - E <ab type=""pron"" ana=""2"">voi</ab>?",voi:2
+CaterinaSapiente-Calvino.txt,33,Anch'io vedovo. Con un figlio. Ma sapete che voi assomigliate come una stampa a una Signora che conoscevo a Palermo e a una Signora che conoscevo a Napoli?,"Anch'io vedovo. Con un figlio. Ma sapete che <ab type=""pron"" ana=""2"">voi</ab> assomigliate come una stampa a una Signora che conoscevo a Palermo e a una Signora che conoscevo a Napoli?",voi:2
+CaterinaSapiente-Calvino.txt,34,"""lo dice il popolo per una sentenza tradizionale""","""<ab type=""pron"" ana=""3"">lo</ab> dice il popolo per una sentenza tradizionale""",lo:3
+CaterinaSapiente-Calvino.txt,35,"Reginella, che nome gli mettiamo?","Reginella, che nome gli mettiamo?",
+CaterinaSapiente-Calvino.txt,36,Genova! - E Genova lo chiamarono.,"Genova! - E Genova <ab type=""pron"" ana=""3"">lo</ab> chiamarono.",lo:3
+CaterinaSapiente-Calvino.txt,37,"Partite, e mi lasciate così con un figlio tra le braccia? - gli disse la Reginella.","Partite, e mi lasciate così con un fi<ab type=""pron"" ana=""3"">gli</ab>o tra le braccia? - gli disse la Reginella.",gli:3
+CaterinaSapiente-Calvino.txt,38,"Vi faccio una carta, - le rassicurò il Reuzzo, - che questo è figlio mio ed è il Principino -. Mentre lui faceva i preparativi della partenza per Venezia, Caterina scrisse a Palermo al padre per un altro brigantino, con cameriere, governante, mobili, abiti nuovi e tutto. Il brigantino andò a Venezia. Partì il Reuzzo, sulla fregata; la Reginella partì sul brigantino e arrivò prima di lui.","<ab type=""pron"" ana=""2"">Vi</ab> faccio una carta, - <ab type=""pron"" ana=""3"">le</ab> rassicurò il Reuzzo, - che questo è figlio mio ed è il Principino -. Mentre <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">lui</ab></ab> faceva i preparativi della partenza per Venezia, Caterina scrisse a Palermo al padre per un altro brigantino, con cameriere, governante, mobili, abiti nuovi e tutto. Il brigantino andò a Venezia. Partì il Reuzzo, sulla fregata; la Reginella partì sul brigantino e arrivò prima di lui.",Vi:2|le:3|lui:3|lui:3
+CaterinaSapiente-Calvino.txt,39,"Santo cielo! - esclamò il Reuzzo appena vide la bella Signora affacciata al finestrone. - Anche questa assomiglia tutta alla mia moglie di Genova che assomigliava tutta alla mia moglie di Napoli che assomigliava tutta a Caterina la Sapiente! Ma come può essere? Caterina è a Palermo chiusa nel trabocchetto; quella di Napoli è a Napoli, quella di Genova è a Genova, e questa è a Venezia... - Le mando l'ambasciatore e poi andò a trovarla.","Santo cielo! - esclamò il Reuzzo appena vide la bella Signora affacciata al finestrone. - Anche questa assomiglia tutta alla mia moglie di Genova che assomigliava tutta alla mia moglie di Napoli che assomigliava tutta a Caterina la Sapiente! Ma come può essere? Caterina è a Palermo chiusa nel trabocchetto; quella di Napoli è a Napoli, quella di Genova è a Genova, e questa è a Venezia... - <ab type=""pron"" ana=""3"">Le</ab> mando l'ambasciatore e poi andò a trovarla.",Le:3
+CaterinaSapiente-Calvino.txt,40,"Ma sapete, Signora, che assomigliate a tante signore che conosco: una a Palermo, una a Napoli, una a Genova...","Ma <ab type=""pron"" ana=""verb_2"">sapete</ab>, Signora, che assomigliate a tante signore che conosco: una a Palermo, una a Napoli, una a Genova...",sapete:verb_2
+CaterinaSapiente-Calvino.txt,41,Eh! In sette dobbiamo assomigliarci a questo mondo...,Eh! In sette dobbiamo assomigliarci a questo mondo...,
+CaterinaSapiente-Calvino.txt,42,Siete da sposare?...,"<ab type=""pron"" ana=""verb_3"">Siete</ab> da sposare?...",Siete:verb_3
+CaterinaSapiente-Calvino.txt,43,Venezia. - E Venezia fu battezzata.,Venezia. - E Venezia fu battezzata.,
+CaterinaSapiente-Calvino.txt,44,Io? Bene!,Io? Bene!,
+CaterinaSapiente-Calvino.txt,45,Ti sei pentita di quello schiaffo che m'hai dato?,"<ab type=""pron"" ana=""2"">Ti</ab> sei pentita di quello schiaffo che m'hai dato?",Ti:2
+CaterinaSapiente-Calvino.txt,46,E voi ci avete pensato a quello schiaffo che vi devo dare?,"E <ab type=""pron"" ana=""2"">voi</ab> ci avete pensato a quello schiaffo che <ab type=""pron"" ana=""2"">vi</ab> devo dare?",voi:2|vi:2
+CaterinaSapiente-Calvino.txt,47,"Pentiti, Caterina, sai! Se no mi rispondo!","Pentiti, Caterina, <ab type=""pron"" ana=""verb_2"">sai</ab>! Se no mi rispondo!",sai:verb_2
+CaterinaSapiente-Calvino.txt,48,E risposatevi! Chi vi trattiene?,"E risposate<ab type=""pron"" ana=""2"">vi</ab>! Chi vi trattiene?",vi:2
+CaterinaSapiente-Calvino.txt,49,"Se invece ti penti, tornerai a essere mia moglie.","Se invece <ab type=""pron"" ana=""2"">ti</ab> penti, tornerai a essere mia moglie.",ti:2
+CaterinaSapiente-Calvino.txt,50,No.,No.,
+CaterinaSapiente-Calvino.txt,51,"Napoli, Genova, Venezia, andate a baciare la mano a vostro padre!","Napoli, Genova, Venezia, <ab type=""pron"" ana=""verb_2"">andate</ab> a baciare la mano a vostro padre!",andate:verb_2
+CaterinaSapiente-Pitre.txt,1,"<sp>"" Signuri mei, sapiti ch' haja
+'na figghia ch'è la pupidda di l'occhi mei ': quant'havi chi
+è morta sò matri, stà chiusa comu li gatti ', 'un voli cchiù
+affacciari mancu lu nasu.""","<sp>"" Signuri mei, sapiti ch' haja
+'na figghia ch'è la pupidda di l'occhi mei ': quant'havi chi
+è morta sò matri, stà chiusa comu <ab type=""pron"" ana=""3"">li</ab> gatti ', 'un voli cchiù
+affacciari mancu lu nasu.""",li:3
+CaterinaSapiente-Pitre.txt,2,""" Chi cci mittemu, Riggined-
+da? """,""" Chi cci mittemu, Riggined-
+da? """,
+CaterinaSapiente-Pitre.txt,3,""" Vinezia. """,""" Vinezia. """,
+CaterinaSapiente-Pitre.txt,4,""" Sai chi pensu, Rigginedda ? Lu mé
+viaggiu l'haju fattu; ora tornu 'n Palermu; ma prima di
+pàrtiri ti fazzu 'na carta accussi e accussi : ca chista è
+figghia mia, ed è 'na principissa riali. """,""" Sai chi pensu, Rigginedda ? Lu mé
+viaggiu l'haju fattu; ora tornu 'n Palermu; ma prima di
+pàr<ab type=""pron"" ana=""2"">ti</ab>ri ti fazzu 'na carta accussi e accussi : ca chista è
+figghia mia, ed è 'na principissa riali. """,ti:2
+CaterinaSapiente-Pitre.txt,5,"<sp>"" Catarina ! comu si' ?","<sp>"" Catarina ! <ab type=""pron"" ana=""verb_3"">comu</ab> si' ?",comu:verb_3
+CaterinaSapiente-Pitre.txt,6,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,7,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,8,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,9,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,10,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,11,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,12,"""
+Lu Riuzzu 'un sapennu cchiù chi fari nesci a diri ca
+la mugglieri cci muriu, e havi bisognu di maritarisi ar-
+reri. Scrivi pi li ritratti di li figghi di li Re pi marita-
+risi ?. Cei vennu li ritratti : la megghiu chi cci piaci è
+la figghia di lu Re d'Inghilterra; e cci manna a dici ca
+vinissiru la matri e la figghia, ca lu matrimoniu è cun-
+chiusu ?.
+¹ Stannu, qui stando.
+² La ricerca de' ritratti de' principi o delle principesse reali nella
+scelta d'uno sposo o d'una sposa è cosa ordinaria nelle novelle.
+³ Intendi che il principe dopo v sti vari ritra ti scelse la figlia del re
+d' Inghilterra, e mandò a dirle che verga insieme colla madre, perché
+la scelta per lui è stata fatta.
+
+56
+FIABE, RACCONTI, NOVELLE EC.
+Junci la principissa e lu Riuzzu d'Inghilittera 'n Sicilia,
+e vannu a Palazzu. 'Nta mentri, Catarina chi fa? fa pri-
+parari tri bell'abbiti a la riali a li picciriddi soi Napuli,
+Genua e Venezia. Lu 'nnumani di l'arrivo di la Princi-
+pissa d'Inghilittera s'avia a fari lu matrimoniu. Catarina
+si vesti di Riggina chi era, si pigghia a Napuli, vistutu
+di Riuzzu, e a Genua e a Venezia vistuti di Principi, si
+metti 'nta 'na carrozza di gala e va a Palazzu. Idda cei
+dici a li picciriddi: <sp>""","""
+Lu Riuzzu 'un sapennu cchiù chi fari nesci a diri ca
+la mugg<ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">li</ab></ab></ab></ab></ab></ab>eri cci muriu, e havi bisognu di maritarisi ar-
+reri. Scrivi pi li ritrat<ab type=""pron"" ana=""2"">ti</ab> di li figghi di li Re pi marita-
+risi ?. Cei vennu li ritratti : la megghiu chi cci piaci è
+la figghia di lu Re d'Inghilterra; e cci manna a dici ca
+vinissiru la matri e la figghia, ca lu matrimoniu è cun-
+chiusu ?.
+¹ Stannu, qui stando.
+² La ricerca de' ritratti de' principi o delle principesse reali nella
+scelta d'uno sposo o d'una sposa è cosa ordinaria nelle novelle.
+³ Intendi che il principe dopo v sti vari ritra ti scelse la figlia del re
+d' Inghilterra, e mandò a dirle che verga insieme colla madre, perché
+la scelta per <ab type=""pron"" ana=""3"">lui</ab> è stata fatta.
+
+56
+FIABE, RACCONTI, NOVELLE EC.
+Junci la principissa e lu Riuzzu d'Inghilittera 'n Sicilia,
+e vannu a Palazzu. 'Nta mentri, Catarina chi fa? fa pri-
+parari tri bell'abbiti a la riali a li picciriddi soi Napuli,
+Genua e Venezia. Lu 'nnumani di l'arrivo di la Princi-
+pissa d'Inghilittera s'avia a fari lu matrimoniu. Catarina
+si vesti di Riggina chi era, si pigghia a Napuli, vistutu
+di Riuzzu, e a Genua e a Venezia vistuti di Principi, si
+metti 'nta 'na carrozza di gala e va a Palazzu. Idda cei
+dici a li picciriddi: <sp>""",li:3|li:3|li:3|li:3|ti:2|lui:3|li:3|li:3
+CaterinaSapiente-Pitre.txt,13,"""","""",
+CaterinaSapiente-Pitre.txt,14,"""","""",
+CaterinaSapiente-Pitre.txt,15,""" E li
+lassa jiri.
+Lu Riuzzu fici la morti ch' appi a fari.",""" E <ab type=""pron"" ana=""3"">li</ab>
+lassa jiri.
+Lu Riuzzu fici la morti ch' appi a fari.",li:3
+CaterinaSapiente-Pitre.txt,16,""" cci dici a Catarina: scinni di lu sog-
+ghiu e s'abbrazza a li so' figghi. La Principissa d'Inghili-
+terra arristau comu la zita cu lu gigghiu rasu ¹. Lu 'nnu-
+mani s' ha accattatu lu Cássaru ² e ha partutu. Catarina
+cci ha cuntatu a sò maritu tuttu l' arcanu ; e iddu 'un
+putia cchiù di addimannàricci pirdunu di chiddu chi cci
+¹ Arristari comu la zita cu lu gigghiu rasu, restare come la sposa col
+sopracciglio rasò, cioè delusa, scornata. Ecco una spiegazione che ho a-
+vuta di queste frase in Salaparuta: Anticamente si costumava che le ra-
+gazze che si pròmettevano in matrimonio si radessero le sopracciglia; e que-
+sto era segno che già erano zili, cioè fidanzate. Quando il matrimonio
+non avea più luogo, allora si dicea: R stau cu lu gigghiu rasu.
+² Letteralmente: S'è comprato il Cassero. Dice si così di chi va via. E
+siccome il Cassero è il corso principale, e quasi il luogo ove uno può sva-
+garsì, perciò si dice che il tale si compra il Cassero.
+
+CATARINA LA SAPIENTI.
+57
+avia fattu pàtiri. E di ddu jornu 'n poi si vosiru beni
+sempri e
+Arristarù filici e cuntenti
+E nui semu ccà e nn’ammulamu li denti.
+Palermo'.
+VARIANTI E RISCONTRI.
+In un'altra versione col titolo Sapienza, ti cunverti! avven-
+gono gli stessi fatti, meno che quello delle lezioni. Il Re era
+corrivo che ella non volesse pentirsi, e le dicea sempre: • Sa-
+pienza, ti cunverti? • Alla fine, reduce dai viaggi, egli ammalà
+gravemente: causa la grande ostinazione di Sapienza. Al letto
+di morte ella va a trovarlo coi figli a nome: Napoli, Milano
+e Venezia, e dice loro:
+Napoli, Milano,
+Pigghiativi a Vinezia p'à manu,
+Vasàticei a vostu patri li manu.
+Così egli rinviene ; le dimanda : Sapienza ti cunverti? Essa
+lo guarda, impietosisce, e gli risponde: mi cunvertu! così si
+risolve e guarisce.
+Bella-e-sapiente.
+Bella-e-sapiente è il titolo d'una versione di Ficarazzi rac-
+contata da Giuseppa Furia. Bella-e-sapiente è il nome d'una
+principessa reale che andava a una scuola, ove intervenivano
+fanciulli e fanciulle; agli uni dava lezione il marito, alle al-
+tre la moglie. Un giorno i maestri dovettero allontanarsi per
+andare ad un corteo di nozze, e affidarono le classi, il maes-
+tro a un fanciullo che era figlio del Re, la maestra a Bella-
+e-sapiente, che era la più esperta tra le sue compagne. Al-
+lievi ed allieve cominciarono a divertirsi, e il principe si per-
+mise di dire che un giorno prenderebbe in moglie Bella-e-sa-
+' Raccontata dalla solita Aga'uzza Messia.
+
+CATARINA LA SAPIENTI.
+Lu Cunsigghiu dici: <sp>""",""" cci dici a Catarina: scinni di lu sog-
+ghiu e s'abbrazza a <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">li</ab></ab></ab> so' figghi. La Principissa d'Inghili-
+terra arristau comu la zita cu lu gigghiu rasu ¹. Lu 'nnu-
+mani s' ha accattatu lu Cássaru ² e ha partutu. Catarina
+cci ha cuntatu a sò maritu tuttu l' arcanu ; e iddu 'un
+pu<ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab></ab>a cchiù di addimannàricci pirdunu di chiddu chi cci
+¹ Arristari comu la zita cu lu gigghiu rasu, restare come la sposa col
+sopracci<ab type=""pron"" ana=""3"">gli</ab>o rasò, cioè delusa, scornata. Ecco una spiegazione che ho a-
+vuta di queste frase in Salaparuta: Anticamente si costumava che le ra-
+gazze che si pròmettevano in matrimonio si radessero le sopracciglia; e que-
+sto era segno che già erano zili, cioè fidanzate. Quando il matrimonio
+non avea più luogo, al<ab type=""pron"" ana=""3"">lo</ab>ra si dicea: R stau cu lu gigghiu rasu.
+² Letteralmente: S'è comprato il Cassero. Dice si così di chi va via. E
+siccome il Cassero è il corso principale, e quasi il luogo ove uno può sva-
+garsì, perciò si dice che il tale si compra il Cassero.
+
+CATARINA LA SAPIENTI.
+57
+avia fattu pàtiri. E di ddu jornu 'n poi si vosiru beni
+sempri e
+Arristarù filici e cuntenti
+E nui semu ccà e nn’ammulamu li denti.
+Palermo'.
+VARIANTI E RISCONTRI.
+In un'altra versione col titolo Sapienza, ti cunverti! avven-
+gono gli stessi fatti, meno che quello delle lezioni. Il Re era
+corrivo che ella non volesse pentirsi, e le dicea sempre: • Sa-
+pienza, ti cunverti? • Alla fine, reduce dai viaggi, egli ammalà
+gravemente: causa la grande ostinazione di Sapienza. Al letto
+di morte ella va a trovarlo coi figli a nome: Napoli, Milano
+e Venezia, e dice <ab type=""pron"" ana=""3"">loro</ab>:
+Napoli, Milano,
+Pigghiativi a Vinezia p'à manu,
+Vasàticei a vostu patri li manu.
+Così egli rinviene ; le dimanda : Sapienza ti cunverti? Essa
+lo guarda, impietosisce, e gli risponde: mi cunvertu! così si
+risolve e guarisce.
+Bella-e-sapiente.
+Bella-e-sapiente è il titolo d'una versione di Ficarazzi rac-
+contata da Giuseppa Furia. Bella-e-sapiente è il nome d'una
+principessa reale che andava a una scuola, ove intervenivano
+fanciulli e fanciulle; agli uni dava lezione il marito, alle al-
+tre la moglie. Un giorno i maestri dovettero allontanarsi per
+andare ad un corteo di nozze, e affidarono le classi, il maes-
+tro a un fanciullo che era figlio del Re, la maestra a Bella-
+e-sapiente, che era la più esperta tra le sue compagne. Al-
+lievi ed allieve cominciarono a divertirsi, e il principe si per-
+mise di dire che un giorno prenderebbe in moglie Bella-e-sa-
+' Raccontata dalla solita Aga'uzza Messia.
+
+CATARINA LA SAPIENTI.
+Lu Cunsigghiu dici: <sp>""",li:3|li:3|ti:2|ti:2|loro:3|li:3|ti:2|lo:3|gli:3
+CaterinaSapiente-Pitre.txt,17,"""","""",
+CaterinaSapiente-Pitre.txt,18,""" dici lu patri. Chiama la figghia e cci dici:<sp>""",""" <ab type=""pron"" ana=""verb_2"">dici</ab> lu patri. <ab type=""pron"" ana=""verb_3"">Chiama</ab> la figghia e cci dici:<sp>""",dici:verb_2|Chiama:verb_3
+CaterinaSapiente-Pitre.txt,19,""" A idda cci piaciu, e si
+misi a diriggiri idda stissa li mastri pi fari stu culleg",""" A idda cci piaciu, e si
+misi a diriggiri idda stissa <ab type=""pron"" ana=""3"">li</ab> mastri pi fari stu culleg",li:3
+CaterinaSapiente-Pitre.txt,20,"""
+Comu javanu vinennu li picciotti, masculi e fimmini,
+idda li java facennu assittari 'nta li vanchi unu appressu
+all'àutru senza particularità pi nuddu. Dici ²: ""","""
+Comu javanu vinennu <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">li</ab></ab></ab> picciotti, masculi e fimmini,
+idda li java facennu assittari 'nta li vanchi unu appressu
+all'àutru senza particularità pi nuddu. Dici ²: """,li:3|li:3|li:3
+CaterinaSapiente-Pitre.txt,21,""" 'Un fa nenti : lu carvanaru s' avia a 'ssittari
+allatu di la figghia di lu Principi. Cu' veni prima ma-
+cina lu mulinu ³. Accuminzò la scola. Catarina la Sapienti
+'nsignava a tutti aguali; a cui nun cci purtava lizioni, 'na
+ferra 'nchiummata 'n punta e cafuddava ⁴.
+La nnuminata si sappi sina a palazzu, e lu Riuzzu cci
+vosi jiri. Si vesti di gran tinuta, trasi, trova un postu, e
+idda lu fici assittari a ddu postu. Quannu junciu un' id-
+du, Catarina cci spijo 'na difigurtà; lu Riuzzu 'un cci sappi
+arrispunniri; ppuhm ! e idda cci cafudda un timpuluni ca
+
+¹ Forse potrebbe togliersi questa fantasia dal capo.
+² Dici, ma si potrebbe dire, osservare.
+³ Proverbio. Chi primo guange, primo macina.
+⁴ Per chi non le portasse la lezione, essa teneva una sferza impiom-
+bata in punta, e picchiava.
+
+48
+FIABE, NOVELLE, RACCONTI, EC.
+criju ca la mascidda ancora cci abbrucia '. Lu Riuzzu curri-
+vatu di sta parti, accihiana a Palazzu, e va nni sò patri. -
+""",""" 'Un fa nenti : lu carvanaru s' avia a 'ssittari
+allatu di la figghia di lu Principi. Cu' veni prima ma-
+cina lu mulinu ³. Accuminzò la scola. Catarina la Sapienti
+'nsignava a tutti aguali; a cui nun cci purtava lizioni, 'na
+ferra 'nchiummata 'n punta e cafuddava ⁴.
+La nnuminata si sappi sina a palazzu, e lu Riuzzu cci
+vosi jiri. Si vesti di gran tinuta, trasi, trova un postu, e
+idda lu fici assittari a ddu postu. Quannu junciu un' id-
+du, Catarina cci spijo 'na difigurtà; lu Riuzzu 'un cci sappi
+arrispunniri; ppuhm ! e idda cci cafudda un timpuluni ca
+
+¹ Forse potrebbe togliersi questa fantasia dal capo.
+² Dici, ma si potrebbe dire, osservare.
+³ Proverbio. Chi primo guange, primo macina.
+⁴ Per chi non <ab type=""pron"" ana=""3"">le</ab> portasse la lezione, essa teneva una sferza impiom-
+bata in punta, e picchiava.
+
+48
+FIABE, NOVELLE, RACCONTI, EC.
+criju ca la mascidda ancora cci abbrucia '. Lu Riuzzu curri-
+vatu di sta parti, accihiana a Palazzu, e va nni sò patri. -
+""",le:3
+CaterinaSapiente-Pitre.txt,22,""" - Lu Re manna a chiamari a lu patri
+di Catarina la Sapienti, e lu patri cci va. - """,""" - Lu Re manna a chiamari a lu patri
+di Catarina la Sapienti, e lu patri cci <ab type=""pron"" ana=""verb_3"">va</ab>. - """,va:verb_3
+CaterinaSapiente-Pitre.txt,23,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,24,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,25,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,26,"""
+Comu lu patri torna a la casa: <sp>""","""
+Comu lu patri <ab type=""pron"" ana=""verb_3"">torna</ab> a la casa: <sp>""",torna:verb_3
+CaterinaSapiente-Pitre.txt,27,"""","""",
+CaterinaSapiente-Pitre.txt,28,"""
+'Nta termini ottu jorna, tutti cosi fòru pronti. (Chi cci
+ammancava forsi la lana? li cantarana ?) Lu Riuzzu cci
+prepara dudici dünzelli; hannu graputu cappella riali, e
+l'hannu maritatu.
+A la finuta di lu zitaggiu, ' la Riggina cci dissì a sti
+dünzelli di jiri a fari lu sò duviri 5, di jiri a spuggliari la
+. Rigginedda pi falla curcari 6. Lu Riuzzu arrispusi: <sp>""","""
+'Nta termini ottu jorna, tutti cosi fòru pronti. (Chi cci
+ammancava forsi la lana? <ab type=""pron"" ana=""3"">li</ab> cantarana ?) Lu Riuzzu cci
+prepara dudici dünzelli; hannu graputu cappella riali, e
+l'hannu maritatu.
+A la finuta di lu zitaggiu, ' la Riggina cci dissì a sti
+dünzelli di jiri a fari lu sò duviri 5, di jiri a spuggliari la
+. Rigginedda pi falla curcari 6. Lu Riuzzu arrispusi: <sp>""",li:3
+CaterinaSapiente-Pitre.txt,29,"""
+Comu fòru suli:","""
+Comu fòru suli:",
+CaterinaSapiente-Pitre.txt,30,"""
+<sp>""","""
+<sp>""",
+CaterinaSapiente-Pitre.txt,31,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,32,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,33,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,34,""" E cu' nni
+parra! """,""" E cu' nni
+parra! """,
+CaterinaSapiente-Pitre.txt,35,""" Alha! chistu cc'è ? Ora ti fazzu avvidiri cu'
+sugnu io. """,""" Alha! chistu cc'è ? Ora <ab type=""pron"" ana=""2"">ti</ab> fazzu avvidiri cu'
+sugnu io. """,ti:2
+CaterinaSapiente-Pitre.txt,36,"<sp>"" Catarina,
+o tu ti penti, o io ti calu 'nta stu trabbuccu! ""","<sp>"" Catarina,
+o <ab type=""pron"" ana=""2"">tu</ab> <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab> penti, o io ti calu 'nta stu trabbuccu! """,tu:2|ti:2|ti:2
+CaterinaSapiente-Pitre.txt,37,""" E io staju
+echiù friscu ! """,""" E io <ab type=""pron"" ana=""verb_3"">staju</ab>
+echiù friscu ! """,staju:verb_3
+CaterinaSapiente-Pitre.txt,38,""" Un
+pò trásiri nuddu, dici lu Riuzzu, cà Catarina è malatedda.
+Gra pi lu trabbuccu: <sp>""",""" Un
+pò trásiri nuddu, <ab type=""pron"" ana=""verb_2"">dici</ab> lu Riuzzu, cà Catarina è malatedda.
+Gra pi lu trabbuccu: <sp>""",dici:verb_2
+CaterinaSapiente-Pitre.txt,39,"""
+cci spija lu Riuzzu.","""
+cci <ab type=""pron"" ana=""verb_3"">spija</ab> lu Riuzzu.",spija:verb_3
+CaterinaSapiente-Pitre.txt,40,""" cci dici Catarina.
+- """,""" cci <ab type=""pron"" ana=""verb_2"">dici</ab> Catarina.
+- """,dici:verb_2
+CaterinaSapiente-Pitre.txt,41,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,42,"""
+Ora passannu du’ jorna, la fami la pigghiava pi dar-
+reri lu cozzu '. 'Un sapennu chi fari, si leva la sticca di
+lu cerru ', e si metti a fari un pirtusu a lu muru. Spir-
+tusa, spiritusa, a lu capu di vintiquattr’uri vidi lustru, ca
+
+' Ardita, audace.
+' Parole in parte latine, in parte di semplice giochetto: nec li’i nec
+tabi (?); cioè senza fiutare, senza nulla osservare.
+' Altro uso nuziale, per cui si va ad augurare la ben lecata agli sposi.
+' Letteralmente : La fame la inseguiva di dietro la coca (l’occipite)
+e vale era sommamente affamata.
+' La steecca del busto.
+
+Pirnè. - Fiabe e Novelle - vol. I.
+
+50
+FIABE, NOVELLE, RACCONTI EC.
+si 'ntisi arrieriari. Allarga ddu pirtusu, e 'nta mentri chi
+talia, vidi passari lu scrivannu di sò patri: ""","""
+Ora passannu du’ jorna, <ab type=""pron"" ana=""3"">la</ab> fami la pigghiava pi dar-
+reri lu cozzu '. 'Un sapennu chi fari, si leva la sticca di
+lu cerru ', e si metti a fari un pirtusu a lu muru. Spir-
+tusa, spiritusa, a lu capu di vintiquattr’uri vidi lustru, ca
+
+' Ardita, audace.
+' Parole in parte latine, in parte di semplice giochetto: nec li’i nec
+tabi (?); cioè senza fiutare, senza nulla osservare.
+' Altro uso nuziale, per cui si va ad augurare la ben lecata agli sposi.
+' Letteralmente : La fame la inseguiva di dietro la coca (l’occipite)
+e vale era sommamente affamata.
+' La steecca del busto.
+
+Pirnè. - Fiabe e Novelle - vol. I.
+
+50
+FIABE, NOVELLE, RACCONTI EC.
+si 'ntisi arrieriari. Allarga ddu pirtusu, e 'nta mentri chi
+talia, vidi passari lu scrivannu di sò patri: """,la:3
+CaterinaSapiente-Pitre.txt,43,""" A Don Tumasi 'un sa chi cei parsì ' sta vuci
+chi vinia di lu muru. - """,""" A Don Tumasi 'un <ab type=""pron"" ana=""verb_3"">sa</ab> chi cei parsì ' <ab type=""pron"" ana=""verb_3"">sta</ab> vuci
+chi <ab type=""pron"" ana=""verb_3"">vinia</ab> di lu muru. - """,sa:verb_3|sta:verb_3|vinia:verb_3
+CaterinaSapiente-Pitre.txt,44,"""
+Veni lu patri accumpagnatu di Don Tumasi, (cà sulu 'un
+lu putia 'nzirtari, ?) e idda cei dici : <sp>""","""
+Veni lu patri accumpagnatu di Don Tumasi, (cà sulu 'un
+lu putia 'nzirtari, ?) e idda cei dici : <sp>""",
+CaterinaSapiente-Pitre.txt,45,""" La cosa iju bella. Sò patri ogni jorna
+cei facia junciri lu manciari: gaddini, gadduzzi, pitaggi
+di sustanza 4. Lu Riuzzu tri voti lu jorna cei affacciava:
+<sp>""",""" La cosa iju bella. Sò patri ogni jorna
+cei <ab type=""pron"" ana=""verb_3"">facia</ab> junciri lu manciari: gaddini, gadduzzi, pitaggi
+di sustanza 4. Lu Riuzzu tri voti lu jorna cei <ab type=""pron"" ana=""verb_3"">affacciava</ab>:
+<sp>""",facia:verb_3|affacciava:verb_3
+CaterinaSapiente-Pitre.txt,46,"""","""",
+CaterinaSapiente-Pitre.txt,47,"""
+Li mastrì travagghìavannu a fari lu suttirraniu: ogni
+vinti passi un architravatu e un fanali. Comu fu lestu,
+idda facia, ca aspittava ca lu Riuzzu chinija lu trabbuccu,
+poi si nni passava nni sò patri, e accussi java a fari ci-
+lence 5. Passannu 'na picchidda di jorna, a chistu cci cu-
+minzaru a vuncìari li capiddi : 6 gra pi lu trabbuccu :<sp>CATARINA·LA SAPIENTI.
+51
+• Catarina, io vaju a Napuli; m'ha' a diri nenti? •","""
+<ab type=""pron"" ana=""3"">Li</ab> mastrì travagghìavannu a fari lu suttirraniu: ogni
+vinti passi un architravatu e un fana<ab type=""pron"" ana=""3"">li</ab>. Comu fu lestu,
+idda facia, ca aspittava ca lu Riuzzu chinija lu trabbuccu,
+poi si nni passava nni sò patri, e accussi java a fari ci-
+lence 5. Passannu 'na picchidda di jorna, a chistu cci cu-
+minzaru a vuncìari li capiddi : 6 gra pi lu trabbuccu :<sp>CATARINA·LA SAPIENTI.
+51
+• Catarina, io vaju a Napuli; m'ha' a diri nenti? •",Li:3|li:3
+CaterinaSapiente-Pitre.txt,48,"• Papà, ora è lu casu di darimi ajuto. Subbitu sub","<ab type=""pron"" ana=""verb_3"">•</ab> Papà, ora è lu casu di darimi ajuto. Subbitu sub",•:verb_3
+CaterinaSapiente-Pitre.txt,49,"""","""",
+CaterinaSapiente-Pitre.txt,50,"""","""",
+CaterinaSapiente-Pitre.txt,51,""" cci arrispunni idda. Veni lu Riuzzu vistutu di
+gran tinuta; cirimonii di cca, cirimonii di dda; si met-
+tinu 'n cuamirsazioni. Dici lu Riuzzu: <sp>""",""" cci arrispunni idda. Veni lu Riuzzu vistutu di
+gran tinuta; cirimonii di cca, cirimonii di dda; si met-
+tinu 'n cuamirsazioni. <ab type=""pron"" ana=""verb_2"">Dici</ab> lu Riuzzu: <sp>""",Dici:verb_2
+CaterinaSapiente-Pitre.txt,52,"""","""",
+CaterinaSapiente-Pitre.txt,53,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,54,""" - """,""" - """,
+CaterinaSapiente-Pitre.txt,55,""" E 'nta
+termini ottu jorna lu Riuzzu e Catarina la Sapienti s'hannu
+maritatu.
+Sta signura nisciu gravita. Cuntu 'un porta tempu: *
+a li novi misi 'n puntu parturiu. Parturisci e fa un ma-
+sculiddu ch'era 'na biddizza 3. Lu Riuzzu 'ncugna vicinu
+lu lettù: <sp>""",""" E 'nta
+termini ottu jorna lu Riuzzu e Catarina la Sapienti s'hannu
+maritatu.
+Sta signura nisciu gravita. Cuntu 'un porta tempu: *
+a <ab type=""pron"" ana=""3"">li</ab> novi misi 'n puntu parturiu. Parturisci e fa un ma-
+sculiddu ch'era 'na biddizza 3. Lu Riuzzu 'ncugna vicinu
+lu lettù: <sp>""",li:3
+CaterinaSapiente-Pitre.txt,56,"""","""",
+CaterinaSapiente-Pitre.txt,57,""" (dici Catarina). E cci hannu misu Napoli.
+Passannu du' anni lu Riuzzu vosi partiri. La Riggì-
+nedda si tici àghira, 5 ma iddu 'ntistau e vosi partiri.
+Prima di partiri cci fa 'na carta e cci dici ca lu picci-
+riddu era lu primugenitu sò 6, e avia a essiri cu lu tem-
+pu lu Re. E parti pi Genua. Com'iddu parti, idda scrivi
+a sò patri ca cci avissi mannatu a Genua un brigantinu
+1 Schetta, nobile, zitella, ragazza.
+2 Cuntu 'un porta tempu, o Lu cuntu 'un metti tempu, o 'Ntra li cunli
+nun ce' è tèmju, prove bio d' lle novellatrici, che equivale all' altro to-
+scano: """,""" (dici Catarina). E cci hannu misu Napo<ab type=""pron"" ana=""3"">li</ab>.
+Passannu du' anni lu Riuzzu vosi partiri. La Riggì-
+nedda si tici àghira, 5 ma iddu 'ntistau e vosi partiri.
+Prima di partiri cci fa 'na carta e cci dici ca lu picci-
+riddu era lu primugenitu sò 6, e avia a essiri cu lu tem-
+pu lu Re. E parti pi Genua. Com'iddu parti, idda scrivi
+a sò patri ca cci avissi mannatu a Genua un brigantinu
+1 Schetta, nobile, zitella, ragazza.
+2 Cuntu 'un porta tempu, o Lu cuntu 'un metti tempu, o 'Ntra li cunli
+nun ce' è tèmju, prove bio d' lle novellatrici, che equivale all' altro to-
+scano: """,li:3
+CaterinaSapiente-Pitre.txt,58,""" De GUBERNATIS, Norel-
+line di S. Stefano in Calcinaia, pag. 34.
+3 Partorisce e fa un maschietto ch'era una bellezza.
+4 Reginella, co' ne chiameremo noi questo bambino?
+5 Àghira, agra: alla Reginella seppe d'ostico.
+6 Sò, di lui, del Re.
+
+CATARINA LA SAPIENTI.
+càrricu di mobili, cammareri, 'na nurrizza e tuttu: addu-
+gàssiru un palazzu 'n facci lu Palazzu riali di Genua, e
+aspiittassiru a idda. Lu patri càrrica un brigantinu e lu
+manna a Genna. Quannu lu Riuzzu partìnu, idda pigghia
+un brigantinu e prima d'iddu si va a 'mpalazzari 'nta lu
+palazzu di Genua. Comu lu Riuzzu vidi sta bedda giu-
+vina pittinata a la riali, cu gioj e ricchizzi: """,""" De GUBERNATIS, Norel-
+line di S. Stefano in Calcinaia, pag. 34.
+3 Partorisce e fa un maschietto ch'era una bellezza.
+4 Reginella, co' ne chiameremo noi questo bambino?
+5 Àghira, agra: alla Reginella seppe d'ostico.
+6 Sò, di <ab type=""pron"" ana=""3"">lui</ab>, del Re.
+
+CATARINA LA SAPIENTI.
+càrricu di mobili, cammareri, 'na nurrizza e tuttu: addu-
+gàssiru un palazzu 'n facci lu Palazzu riali di Genua, e
+aspiittassiru a idda. Lu patri càrrica un brigantinu e lu
+manna a Genna. Quannu lu Riuzzu partìnu, idda pigghia
+un brigantinu e prima d'iddu si va a 'mpalazzari 'nta lu
+palazzu di Genua. Comu lu Riuzzu vidi sta bedda giu-
+vina pittinata a la riali, cu gioj e ricchizzi: """,lui:3
+CaterinaSapiente-Pitre.txt,59,"""
+(dici) assimigghia tutta a Catarina la Sapienti ! Pigghia un
+'mmasciatuuri e cei lu manna pi direcci ca lu Riuzzu cei
+vurrissi * fari 'na visita. Idda cei dici ch'è patruni; e lu
+Riuzzu cei acchiana. Discurrennu discurrennu, cadi lu di-
+scursu supra d'idda. - ""","""
+(<ab type=""pron"" ana=""verb_2"">dici</ab>) <ab type=""pron"" ana=""verb_3"">assimigghia</ab> tutta a Catarina la Sapienti ! <ab type=""pron"" ana=""verb_3"">Pigghia</ab> un
+'mmasciatuuri e cei lu manna pi direcci ca lu Riuzzu cei
+vurrissi * fari 'na visita. Idda cei dici ch'è patruni; e lu
+Riuzzu cei acchiana. Discurrennu discurrennu, <ab type=""pron"" ana=""verb_2"">cadi</ab> lu di-
+scursu supra d'idda. - """,dici:verb_2|assimigghia:verb_3|Pigghia:verb_3|cadi:verb_2
+CaterinaSapiente-Pitre.txt,60,""" cei dici
+lu Riuzzu. - """,""" cei <ab type=""pron"" ana=""verb_2"">dici</ab>
+lu Riuzzu. - """,dici:verb_2
+CaterinaSapiente-Pitre.txt,61,""" (cei rispunnu Catarina). E vui ? """,""" (cei rispunnu Catarina). E vui ? """,
+CaterinaSapiente-Pitre.txt,62,""" Io puru sugnu ' cattivu, ed haju un figghiu. Ma vui, cei
+dici a la Rigginedda, assimigghiatì 'na stampa * a 'na si-
+gnura chi canuscivi 'n Palermu. """,""" Io <ab type=""pron"" ana=""verb_3"">puru</ab> <ab type=""pron"" ana=""verb_3"">sugnu</ab> ' cattivu, ed <ab type=""pron"" ana=""verb_3"">haju</ab> un figghiu. Ma vui, cei
+dici a la Rigginedda, <ab type=""pron"" ana=""verb_3"">assimigghiatì</ab> 'na stampa * a 'na si-
+gnura chi canuscivi 'n Palermu. """,puru:verb_3|sugnu:verb_3|haju:verb_3|assimigghiatì:verb_3
+CaterinaSapiente-Pitre.txt,63,""" Chi maraviggìa ! A
+lu munnu setti un'avemu a 'ssimigghiarì * """,""" Chi maraviggìa ! A
+lu munnu setti un'avemu a 'ssimigghiarì * """,
+CaterinaSapiente-Pitre.txt,64,""" Genua! """,""" Genua! """,
+CaterinaSapiente-Pitre.txt,65,""" Genua. """,""" Genua. """,
+CaterinaSapiente-Pitre.txt,66,""" E comu partiti ? ecci dici la Rigginedda, cu un figghiu ’ntra la facci ? """,""" E <ab type=""pron"" ana=""verb_3"">comu</ab> partiti ? ecci <ab type=""pron"" ana=""verb_2"">dici</ab> la Rigginedda, cu un figghiu ’ntra la facci ? """,comu:verb_3|dici:verb_2
+CaterinaSapiente-Pitre.txt,67,""" No, ecci arrispanni lu Riuzzu, io ti fazzu ’na carta, ca chistu è figghiu mio, ed è lu principinu. """,""" No, ecci arrispanni lu Riuzzu, io <ab type=""pron"" ana=""2"">ti</ab> fazzu ’na carta, ca chistu è figghiu mio, ed è lu principinu. """,ti:2
+CaterinaSapiente-Pitre.txt,68,""" Maria! ma chista assimigghia tutta a Catarina la Sapienti ! a Napuli, la stissa; a Genua, la stissa!.. Ma idda ’un pò essiri, pirchì chidda è chiusa ’nta lu trabbuccu; chidda è a Napuli, e l’àutra è a Genua..... Ma idda ecci assimigghia tutta..... """,""" Maria! ma chista <ab type=""pron"" ana=""verb_3""><ab type=""pron"" ana=""verb_3"">assimigghia</ab></ab> tutta a Catarina la Sapienti ! a Napuli, la stissa; a Genua, la stissa!.. Ma idda ’un pò essiri, pirchì chidda <ab type=""pron"" ana=""verb_3"">è</ab> chiusa ’<ab type=""pron"" ana=""verb_2"">nta</ab> lu trabbuccu; chidda è a Napuli, e l’àutra è a Genua..... Ma idda ecci assimigghia tutta..... """,assimigghia:verb_3|nta:verb_2|è:verb_3|assimigghia:verb_3
+CaterinaSapiente-Pitre.txt,69,"<sp>"" Mi pari ’na cosa curiosa: Signura, vui assimigghiatì a ’na signura chi vitti ’n Palermu, a Napuli, a Genua. ""","<sp>"" Mi pari ’na cosa curiosa: Signura, vui <ab type=""pron"" ana=""verb_3"">assimigghiatì</ab> a ’na signura chi <ab type=""pron"" ana=""verb_2"">vitti</ab> ’n Palermu, a Napuli, a Genua. """,assimigghiatì:verb_3|vitti:verb_2
+CaterinaSapiente-Pitre.txt,70,""" Chi maravigghia, Riuzzu ! Setti nu’avemu a ’ssimigghiarì a stu munnu. """,""" Chi maravigghia, Riuzzu ! <ab type=""pron"" ana=""verb_2"">Setti</ab> nu’avemu a ’ssimigghiarì a stu munnu. """,Setti:verb_2
+CaterinaSapiente-Pitre.txt,71,""" Siti schetta ? """,""" Siti schetta ? """,
+CaterinaSapiente-Pitre.txt,72,""" No, sugnu cattiva """,""" No, <ab type=""pron"" ana=""verb_3"">sugnu</ab> cattiva """,sugnu:verb_3
+CaterinaSapiente-Pitre.txt,73,""" E cui ? """,""" E cui ? """,
+CaterinaSapiente-Pitre.txt,74,""" Sugnu cattiru puru, e haju du’ picciriddi. """,""" <ab type=""pron"" ana=""verb_3"">Sugnu</ab> cattiru puru, e <ab type=""pron"" ana=""verb_3"">haju</ab> du’ picciriddi. """,Sugnu:verb_3|haju:verb_3
+Cenerentola-Bernoni.txt,1,"<sp>"" Vogio andar a vedar se me trovo
+in qualche logo da andar a servir: magari che i me
+toga per conza senare! Ma no vòi star più quà co
+costore. ""","<sp>"" Vogio andar a vedar se me trovo
+in qualche logo da andar a servir: magari che i me
+toga per conza senare! Ma no vòi star più quà co
+costore. """,
+Cenerentola-Bernoni.txt,2,"<sp>"" Dove
+vastu, putela, cussì sola? ""","<sp>"" Dove
+<ab type=""pron"" ana=""verb_3"">vastu</ab>, putela, cussì sola? """,vastu:verb_3
+Cenerentola-Bernoni.txt,3,""" Vago quà a vedar
+se in qualche logo me trovo da andar a servir, par-
+chè mi so' co le mie sorele, e lore no le vol 'darme
+da magnar' nè da vestir, e mi gò pensà de scampar
+via: magari che trovasse che i me tolesse per conza
+senare! ma a casa no ghe vago più.""",""" Vago quà a vedar
+se in qualche logo me trovo da andar a servir, par-
+chè mi so' co <ab type=""pron"" ana=""3"">le</ab> mie sorele, e lore no le vol 'darme
+da magnar' nè da vestir, e mi gò pensà de scampar
+via: magari che trovasse che i me tolesse per conza
+senare! ma a casa no ghe vago più.""",le:3
+Cenerentola-Bernoni.txt,4,"<sp>"" Ben, le ghe dise, aspetà!
+ciapa: questa la xè 'na bachetina che te demo.
+Quando che ti batarà sta bachetina, e che ti dirà:
+comando, comando, te vegnàrà fora tutto quelò
+che ti savarà desiderar. ""","<sp>"" Ben, le ghe dise, aspetà!
+ciapa: questa la xè 'na bache<ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab></ab>na che <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">te</ab></ab> demo.
+Quando che ti batarà sta bachetina, e che ti dirà:
+comando, comando, te vegnàrà fora tutto quelò
+che ti savarà desiderar. """,te:2|ti:2|ti:2|te:2|ti:2
+Cenerentola-Bernoni.txt,5,""" Ben! grazie tan-
+to. """,""" Ben! grazie tan-
+to. """,
+Cenerentola-Bernoni.txt,6,"<sp>"" Cossa
+
+osservazioni del Raccoglitore), la xè la fiaba de la Conza","<sp>"" Cossa
+
+osservazioni del Raccoglitore), la xè la fiaba de la Conza",
+Cenerentola-Bernoni.txt,7,""" So’ vagnuda a vedâr se ghe oco-
+resse’na tosa per farghe qualche servizio: magari
+scoarghe su el fogher, pur che i me rancurasse (1)
+parché no sò dove andar, no gò nissun.""",""" So’ vagnuda a vedâr se <ab type=""pron"" ana=""verb_2"">ghe</ab> oco-
+resse’na tosa per farghe qualche servizio: magari
+scoarghe su el fogher, pur che i me <ab type=""pron"" ana=""verb_3"">rancurasse</ab> (1)
+parché no sò dove andar, no gò nissun.""",ghe:verb_2|rancurasse:verb_3
+Cenerentola-Bernoni.txt,8,"""Ben, i
+dise, adesso andaremo dì la regina a domandarghe
+se ghe ocore.""","""Ben, i
+<ab type=""pron"" ana=""verb_3"">dise</ab>, adesso andaremo <ab type=""pron"" ana=""verb_2"">dì</ab> la regina a domandarghe
+se ghe ocore.""",dise:verb_3|dì:verb_2
+Cenerentola-Bernoni.txt,9,"<sp>"" Sa","<sp>"" Sa",
+Cenerentola-Bernoni.txt,10,""" Ben, diseghe pur che la vegna
+de suzo: metéla là in cusina, che la tegnara neto el
+fogher. """,""" Ben, diseghe pur che la vegna
+de suzo: metéla là in cusina, che la tegnara neto el
+fogher. """,
+Cenerentola-Bernoni.txt,11,""" Cossa fastu là, el dise,
+conza-senare? """,""" Cossa <ab type=""pron"" ana=""verb_3"">fastu</ab> là, el dise,
+conza-senare? """,fastu:verb_3
+Cenerentola-Bernoni.txt,12,""" So’ vegnua a tegnir neto el
+fogher. """,""" So’ <ab type=""pron"" ana=""verb_3"">vegnua</ab> a tegnir neto el
+fogher. """,vegnua:verb_3
+Cenerentola-Bernoni.txt,13,""" Ricordite ben de no tocar gnente,
+sastu, parchè ti me fa stomego. """,""" Ricordite ben de no tocar gnente,
+sastu, parchè <ab type=""pron"" ana=""2"">ti</ab> me fa stomego. """,ti:2
+Cenerentola-Bernoni.txt,14,"<sp>"" Sacra Maesta ma","<sp>"" Sacra Maesta ma",
+Cenerentola-Bernoni.txt,15,"La conza-senare, che gà sentio, la dise a pianin","La conza-senare, che gà sentio, <ab type=""pron"" ana=""3"">la</ab> dise a pianin",la:3
+Cenerentola-Bernoni.txt,16,"<sp>"" Vòi andar","<sp>"" Vòi andar",
+Cenerentola-Bernoni.txt,17,"<sp>"" Coss’ astu dito,
+ciò ? ""","<sp>"" Coss’ <ab type=""pron"" ana=""verb_3"">astu</ab> dito,
+ciò ? """,astu:verb_3
+Cenerentola-Bernoni.txt,18,""" Eh, gnente ! """,""" Eh, gnente ! """,
+Cenerentola-Bernoni.txt,19,""" Ah, ben ! """,""" Ah, ben ! """,
+Cenerentola-Bernoni.txt,20,"<sp>"" Aspeta
+mi! ""","<sp>"" Aspeta
+mi! """,
+Cenerentola-Bernoni.txt,21,"(1) Rancurar: accogliere in casa.
+
+<sp>"" Comando, comando che me vegna fora un abito
+color sielo tuto a stele d' oro, e che sia vestia come
+'na regina, e che me vegna 'na carrozza tuta fornia
+de oro co dô cavai tuti guarnii de oro, e che me
+vegna dei servitori e un saco de sabion, che vogio
+andar a la festa. ""","(1) Rancurar: accogliere in casa.
+
+<sp>"" Comando, comando che me <ab type=""pron"" ana=""verb_3""><ab type=""pron"" ana=""verb_3"">vegna</ab></ab> <ab type=""pron"" ana=""verb_3"">fora</ab> un abito
+color sielo tuto a stele d' oro, e che sia vestia come
+'na regina, e che me vegna 'na carrozza tuta fornia
+de oro co dô cavai tuti guarnii de oro, e che me
+vegna dei servitori e un saco de sabion, che vogio
+andar a la festa. """,vegna:verb_3|fora:verb_3|vegna:verb_3
+Cenerentola-Bernoni.txt,22,"<sp>"" So'","<sp>"" So'",
+Cenerentola-Bernoni.txt,23,""" Ma cossa, che no capisso
+gnente ? """,""" Ma cossa, che no capisso
+gnente ? """,
+Cenerentola-Bernoni.txt,24,""" So'-la-conza-senare, """,""" So'-la-conza-senare, """,
+Cenerentola-Bernoni.txt,25,"<sp>"" Presto presto, el dise
+a i so servitori, andè a vedar dove che va quella
+regina. ""","<sp>"" Presto presto, el <ab type=""pron"" ana=""verb_3"">dise</ab>
+a i so servitori, andè a vedar dove che <ab type=""pron"" ana=""verb_3"">va</ab> quella
+regina. """,dise:verb_3|va:verb_3
+Cenerentola-Bernoni.txt,26,"<sp>"" Aven visto dove che la xè andada ? ""","<sp>"" Aven visto dove che la xè andada ? """,
+Cenerentola-Bernoni.txt,27,""" No, i dise, parchè la n'à buta tanto sabion in
+t' i oci che la n'à orbà tutti, e no avemo podesto
+vedar gnente. """,""" No, i dise, parchè la n'à buta tanto sabion in
+t' i oci che la n'à <ab type=""pron"" ana=""verb_3"">orbà</ab> tutti, e no avemo podesto
+vedar gnente. """,orbà:verb_3
+Cenerentola-Bernoni.txt,28,"<sp>"" Comandó, comando de tornar conza
+senare, come che giera prima, là su la mia cusina e
+su 'l fogher. ""","<sp>"" Comandó, comando de tornar conza
+senare, come che <ab type=""pron"" ana=""verb_3"">giera</ab> prima, là su la mia cusina e
+su 'l fogher. """,giera:verb_3
+Cenerentola-Bernoni.txt,29,"<sp>"" Se gavessi visto che bela regina che xè ve","<sp>"" Se <ab type=""pron"" ana=""verb_2"">gavessi</ab> visto che <ab type=""pron"" ana=""verb_3"">bela</ab> regina che xè ve",gavessi:verb_2|bela:verb_3
+Cenerentola-Bernoni.txt,30,40 -,40 -,
+Cenerentola-Bernoni.txt,31,"<sp>"" Giera","<sp>"" Giera",
+Cenerentola-Bernoni.txt,32,""" Ma cossa gastu ti, che co’ se parla ti ti brontoli e ti ruzi, e no se capisse gnente cossa che ti dighi?... Tendi al to fogher, e tasi. """,""" Ma cossa gastu <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab></ab></ab></ab>, che co’ se parla ti ti brontoli e ti ruzi, e no se capisse gnente cossa che ti dighi?... Tendi al to fogher, e tasi. """,ti:2|ti:2|ti:2|ti:2|ti:2
+Cenerentola-Bernoni.txt,33,"<sp>"" Gò mandà adrio i servitori, parchè i vardasse dove che la stà, ma no i gà pode","<sp>"" Gò mandà adrio i servitori, parchè i <ab type=""pron"" ana=""verb_3"">vardasse</ab> dove che la stà, ma no i gà pode",vardasse:verb_3
+Cenerentola-Bernoni.txt,34,"<sp>"" Comando, comando che me vegna un belissimo abito da regina tuto fornio de perle e de brilanti, e che me vegna dei servitori e ’na carrozza a quattro cavai tutti guarnii de brilanti, e drento sta carrozza un saco de soldi. ""","<sp>"" Comando, comando che me <ab type=""pron"" ana=""verb_3""><ab type=""pron"" ana=""verb_3"">vegna</ab></ab> un belissimo abito da regina tuto fornio de <ab type=""pron"" ana=""verb_3"">perle</ab> e de brilanti, e che me vegna dei servitori e ’na carrozza a quattro cavai tutti guarnii de brilanti, e drento <ab type=""pron"" ana=""verb_3"">sta</ab> carrozza un saco de soldi. """,vegna:verb_3|perle:verb_3|vegna:verb_3|sta:verb_3
+Cenerentola-Bernoni.txt,35,"<sp>"" Ecola quà, tutto contento el dise, ecola quà, ecola quà! ""","<sp>"" Ecola quà, tutto contento el <ab type=""pron"" ana=""verb_3"">dise</ab>, <ab type=""pron"" ana=""verb_3""><ab type=""pron"" ana=""verb_3"">ecola</ab></ab> quà, ecola quà! """,dise:verb_3|ecola:verb_3|ecola:verb_3
+Cenerentola-Bernoni.txt,36,""" Ma... la prego! el ghe dise; la me diga chi la xè; la mé diga in dove che la stà. Mi so’ inamorà de ela, ina-morà morto. """,""" Ma... <ab type=""pron"" ana=""3"">la</ab> prego! el ghe dise; la me diga chi la xè; la mé diga in dove che la stà. Mi so’ inamorà de ela, ina-morà morto. """,la:3
+Cenerentola-Bernoni.txt,37,So’ la conza,So’ la conza,
+Cenerentola-Bernoni.txt,38,""" - """,""" - """,
+Cenerentola-Bernoni.txt,39,""" - E ela ghe torna a dir: <sp>""",""" - E ela ghe <ab type=""pron"" ana=""verb_3"">torna</ab> a dir: <sp>""",torna:verb_3
+Cenerentola-Bernoni.txt,40,""" - Questo
+el giera desparà parchè no 'l podeva capir gnente, e
+più de cussì zà ela no ghe diseva. Co'xè su l'ul-
+timo balo, la ciapa suzo e la va via. E elo ghe manda
+drio i servitori. - """,""" - Questo
+el giera desparà parchè no 'l podeva capir gnente, e
+più de cussì zà e<ab type=""pron"" ana=""3"">la</ab> no ghe diseva. Co'xè su l'ul-
+timo balo, la ciapa suzo e la va via. E elo ghe manda
+drio i servitori. - """,la:3
+Cenerentola-Bernoni.txt,41,""" - I ghe core adrio.
+Ela, co’la li vede, la ghe buta adrio tanti soldi e tanti
+soldi, e lori i se ferma a tor su sti soldi e intanto
+ela va avanti, e lori no i pol vedar gnente. I va dal
+re, e elo ghe dimanda: <sp>""",""" - I ghe core adrio.
+E<ab type=""pron"" ana=""3"">la</ab>, co’la <ab type=""pron"" ana=""3"">li</ab> vede, la ghe buta adrio tanti soldi e tanti
+soldi, e lori i se ferma a tor su sti soldi e intanto
+ela va avanti, e lori no i pol vedar gnente. I va dal
+re, e elo ghe dimanda: <sp>""",la:3|li:3
+Cenerentola-Bernoni.txt,42,"""","""",
+Cenerentola-Bernoni.txt,43,"""","""",
+Cenerentola-Bernoni.txt,44,""" -
+Ela la va a casa, e la dise: <sp>""",""" -
+E<ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">la</ab></ab> la va a casa, e la dise: <sp>""",la:3|la:3
+Cenerentola-Bernoni.txt,45,""" - La torna conza
+senare, e la resta là.
+Intanto vien a casa el re, e 'l va da so mare, e
+el ghe dise: <sp>""",""" - <ab type=""pron"" ana=""3"">La</ab> torna conza
+senare, e la resta là.
+Intanto vien a casa el re, e 'l va da so mare, e
+el ghe dise: <sp>""",La:3
+Cenerentola-Bernoni.txt,46,""" - La conza-senare, che la gà sentio,
+la dise: <sp>""",""" - La conza-senare, che <ab type=""pron"" ana=""3"">la</ab> gà sentio,
+la dise: <sp>""",la:3
+Cenerentola-Bernoni.txt,47,""" - El re gà
+sentio, e' l gà dito: <sp>""",""" - El re gà
+sentio, e' l gà dito: <sp>""",
+Cenerentola-Bernoni.txt,48,"""","""",
+Cenerentola-Bernoni.txt,49,"""","""",
+Cenerentola-Bernoni.txt,50,""" - """,""" - """,
+Cenerentola-Bernoni.txt,51,""" -
+Co' xè da là un pochi de giorni, el re dà l'ultima
+festa. El fa i so soliti inviti, e el ciapa su e el va a
+la festa. La conza senare la ciapa suzo, la va da basso,
+
+la bate la so bachetina, e la dise: <sp>""",""" -
+Co' xè da là un pochi de giorni, el re dà l'ultima
+festa. El fa i so soliti inviti, e el ciapa su e el va a
+<ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">la</ab></ab></ab> festa. La conza senare la ciapa suzo, la va da basso,
+
+la bate la so bachetina, e la dise: <sp>""",la:3|la:3|la:3
+Cenerentola-Bernoni.txt,52,""" - Là ghe comparisse subito tutta sta
+roba con tanti servitori. Là i la veste da regina, la
+monta in carozza, e la va a la festa.
+
+El re el giera tuto ansioso; el vardava per tuti
+quanti i balconi se'l la vedeva, e da là un poco el
+sente un sussuro de cavai, e el vede a la lontana un
+splendor che vegniva avanti, che no 'l podeva gnanca
+vardar, parchè el se cavava i oci. Va sta regina; el re
+ghe va incontro, el la inchina el la ciapa per man, e el
+la conduse a balar. - """,""" - Là ghe comparisse subito tutta sta
+roba con tanti servitori. Là i <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">la</ab></ab></ab></ab> veste da regina, la
+monta in carozza, e la va a la festa.
+
+El re el giera tuto ansioso; el vardava per tuti
+quanti i balconi se'l la vedeva, e da là un poco el
+sente un sussuro de cavai, e el vede a la lontana un
+splendor che vegniva avanti, che no 'l podeva gnanca
+vardar, parchè el se cavava i oci. Va sta regina; el re
+ghe va incontro, el la inchina el la ciapa per man, e el
+la conduse a balar. - """,la:3|la:3|la:3|la:3
+Cenerentola-Bernoni.txt,53,"""- E ela ghe
+dise: <sp>""","""- E ela <ab type=""pron"" ana=""verb_2"">ghe</ab>
+dise: <sp>""",ghe:verb_2
+Cenerentola-Bernoni.txt,54,""" -
+""",""" -
+""",
+Cenerentola-Bernoni.txt,55,""" - La ghe torna a dir: <sp>""",""" - La ghe <ab type=""pron"" ana=""verb_3"">torna</ab> a dir: <sp>""",torna:verb_3
+Cenerentola-Bernoni.txt,56,""" - E lu ancora a dirghe: <sp>""",""" - E <ab type=""pron"" ana=""verb_2"">lu</ab> ancora a dirghe: <sp>""",lu:verb_2
+Cenerentola-Bernoni.txt,57,"""","""",
+Cenerentola-Bernoni.txt,58,""" - E la vede sti servitori e la ghe buta
+adrio tanto sabion e una scarpeta. Lori i rancura sta
+scarpeta, e ghe toca a tornar indrio parchè i xè orbi
+dal sabion. I va dal re, e lu el ghe dise: <sp>""",""" - E <ab type=""pron"" ana=""3"">la</ab> vede sti servitori e la ghe buta
+adrio tanto sabion e una scarpeta. Lori i rancura sta
+scarpeta, e ghe toca a tornar indrio parchè i xè orbi
+dal sabion. I va dal re, e lu el ghe dise: <sp>""",la:3
+Cenerentola-Bernoni.txt,59,"""","""",
+Cenerentola-Bernoni.txt,60,"""","""",
+Cenerentola-Bernoni.txt,61,""" - E re se la tol e el se la porta a casa. E el va a casa tuto amalà da la passion; el ciama so mare, e el ghe dise cussì che elo no 'l pol saver gnente chi che giera quella regina, e che lu da la passion el se sente a morir.
+Intanto la conza senare la va a casa e la dise: <sp>""",""" - E re se <ab type=""pron"" ana=""3"">la</ab> tol e el se la porta a casa. E el va a casa tuto amalà da la passion; el ciama so mare, e el ghe dise cussì che elo no 'l pol saver gnente chi che giera quella regina, e che lu da la passion el se sente a morir.
+Intanto la conza senare la va a casa e la dise: <sp>""",la:3
+Cenerentola-Bernoni.txt,62,"""","""",
+Cenerentola-Bernoni.txt,63,"""","""",
+Cenerentola-Bernoni.txt,64,"""","""",
+Cenerentola-Bernoni.txt,65,"""","""",
+Cenerentola-Bernoni.txt,66,"""","""",
+Cenerentola-Bernoni.txt,67,""" - Intanto co 'l scugier el missia sta panada, perchè la se giazasse, e ghe vien in sto scugier l'anelo. El ciama: <sp>""",""" - Intanto <ab type=""pron"" ana=""verb_3"">co</ab> 'l <ab type=""pron"" ana=""verb_3"">scugier</ab> el missia <ab type=""pron"" ana=""verb_3"">sta</ab> panada, perchè la se <ab type=""pron"" ana=""verb_3"">giazasse</ab>, e ghe <ab type=""pron"" ana=""verb_3"">vien</ab> in sto scugier l'anelo. El ciama: <sp>""",co:verb_3|sta:verb_3|giazasse:verb_3|vien:verb_3|scugier:verb_3
+Cenerentola-Bernoni.txt,68,"""","""",
+Cenerentola-Bernoni.txt,69,"""","""",
+Cenerentola-Bernoni.txt,70,"""","""",
+Cenerentola-Bernoni.txt,71,""" - """,""" - """,
+Cenerentola-Bernoni.txt,72,""" - """,""" - """,
+Cenerentola-Bernoni.txt,73,""" - """,""" - """,
+Cenerentola-Bernoni.txt,74,""" - """,""" - """,
+Cenerentola-Bernoni.txt,75,""" - La va in cucina
+per ciamar la conza-senare, e la vede che no la ghe
+xè. La torna in camara, e la ghe dise: <sp>""",""" - <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">La</ab></ab> va in cucina
+per ciamar <ab type=""pron"" ana=""3"">la</ab> conza-senare, e la vede che no la ghe
+xè. La torna in camara, e la ghe dise: <sp>""",La:3|la:3|La:3
+Cenerentola-Bernoni.txt,76,"""","""",
+Cenerentola-Bernoni.txt,77,"""","""",
+Cenerentola-Bernoni.txt,78,""" -
+La conza-senare la giera da basso, e la dise: <sp>""",""" -
+La conza-senare <ab type=""pron"" ana=""3"">la</ab> giera da basso, e la dise: <sp>""",la:3
+Cenerentola-Bernoni.txt,79,"""","""",
+Cenerentola-Bernoni.txt,80,"""","""",
+Cenerentola-Calvino.txt,1,"Niente, figlie mie: mi capita una gran mercanzia, e non posso andarci per non lasciarvi sole.","Niente, figlie mie: mi <ab type=""pron"" ana=""verb_3"">capita</ab> una gran mercanzia, e non posso andarci per non <ab type=""pron"" ana=""verb_3"">lasciarvi</ab> sole.",capita:verb_3|lasciarvi:verb_3
+Cenerentola-Calvino.txt,2,"E vossignoria si confonde? - gli disse la grande. - Vossignoria faccia la provvista per tutto il tempo che avrà a stare lontano, faccia murare le porte con noi dentro e ci vedremo quando piace a Dio.","E vossignoria si confonde? - <ab type=""pron"" ana=""3"">gli</ab> disse la grande. - Vossignoria faccia la provvista per tutto il tempo che avrà a stare lontano, faccia murare le porte con noi dentro e ci vedremo quando piace a Dio.",gli:3
+Cenerentola-Calvino.txt,3,"Rosa, cosa vuoi che ti porti?
+E lei:","Rosa, cosa vuoi che <ab type=""pron"" ana=""2"">ti</ab> porti?
+E <ab type=""pron"" ana=""3"">lei</ab>:",ti:2|lei:3
+Cenerentola-Calvino.txt,4,"E tu, Giovannina?","E <ab type=""pron"" ana=""2"">tu</ab>, Giovannina?",tu:2
+Cenerentola-Calvino.txt,5,Un vestito color dei diamanti.,Un vestito color dei diamanti.,
+Cenerentola-Calvino.txt,6,"E tu, Ninetta?","E <ab type=""pron"" ana=""2"">tu</ab>, Ninetta?",tu:2
+Cenerentola-Calvino.txt,7,"Io voglio che vossignoria mi porti un bel ramo di datteri in un vaso d'argento. E se non me lo porta, che il bastimento non possa più andare né avanti né indietro.","Io voglio che vossignoria mi porti un bel ramo di datteri in un vaso d'argento. E se non me <ab type=""pron"" ana=""3"">lo</ab> porta, che il bastimento non possa più andare né avanti né indietro.",lo:3
+Cenerentola-Calvino.txt,8,"Ah, sciagurata, - le dissero le sorelle, - ma non sai che puoi mandare a tuo padre un incantesimo?","Ah, sciagurata, - <ab type=""pron"" ana=""3"">le</ab> dissero le sorelle, - ma non sai che puoi mandare a tuo padre un incantesimo?",le:3
+Cenerentola-Calvino.txt,9,"Ma no, - disse il mercante, - non ve la prendete con lei, che è piccola e si deve lasciar dire.","Ma no, - disse il mercante, - non ve <ab type=""pron"" ana=""3"">la</ab> prendete con <ab type=""pron"" ana=""3"">lei</ab>, che è piccola e si deve lasciar dire.",la:3|lei:3
+Cenerentola-Calvino.txt,10,"Capitano, mi sono dimenticato di fare una commissione. Se vogliamo salvarci, voltiamo il timone.
+Che è che non è, appena voltarono il timone il tempo cambiò, e col vento in poppa tornarono al porto. Il mercante scese, comprò il ramo di datteri, lo piantò in un vaso d'argento e tornò a bordo. I marinai alzane le vele, e in tre giorni di viaggio tranquillo il bastimento arrivò a destinazione.
+Intanto, mentre il mercante era via, le tre ragazze stavano nella casa dalle porte murate. Non mancava loro niente, avevano anche un pozzo dentro il cortile cosicché potevan sempre prendere l'acqua. Accadde che un giorno, alla più grande delle sorelle cadde il ditale nel pozzo. E Ninetta disse:","Capitano, mi sono dimenticato di fare una commissione. Se vogliamo salvarci, voltiamo il timone.
+Che è che non è, appena voltarono il timone il tempo cambiò, e col vento in poppa tornarono al porto. Il mercante scese, comprò il ramo di datteri, <ab type=""pron"" ana=""3"">lo</ab> piantò in un vaso d'argento e tornò a bordo. I marinai alzane le vele, e in tre giorni di viaggio tranquillo il bastimento arrivò a destinazione.
+Intanto, mentre il mercante era via, le tre ragazze stavano nella casa dalle porte murate. Non mancava <ab type=""pron"" ana=""3"">loro</ab> niente, avevano anche un pozzo dentro il cortile cosicché potevan sempre prendere l'acqua. Accadde che un giorno, alla più grande delle sorelle cadde il ditale nel pozzo. E Ninetta disse:",lo:3|loro:3
+Cenerentola-Calvino.txt,11,Scendere nel pozzo: scherzi? - le disse la più grande.,"Scendere nel pozzo: scherzi? - <ab type=""pron"" ana=""3"">le</ab> disse la più grande.",le:3
+Cenerentola-Calvino.txt,12,"Sì, voglio scendere a pigliarlo, - e le sorelle la calarono.","Sì, voglio scendere a pigliarlo, - e le sorelle <ab type=""pron"" ana=""3"">la</ab> calarono.",la:3
+Cenerentola-Calvino.txt,13,Tiratemi!,Tiratemi!,
+Cenerentola-Calvino.txt,14,Che ve ne importa? Domani mi calate di nuovo e prendiamo il resto.,"Che ve ne <ab type=""pron"" ana=""verb_3"">importa</ab>? Domani mi calate di nuovo e prendiamo il resto.",importa:verb_3
+Cenerentola-Calvino.txt,15,"Non so niente, come può essere? - badava a dire il giardiniere ma il Reuzzo gli ordinò di stare più in guardia d'ora in poi, sennò guai a lui.","Non so niente, come può essere? - badava a dire il giardiniere ma il Reuzzo <ab type=""pron"" ana=""3"">gli</ab> ordinò di stare più in guardia d'ora in poi, sennò guai a <ab type=""pron"" ana=""3"">lui</ab>.",gli:3|lui:3
+Cenerentola-Calvino.txt,16,"Ragazze, calatemi!","Ragazze, calatemi!",
+Cenerentola-Calvino.txt,17,Non sono né pazza né ubriaca: calatemi. - E la dovettero calare.,"Non sono né pazza né ubriaca: ca<ab type=""pron"" ana=""3"">la</ab>temi. - E la dovettero calare.",la:3
+Cenerentola-Calvino.txt,18,Tiratemi su!,Tiratemi su!,
+Cenerentola-Calvino.txt,19,"Quella ragazza, per dov'è passata?","Quella ragazza, per dov'è passata?",
+Cenerentola-Calvino.txt,20,Quella che coglie i fiori e i frutti nel mio giardino.,"Quella che <ab type=""pron"" ana=""verb_3"">coglie</ab> i fiori e i frutti nel mio giardino.",coglie:verb_3
+Cenerentola-Calvino.txt,21,"Io non ho visto niente, Maestà, glielo giuro.","Io non ho visto niente, Maestà, glielo giuro.",
+Cenerentola-Calvino.txt,22,"Bene, domani, mi metterò alla posta io.","Bene, domani, mi <ab type=""pron"" ana=""verb_3"">metterò</ab> alla posta io.",metterò:verb_3
+Cenerentola-Calvino.txt,23,"Maestà, fate tre giorni di feste a palazzo, e fate gridare un bando che tutti i padri e le madri d'ogni condizione vi portino le figlie, pena la vita","Maestà, fate tre giorni di feste a palazzo, e fate gridare un bando che tutti i padri e le madri d'ogni condizione <ab type=""pron"" ana=""2"">vi</ab> portino le figlie, pena la vita",vi:2
+Cenerentola-Calvino.txt,24,"Andateci voialtri, che io non ne ho voglia.","Andateci voialtri, che io non ne ho voglia.",
+Cenerentola-Calvino.txt,25,E io che c'entro? Chi volete che sappia che avete tre figlie? Fate conto d'averne due.,"E io che c'entro? Chi <ab type=""pron"" ana=""verb_2"">volete</ab> che <ab type=""pron"" ana=""verb_3"">sappia</ab> che <ab type=""pron"" ana=""verb_2"">avete</ab> tre figlie? Fate conto d'averne due.",volete:verb_2|sappia:verb_3|avete:verb_2
+Cenerentola-Calvino.txt,26,"E - Si che devi venire! - e - No che non ci vengo, - la sera della prima festa da ballo Ninetta restò a casa.","E - Si che devi venire! - e - No che non ci vengo, - la sera della prima festa da ballo Ninetta <ab type=""pron"" ana=""verb_3"">restò</ab> a casa.",restò:verb_3
+Cenerentola-Calvino.txt,27,"Come state, signora?","Come state, signora?",
+Cenerentola-Calvino.txt,28,Come vi chiamate?,"Come <ab type=""pron"" ana=""2"">vi</ab> chiamate?",vi:2
+Cenerentola-Calvino.txt,29,Col mio nome.,Col mio nome.,
+Cenerentola-Calvino.txt,30,E dove state?,E dove state?,
+Cenerentola-Calvino.txt,31,Nella casa con la porta.,Nella casa con la porta.,
+Cenerentola-Calvino.txt,32,In che strada?,In che strada?,
+Cenerentola-Calvino.txt,33,Nella vanedda (Nota 2 Vanedda: vicolo.) del polverone.,Nella vanedda (Nota 2 Vanedda: vicolo.) del polverone.,
+Cenerentola-Calvino.txt,34,"Signora, voi mi fate morire!","Signora, <ab type=""pron"" ana=""2"">voi</ab> mi fate morire!",voi:2
+Cenerentola-Calvino.txt,35,Fate pure!,"<ab type=""pron"" ana=""verb_2"">Fate</ab> pure!",Fate:verb_2
+Cenerentola-Calvino.txt,36,"Ninetta, Ninetta, sapessi che bella festa. C'era una bella signora che un po' t'assomigliava. Se non avessimo saputo che eri qua, l'avremmo scambiata per te...","Ninetta, Ninetta, sapessi che bella festa. C'era una bella signora che un po' t'assomigliava. Se non avessimo saputo che eri qua, l'avremmo scambiata per <ab type=""pron"" ana=""2"">te</ab>...",te:2
+Cenerentola-Calvino.txt,37,"Ma domani sera devi venire, sai...","Ma domani sera devi venire, <ab type=""pron"" ana=""verb_2"">sai</ab>...",sai:verb_2
+Cenerentola-Calvino.txt,38,"Anime infide! Per un po' di quattrini tradite gli ordini! Se domani sera non la seguite fino a casa, guai a voi.
+Neanche la sera dopo, Ninetta volle andar al ballo con le sorelle.","Anime infide! Per un po' di quattrini tradite gli ordini! Se domani sera non <ab type=""pron"" ana=""3"">la</ab> seguite fino a casa, guai a <ab type=""pron"" ana=""2"">voi</ab>.
+Neanche la sera dopo, Ninetta volle andar al ballo con le sorelle.",la:3|voi:2
+Cenerentola-Calvino.txt,39,"Come estate, così inverno.","Come estate, così inverno.",
+Cenerentola-Calvino.txt,40,Come vi chiamate?,"Come <ab type=""pron"" ana=""2"">vi</ab> chiamate?",vi:2
+Cenerentola-Calvino.txt,41,"Col mio nome, - e così via.","Col mio nome, - e così via.",
+Cenerentola-Calvino.txt,42,"Madonna mia! - diceva una sorella all'altra, - quella signora è Ninetta sputata!","Madonna mia! - <ab type=""pron"" ana=""verb_3"">diceva</ab> una sorella all'altra, - quella signora è Ninetta sputata!",diceva:verb_3
+Cenerentola-Calvino.txt,43,"Domani sera è l'ultimo ballo: in un modo o nell'altro bisogna saper qualcosa.
+Intanto Ninetta diceva al suo ramo: Grättula","Domani sera è l'ultimo ballo: in un modo o nell'altro <ab type=""pron"" ana=""verb_3"">bisogna</ab> saper qualcosa.
+Intanto Ninetta <ab type=""pron"" ana=""verb_3"">diceva</ab> al suo ramo: Grättula",bisogna:verb_3|diceva:verb_3
+Cenerentola-Calvino.txt,44,"Ragazza, - dice il Re, - m'hai preso in giro per due sere, alla terza non ci riuscirai.","Ragazza, - <ab type=""pron"" ana=""verb_3"">dice</ab> il Re, - m'hai preso in giro per due sere, alla terza non ci <ab type=""pron"" ana=""verb_3"">riuscirai</ab>.",dice:verb_3|riuscirai:verb_3
+Cenerentola-Calvino.txt,45,"Ma cosa ho mai fatto, Maestà?","Ma cosa ho mai fatto, Maestà?",
+Cenerentola-Calvino.txt,46,Hai fatto che mio figlio si consuma per te. Non credere di sfuggire.,"Hai fatto che mio figlio si consuma per <ab type=""pron"" ana=""2"">te</ab>. Non credere di sfuggire.",te:2
+Cenerentola-Calvino.txt,47,E quale sentenza mi aspetta?,"E quale sentenza mi <ab type=""pron"" ana=""verb_3"">aspetta</ab>?",aspetta:verb_3
+Cenerentola-Calvino.txt,48,La sentenza che diventerai la moglie del Reuzzo.,"La sentenza che <ab type=""pron"" ana=""verb_3"">diventerai</ab> la moglie del Reuzzo.",diventerai:verb_3
+Cenerentola-Calvino.txt,49,"Maestà, io non ho la mia libertà: ho padre e due sorelle maggiori.","Maestà, io non ho la mia libertà: ho padre e due sorelle maggiori.",
+Cenerentola-Calvino.txt,50,Sia chiamato il padre.,Sia chiamato il padre.,
+Cenerentola-Calvino.txt,51,"""Chiamata di Re, tanto buona non è""","""Chiamata di Re, tanto buona non è""",
+Cenerentola-Comparetti.txt,1,""" Nane, nane a bere a bere,
+Se gli è torba non la bere,
+Se gli è chiara gara, gara! """,""" Nane, nane a bere a bere,
+Se <ab type=""pron"" ana=""3""><ab type=""pron"" ana=""3"">gli</ab></ab> è torba non la bere,
+Se gli è chiara gara, gara! """,gli:3|gli:3
+Cenerentola-Comparetti.txt,2,"<sp>"" O che ci fai qui? ""","<sp>"" O che ci <ab type=""pron"" ana=""verb_2"">fai</ab> qui? """,fai:verb_2
+Cenerentola-Comparetti.txt,3,""" Ho menato fuori quest'anatre e devo filare questa li-
+bra di canapa. """,""" Ho menato fuori quest'anatre e devo filare questa li-
+bra di canapa. """,
+Cenerentola-Comparetti.txt,4,""" O perchè ti fanno fare queste cose
+proprio a te? """,""" O perchè <ab type=""pron"" ana=""2"">ti</ab> fanno fare ques<ab type=""pron"" ana=""2"">te</ab> cose
+proprio a te? """,ti:2|te:2
+Cenerentola-Comparetti.txt,5,""" La mamma vuole così. """,""" La mamma <ab type=""pron"" ana=""verb_3"">vuole</ab> così. """,vuole:verb_3
+Cenerentola-Comparetti.txt,6,""" O l'altra
+sorella non la manda mai fuori colle anatre? """,""" O l'altra
+sorel<ab type=""pron"" ana=""3"">la</ab> non la manda mai fuori colle anatre? """,la:3
+Cenerentola-Comparetti.txt,7,""" Mai. """,""" Mai. """,
+Cenerentola-Comparetti.txt,8,""" Tieni, carina, ti voglio fare un regalo: prendi questo
+pettine e prova a pettinarti. """,""" Tieni, carina, <ab type=""pron"" ana=""2"">ti</ab> voglio fare un regalo: prendi questo
+pettine e prova a pettinarti. """,ti:2
+Cenerentola-Comparetti.txt,9,"<sp>"" Tieni, mettici dentro i bril","<sp>"" Tieni, mettici dentro i bril",
+Cenerentola-Comparetti.txt,10,""" Ma ora ho da filare la canapa, """,""" Ma ora ho da filare la canapa, """,
+Cenerentola-Comparetti.txt,11,""" Non ti dar pena, ci penso io. """,""" Non <ab type=""pron"" ana=""2"">ti</ab> dar pena, ci penso io. """,ti:2
+Cenerentola-Comparetti.txt,12,"<sp>"" Comando
+che sia filata la canapa ""","<sp>"" Comando
+che sia filata la canapa """,
+Cenerentola-Comparetti.txt,13,""" Ora vai a casa, disse la vecchina, e torna tutti
+i giorni qui, chè mi troverai. """,""" Ora <ab type=""pron"" ana=""verb_2"">vai</ab> a casa, <ab type=""pron"" ana=""verb_3"">disse</ab> la vecchina, e <ab type=""pron"" ana=""verb_3"">torna</ab> tutti
+i giorni qui, chè mi troverai. """,vai:verb_2|disse:verb_3|torna:verb_3
+Cenerentola-Comparetti.txt,14,"<sp>"" Senti, questa sera il figlio del re dà
+una festa da ballo e ha invitato tuo padre, tua madre,
+e tua sorella: e ti diranno per burla se ci vuoi andare. Eccoti que","<sp>"" Sen<ab type=""pron"" ana=""2"">ti</ab>, questa sera il figlio del re dà
+una festa da ballo e ha invitato tuo padre, tua madre,
+e tua sorella: e ti diranno per burla se ci vuoi andare. Eccoti que",ti:2
+Cenerentola-Comparetti.txt,15,"""
+E vedrai che a un tratto ti troverai tutta vestita da an-
+dare al ballo: e prendi anche questa bacchettina, battila
+e apparirà una carrozza. Vattene al ballo e nessuno ti
+riconoscerà, e il figlio del re ballerà con te; ma tu bada
+bene, quando andranno alla sala del rinfresco, fai venire
+la carrozza e vattene via, chè non avessero a vedere dove
+tu vai. Allora torna dall'uccellino e gli dirai così :
+""","""
+E vedrai che a un tratto <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">ti</ab></ab> troverai <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">tu</ab></ab>tta vestita da an-
+dare al ballo: e prendi anche questa bacchettina, battila
+e apparirà una carrozza. Vat<ab type=""pron"" ana=""2"">te</ab>ne al ballo e nessuno ti
+riconoscerà, e il fi<ab type=""pron"" ana=""3"">gli</ab>o del re ballerà con te; ma tu bada
+bene, quando andranno alla sala del rinfresco, fai venire
+la carrozza e vattene via, chè non avessero a vedere dove
+tu vai. Allora torna dall'uccellino e gli dirai così :
+""",ti:2|ti:2|te:2|tu:2|tu:2|gli:3
+Cenerentola-Comparetti.txt,16,"""
+E tornerai come prima; rimettiti al tuo canto al fuoco
+e non dir nulla. ""","""
+E tornerai come prima; rimettiti al tuo canto al fuoco
+e non dir nulla. """,
+Cenerentola-Comparetti.txt,17,"<sp>"" Sai, siamo invitati al ballo
+del figlio del re; che, ci vorresti venire anche tu? ""","<sp>"" Sai, siamo invitati al ballo
+del figlio del re; che, ci vorresti venire anche <ab type=""pron"" ana=""2"">tu</ab>? """,tu:2
+Cenerentola-Comparetti.txt,18,""" Io no davvero, rispose lei, divertitevi pure ch'io me ne
+sto a casa. """,""" Io no davvero, rispose <ab type=""pron"" ana=""3"">lei</ab>, divertitevi pure ch'io me ne
+sto a casa. """,lei:3
+Cenerentola-Comparetti.txt,19,""" È stata una
+gran bella festa, le disse la mamma, e c'era una signora
+ch'era una bellezza e non si sa chi fosse; se tu avessi
+visto com'era bella! """,""" È stata una
+gran bella festa, <ab type=""pron"" ana=""3"">le</ab> disse la mamma, e c'era una signora
+ch'era una bellezza e non si sa chi fosse; se <ab type=""pron"" ana=""2"">tu</ab> avessi
+visto com'era bella! """,le:3|tu:2
+Cenerentola-Comparetti.txt,20,""" Non me ne importa niente, """,""" Non me ne <ab type=""pron"" ana=""verb_3"">importa</ab> niente, """,importa:verb_3
+Cenerentola-Comparetti.txt,21,""" Vedi, disse la mamma, domani ce ne sarà un'altra delle feste; ci potresti venire anche tu. """,""" Vedi, disse la mamma, domani ce ne sarà un'altra delle feste; ci potresti venire anche <ab type=""pron"" ana=""2"">tu</ab>. """,tu:2
+Cenerentola-Comparetti.txt,22,""" No, no, io me ne sto nel canto del fuoco e sto bene. """,""" No, no, io me ne sto nel canto del fuoco e sto bene. """,
+Cenerentola-Comparetti.txt,23,""" È andata bene """,""" È andata bene """,
+Cenerentola-Comparetti.txt,24,""" questa sera tornaci e fai come hai fatto ieri: ma bada, vedrai che ti verranno dietro quando te ne vai; te allora batti la bacchettina e comanda: """,""" questa sera tornaci e fai come hai fatto ieri: ma bada, vedrai che <ab type=""pron"" ana=""2"">ti</ab> verranno dietro quando <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">te</ab></ab> ne vai; te allora batti la bacchettina e comanda: """,ti:2|te:2|te:2
+Cenerentola-Comparetti.txt,25,"""; prendi i quattrini e gittali via dalla carrozza; si fermeranno a raccoglierli e ti perderanno di vista. ""","""; prendi i quattrini e gittali via dalla carrozza; si fermeranno a raccoglierli e <ab type=""pron"" ana=""2"">ti</ab> perderanno di vista. """,ti:2
+Cenerentola-Comparetti.txt,26,""" Fin qui è andata bene; ma bada, questa sera tu avrai una veste coi campanelli d'oro e avrai le pianelle d'oro; vedrai che ti vengono dietro; tu tiragli una pianella e dei quattrini; ma ormai scopriranno dove tu entri. """,""" Fin qui è andata bene; ma bada, questa sera <ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2""><ab type=""pron"" ana=""2"">tu</ab></ab></ab> avrai una veste coi campanelli d'oro e avrai le pianelle d'oro; vedrai che <ab type=""pron"" ana=""2"">ti</ab> vengono dietro; tu tiragli una pianella e dei quattrini; ma ormai scopriranno dove tu entri. """,tu:2|ti:2|tu:2|tu:2
+Cenerentola-Comparetti.txt,27,"<sp>"" Stamattina hai a sbrigarti perchè il re viene a prender","<sp>"" Stamattina <ab type=""pron"" ana=""verb_2"">hai</ab> a sbrigarti perchè il re <ab type=""pron"" ana=""verb_3"">viene</ab> a prender",hai:verb_2|viene:verb_3
+Cenerentola-Comparetti.txt,28,"<sp>"" O come torni così presto stamane? ""","<sp>"" O come <ab type=""pron"" ana=""verb_2"">torni</ab> così presto stamane? """,torni:verb_2
+Cenerentola-Comparetti.txt,29,""" Andate a vedere l'anatre come son satolle, """,""" <ab type=""pron"" ana=""verb_2"">Andate</ab> a vedere l'anatre come <ab type=""pron"" ana=""verb_3"">son</ab> satolle, """,Andate:verb_2|son:verb_3
+Cenerentola-Comparetti.txt,30,""" Uccellin Verdirìo
+Fammi più bella che non so'.""",""" Uccellin Verdirìo
+Fammi più bella che non so'.""",
+Cenerentola-Comparetti.txt,31,"<sp>"" Quante figlie avete? ""","<sp>"" Quante figlie <ab type=""pron"" ana=""verb_2"">avete</ab>? """,avete:verb_2
+Cenerentola-Comparetti.txt,32,""" Una sola, eccola qui. """,""" Una sola, eccola qui. """,
+Cenerentola-Comparetti.txt,33,""" Come ? non ne avete al-tre ? """,""" Come ? non ne <ab type=""pron"" ana=""verb_2"">avete</ab> al-tre ? """,avete:verb_2
+Cenerentola-Comparetti.txt,34,""" Sì, Maestà, ne ho un'altra, ma mi vergogno.... sta sempre nel canto del fuoco; è tutta cenerosa! """,""" Sì, Maestà, ne ho un'altra, ma mi vergogno.... <ab type=""pron"" ana=""verb_3"">sta</ab> sempre nel canto del fuoco; è tutta cenerosa! """,sta:verb_3
+Cenerentola-Comparetti.txt,35,""" Sia come si sia, andatela a chiamare, """,""" Sia come si sia, <ab type=""pron"" ana=""verb_3"">andatela</ab> a chiamare, """,andatela:verb_3
+Cenerentola-Comparetti.txt,36,""" Ohì, Cenerentola, scendi un po'. """,""" Ohì, Cenerentola, scendi un po'. """,
+Cenerentola-Comparetti.txt,37,""" Vedi, citrulla! disse la mamma, s'è strascicata dietro le palette e le molle! """,""" Vedi, <ab type=""pron"" ana=""verb_3"">citrulla</ab>! <ab type=""pron"" ana=""verb_3"">disse</ab> la mamma, s'è strascicata dietro le palette e le molle! """,citrulla:verb_3|disse:verb_3
+Cenerentola-Comparetti.txt,38,"<sp>"" Eccola, ""","<sp>"" Eccola, """,
+Cenerentola-Comparetti.txt,39,""" quella che cercavo e, non le manca che una pianella d'oro, vediamo se per caso fosse questa! """,""" quella che cercavo e, non <ab type=""pron"" ana=""3"">le</ab> manca che una pianella d'oro, vediamo se per caso fosse questa! """,le:3
