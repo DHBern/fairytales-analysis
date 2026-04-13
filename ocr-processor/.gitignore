@@ -1,9 +1,9 @@
 # Images and outputs, gt
-# images/*
-# outputs/*
-# pdfs/*
-# gt/*
-# reports/*
+images/*
+outputs/*
+pdfs/*
+gt/*
+reports/*
 
 
 
