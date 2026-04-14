@@ -1,0 +1,52 @@
+# Secret
+.env
+.env.local
+.env.*.local
+
+# Project data (large files)
+ocr-processor/images/*
+ocr-processor/outputs/*
+ocr-processor/pdfs/*
+ocr-processor/reports/*
+ocr-processor/gt/*
+analysis/input_dir/*
+analysis/output_tagged/*
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
