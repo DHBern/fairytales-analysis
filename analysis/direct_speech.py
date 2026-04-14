@@ -1,10 +1,19 @@
 import csv
+import os
 import re
+import shutil
 from pathlib import Path
 
 PRON_2 = {"tu", "te", "ti", "voi", "vi"}
 PRON_3 = {"lui", "lei", "loro", "lo", "la", "li", "le", "gli"}
 _nlp = None
+
+
+def clear_directory(dir_path):
+    """Clear all contents of a directory."""
+    if os.path.exists(dir_path):
+        shutil.rmtree(dir_path)
+    os.makedirs(dir_path, exist_ok=True)
 
 
 def get_nlp():
@@ -173,7 +182,7 @@ def analyze_directory(input_dir=None, output_dir=None):
     if not input_dir.exists():
         raise FileNotFoundError(f"Directory non trovata: {input_dir}")
 
-    output_dir.mkdir(parents=True, exist_ok=True)
+    clear_directory(output_dir)
 
     report_rows = []
     processed = []

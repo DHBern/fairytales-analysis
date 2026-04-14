@@ -8,6 +8,7 @@ from pathlib import Path
 
 def clear_directory(dir_path):
     """Clear all contents of a directory."""
+    print(f"[LOG] Clearing and creating directory: {dir_path}")
     if os.path.exists(dir_path):
         shutil.rmtree(dir_path)
     os.makedirs(dir_path, exist_ok=True)
@@ -82,7 +83,13 @@ def normalize_stem(stem):
 def merge_collections(inputs_dir, merged_dir):
     clear_directory(merged_dir)
     files = collect_txt_files(inputs_dir)
+    print(f"[LOG] Found {len(files)} .txt files in {inputs_dir}")
     groups = {}
+
+    def extract_page_number(path):
+        # Match -N or _N at end of stem, return int(N), else 0
+        m = re.search(r"[-_](\d+)$", path.stem)
+        return int(m.group(1)) if m else 0
 
     for f in files:
         stem = normalize_stem(f.stem)
@@ -90,10 +97,12 @@ def merge_collections(inputs_dir, merged_dir):
 
     output_paths = []
     for stem, paths in sorted(groups.items()):
+        # Sort paths by page number
+        paths_sorted = sorted(paths, key=extract_page_number)
         merged_file = Path(merged_dir) / f"{stem}.txt"
-        merge_text_files(paths, merged_file)
+        merge_text_files(paths_sorted, merged_file)
         output_paths.append(merged_file)
-        print(f"Merged {len(paths)} file(s) into {merged_file}")
+        print(f"Merged {len(paths_sorted)} file(s) into {merged_file}")
 
     return output_paths
 

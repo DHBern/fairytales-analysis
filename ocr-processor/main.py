@@ -5,6 +5,7 @@ import glob
 import shutil
 from pathlib import Path
 from config import INPUT_DIR, OUTPUT_DIR, PDF_DIR
+import sys
 from ocr_processor import ocr_image
 from evaluate_ocr import merge_collections, evaluate_all
 from pdf_converter import convert_pdfs
@@ -80,21 +81,25 @@ def main():
 
     args = parser.parse_args()
 
+    # Always resolve all paths to absolute paths
+    def abspath(path):
+        return os.path.abspath(os.path.expanduser(path))
+
     if args.command == "convert":
-        convert_pdfs(args.input, args.output, dpi=args.dpi)
+        convert_pdfs(abspath(args.input), abspath(args.output), dpi=args.dpi)
     elif args.command == "ocr":
-        process_images(args.input, args.output)
+        process_images(abspath(args.input), abspath(args.output))
     elif args.command == "merge":
-        merge_collections(args.inputs, args.output)
+        merge_collections(abspath(args.inputs), abspath(args.output))
     elif args.command == "evaluate":
-        evaluate_all(args.merged, args.manual, output_csv=args.csv)
+        evaluate_all(abspath(args.merged), abspath(args.manual), output_csv=abspath(args.csv))
     elif args.command == "all":
         print("Step 1: OCR processing...")
-        process_images(args.input, args.output)
+        process_images(abspath(args.input), abspath(args.output))
         print("\nStep 2: Merging outputs...")
-        merge_collections(args.output, args.merged)
+        merge_collections(abspath(args.output), abspath(args.merged))
         print("\nStep 3: Evaluating CER...")
-        evaluate_all(args.merged, args.manual, output_csv=args.csv)
+        evaluate_all(abspath(args.merged), abspath(args.manual), output_csv=abspath(args.csv))
         print(f"\nPipeline complete. Report: {args.csv}")
 
 
