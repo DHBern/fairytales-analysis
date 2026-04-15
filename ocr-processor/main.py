@@ -11,6 +11,11 @@ from evaluate_ocr import merge_collections, evaluate_all
 from pdf_converter import convert_pdfs
 
 
+OCR_PROCESSOR_DIR = Path(__file__).resolve().parent
+DEFAULT_GT_DIR = OCR_PROCESSOR_DIR / "gt"
+DEFAULT_REPORT_CSV = OCR_PROCESSOR_DIR / "reports" / "cer.csv"
+
+
 def clear_directory(dir_path):
     """Clear all contents of a directory."""
     if os.path.exists(dir_path):
@@ -69,15 +74,16 @@ def main():
 
     evaluate = sub.add_parser("evaluate", help="Evaluate OCR merged text against ground truth")
     evaluate.add_argument("--merged", default=os.path.join(OUTPUT_DIR, "merged"), help="Merged OCR output directory")
-    evaluate.add_argument("--manual", default="gt", help="Ground truth text directory")
-    evaluate.add_argument("--csv", default="reports/cer.csv", help="CER report CSV path")
+    evaluate.add_argument("--manual", default=str(DEFAULT_GT_DIR), help="Ground truth text directory")
+    evaluate.add_argument("--csv", default=str(DEFAULT_REPORT_CSV), help="CER report CSV path")
 
-    all_cmd = sub.add_parser("all", help="Run full pipeline: OCR → merge → evaluate")
-    all_cmd.add_argument("--input", default=INPUT_DIR, help="Directory containing input images")
-    all_cmd.add_argument("--output", default=OUTPUT_DIR, help="Directory for OCR output text files")
-    all_cmd.add_argument("--merged", default=os.path.join(OUTPUT_DIR, "merged"), help="Directory for merged text files")
-    all_cmd.add_argument("--manual", default="gt", help="Ground truth text directory")
-    all_cmd.add_argument("--csv", default="reports/cer.csv", help="CER report CSV path")
+
+#    all_cmd = sub.add_parser("all", help="Run full pipeline: OCR → merge → evaluate")
+#    all_cmd.add_argument("--input", default=INPUT_DIR, help="Directory containing input images")
+#    all_cmd.add_argument("--output", default=OUTPUT_DIR, help="Directory for OCR output text files")
+#    all_cmd.add_argument("--merged", default=os.path.join(OUTPUT_DIR, "merged"), help="Directory for merged text files")
+#    all_cmd.add_argument("--manual", default="gt", help="Ground truth text directory")
+#    all_cmd.add_argument("--csv", default="reports/cer.csv", help="CER report CSV path")
 
     args = parser.parse_args()
 

@@ -1,11 +1,406 @@
-=== pitre-test.txt ===
-CER: 7.14% (distance=6, ref_len=85, hyp_len=86)
-Reference preview: Nca, Signuri, si riccunta ca cc’era ‘na vota ‘n Palermu un gran niguzianti maritatu. 
-Hypothesis preview: 'Nca, Signuri, si riccunta ca cc'era 'na vota 'n Palermo
-un gran niguzianti maritatu. 
-  INSERT: ref='' hyp='''
+=== CaterinaSapiente-Calvino-fulltext.txt ===
+CER: 2.38% (distance=295, ref_len=12398, hyp_len=12430)
+Reference preview: 5.7.1	N. 151, Caterina la Sapiente 
+
+Qua si racconta, Signori, che c’era una volta a Palermo un gran negoziante. E questo gran negoziante aveva una figlia, che, quando fu svezzata, le venne una sapien...
+Hypothesis preview: 151. Caterina la Sapiente (Palermo)
+
+Qua si racconta, Signori, che c'era una volta a Palermo un gran negoziante. E questo gran negoziante aveva una figlia, che, quando fu svezzata, le venne una sapien...
+  DELETE: ref='5.7.1	N. ' hyp=''
+  REPLACE: ref=',' hyp='.'
+  INSERT: ref='' hyp='(Palermo)'
   REPLACE: ref='’' hyp='''
+  REPLACE: ref='“' hyp='"'
+  REPLACE: ref='”' hyp='"'
+  REPLACE: ref='’era chi le stesse pari.' hyp=''era chi le stesse pari.
+'
+  REPLACE: ref=' ' hyp='
+
+'
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='le un gran collegio, ché' hyp=' un gran collegio, che'
+  REPLACE: ref='si' hyp='e'
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='i' hyp='ì'
+  REPLACE: ref='ti' hyp='e'
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='ron' hyp='t'
+  REPLACE: ref='’' hyp='''
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='a' hyp='di'
+  REPLACE: ref='e, ma a chi non le portava la lezione, giù' hyp='mente, ma a chi non le portava la lezione, già'
+  REPLACE: ref='a ancora la guancia. ' hyp='ò ancora la guancia.'
+  REPLACE: ref='’' hyp='''
+  INSERT: ref='' hyp='sposare '
+  DELETE: ref=' ' hyp=''
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  DELETE: ref=' ' hyp=''
+  DELETE: ref=' ' hyp=''
+  DELETE: ref=' ' hyp=''
+  REPLACE: ref='’' hyp='''
+  DELETE: ref='i? 
+- Io lo piglio. 
+La lana per i materassi non gli mancava, i canterani nemmeno: di lì a otto gior' hyp=''
+  INSERT: ref='' hyp='Io lo piglio.
+La lana per i materassi non gli mancava, i canterani nemmeno: di lì a otto giorni tutt'
+  REPLACE: ref='sapete' hyp='c'è bisogno di gente che spogli né che vesta, né di guardie dietro la porta. - Rimasto così solo con'
+  INSERT: ref='' hyp='Ti sei pentita?
+- Pentita? Se volete, ve ne do un altro!
+- Come? Non sei pentita?
+- Manco per sogno.'
+  REPLACE: ref='l mondo siamo in sette ad assomigliarci' hyp='h, così? Ora ti faccio vedere io. E comincia a preparare una corda per calarla nel trabocchetto. Qua'
+  REPLACE: ref=' . ' hyp='
+- Ci starò più fresca! - gli fa Caterina.'
+  REPLACE: ref='cos' hyp='il Reuzzo la prende e la cala nel trabocchetto, senz'altra compagnia che un tavolino, una sedia, una'
+  REPLACE: ref=', per farla breve, dopo otto giorni erano marito e moglie. ' hyp=' rivivere. Allargò il pertugio e ci mise l'occhio. Vide passare lo scrivano di suo
+
+padre. - Don Tom'
+  REPLACE: ref='po nove mesi,' hyp='n Tommaso tornò col padre di'
+  INSERT: ref='' hyp='e le mostrò quel punto del muro. - Padre mio, è questa la mia sorte, sono in '
+  REPLACE: ref='ece un altro maschietto, più ' hyp='ondo a un tra'
+  REPLACE: ref='ello del primo. ' hyp='occhetto. Dovete far scavare un passaggio dal sottoterraneo del nostro palazzo fin qua, con un archi'
+  INSERT: ref='' hyp='negoziante disse di sì e intanto cominciò a farle avere attraverso quel pertugio galline, galletti, '
+  REPLACE: ref='era ' hyp='s'a'
+  REPLACE: ref='elice.' hyp='facciava al trabocchetto:'
+  ... (stopped after 50 differences)
+
+=== CaterinaSapiente-Pitre-fulltext.txt ===
+CER: 4.30% (distance=590, ref_len=13714, hyp_len=13780)
+Reference preview: N. 6, Catarina la Sapienti 
+Nca, Signuri, si riccunta ca cc’era ‘na vota ‘n Palermu un gran niguzianti maritatu. Ora stu gran niguzianti avia ‘na figghia, ca comu fu smammata  cci vinni ‘na sapienza c...
+Hypothesis preview: 'Nca, Signuri, si riccunta ca cc’era ’na vota ’n Palermo un gran niguzianti maritatu. Ora stu gran niguzianti avia ’na figghia, ca comu fu sinammata ’ cci vinni ’na sapienza ca ogni cosa chi succidia ...
+  INSERT: ref='' hyp='''
+  REPLACE: ref='. 6, Catarina la' hyp='ca,'
+  DELETE: ref='apienti 
+Nca, S' hyp=''
+  REPLACE: ref='‘na vota ‘' hyp='’na vota ’'
+  REPLACE: ref='u' hyp='o'
+  REPLACE: ref='‘' hyp='’'
+  REPLACE: ref='mammata  cci vinni ‘na sapienza ca ogni cosa chi succidia ‘' hyp='inammata ’ cci vinni ’na sapienza ca ogni cosa chi succidia ’'
+  INSERT: ref='' hyp='²'
+  REPLACE: ref='a' hyp='u'
+  REPLACE: ref='
+' hyp=' '
+  REPLACE: ref='‘' hyp='’'
+  REPLACE: ref='i' hyp='ì'
+  REPLACE: ref='‘nta ‘na cammara e ‘un vosi' hyp='’nta ’na cammara e ’un vosi nesciri cchiui. Manciari, e vulia manciari ddà dintra; dòrmiri, e vulia '
+  REPLACE: ref='sciri cchiui. Manciari, e vulia manciari dd' hyp=' spassiggi, nè tiatri, nè divirtimenti. Lu patri; avennu s’unica figghia ca ’un cci spirciava cchiù '
+  REPLACE: ref='dintra; dòrmiri, e vulia a dòrmiri ddà dintra: nè spassiggi, nè tiatri, nè divirtimenti. Lu patri; a' hyp='cu tuttu ch'
+  REPLACE: ref='unica figghia ca ‘un cci spirciava cchiù nenti , cci parsi di giustu di tèniri un Cunsigghiu. Chiama' hyp='era niguzianti avia amicizia cu li megghiu ⁴'
+  INSERT: ref='' hyp=' '
+  REPLACE: ref='u ‘' hyp='a ’'
+  INSERT: ref='' hyp='⁵'
+  REPLACE: ref='h' hyp='l'
+  REPLACE: ref=', ‘' hyp='⁶, ’'
+  INSERT: ref='' hyp='
+'
+  REPLACE: ref='u' hyp='o'
+  REPLACE: ref='‘na gran nnuminata pi l’' hyp=''na gran nnuminata pi l''
+  REPLACE: ref='c' hyp='i'
+  REPLACE: ref='.' hyp='¹. '
+  INSERT: ref='' hyp=' '
+  REPLACE: ref='i ca tu ‘' hyp='e ca tu ''
+  REPLACE: ref='’' hyp='''
+  INSERT: ref='' hyp='i'
+  REPLACE: ref='‘ncegnu nn’' hyp=''ncegnu nn''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='‘nta li vanchi unu appressu all’' hyp=''nta li vanchi unu appressu all'autru senza particularit'
+  DELETE: ref='utru senza particularità' hyp=''
+  INSERT: ref='' hyp='²'
+  REPLACE: ref='u' hyp='o'
+  REPLACE: ref='‘' hyp='''
+  REPLACE: ref='’ avia a ‘' hyp='' avia a ''
+  REPLACE: ref='’ veni prima ma' hyp='' veni prima ma-'
   REPLACE: ref='‘' hyp='''
   REPLACE: ref='‘' hyp='''
-  REPLACE: ref='u ' hyp='o
+  REPLACE: ref='‘nchiummata ‘' hyp=''nchiummata ''
+  INSERT: ref='' hyp='⁴'
+  REPLACE: ref='’ id' hyp='' id-'
+  REPLACE: ref='‘na di' hyp=''na dis'
+  REPLACE: ref='‘' hyp='''
+  REPLACE: ref='va un timpuluni ca ' hyp=' un timpuluni ca-
+
+'
+  INSERT: ref='' hyp='''
+  ... (stopped after 50 differences)
+
+=== Cenerentola-Bernoni-p1-2.txt ===
+CER: 7.23% (distance=108, ref_len=1480, hyp_len=1476)
+Reference preview: VIII. - La conza-senare
+
+'Na volta ghe giera un re e 'na regina, e i gaveva tre fie. Infati, dopo un poco de tempo, xè morto el pare e po' auca la mare, e xè restà ste tre fie sole. Quele dô grande no...
+Hypothesis preview: 'Na volta ghe giera un re e 'na regina, e i gaveva
+tre fie. Infati, dopo un poco de tempo, xè morto el
+
+pare e pò anca la mare, e xè restà ste tre fie sole.
+Quele dô grande no lé podeva vedar la più p...
+  DELETE: ref='VIII. - La conza-senare
+
+' hyp=''
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' pare e po' au' hyp='
+
+pare e pò an'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' no le voleva darghe da magnar, no le voleva darghe da ' hyp='
+no le voleva darghe da magnar, no le voleva darghe da
+'
+  REPLACE: ref=' su' hyp='
+su (1)'
+  REPLACE: ref=' giorno sta tosa la se pensa de ciapar su e de scam' hyp='
+giorno sta tosa la se pensa de ciapar su e de scam-
+'
+  REPLACE: ref='- "' hyp='— « '
+  REPLACE: ref='lio andar a vedar se me trovo ' hyp='io andar a vedar se me trovo
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='a co ' hyp='à co
+'
+  REPLACE: ref='" -' hyp=' » —'
+  REPLACE: ref=''' hyp='’'
+  REPLACE: ref=' ' hyp='
+'
+  INSERT: ref='' hyp='— « Dove
+vastu, putela, cussì sola? » — « Vago quà a vedar
+se in qualche logo me trovo da andar a se'
+  REPLACE: ref=' "Dove vastu, putela, cussì sola?" - "Vago qua a vedar se in qualche logo me trovo da andar a servir' hyp='
+'
+  REPLACE: ref=' co le mie sorele, e lore no le vol darme da magnar né' hyp='’ co le mie sorele, e lore no le vol darme
+da magnar nè'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='" -' hyp='» —'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='- "' hyp='— « '
+  REPLACE: ref='a' hyp='à'
+  REPLACE: ref='" ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' comando, comando, te vegnar' hyp='
+comando, comando, te vegn'
+  REPLACE: ref=' d' hyp='rà f'
+  REPLACE: ref='o ' hyp='ò
+'
+  REPLACE: ref='" ' hyp='» — « Ben! grazie tan'
+  REPLACE: ref=' "Ben! gra' hyp='
+to. » — E la ciapa su'
+  REPLACE: ref='ie tanto' hyp='o e la seguita la so stra-
+da'
+  DELETE: ref='" - E la ciapa suzo e la seguita la so strada.' hyp=''
+  REPLACE: ref=''' hyp='’'
+  REPLACE: ref=''' hyp='’'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='- "' hyp='— « '
+  INSERT: ref='' hyp='
+'
+
+=== Cenerentola-Calvino-p1.txt ===
+CER: 3.11% (distance=128, ref_len=4058, hyp_len=4040)
+Reference preview: N. 148, Gràttula-Beddàttula 
+
+Una volta c’era un mercante con tre figlie grandicelle: la prima Rosa, la seconda Giovannina, e la terza Ninetta, la più bella delle tre. 
+Un giorno al mercante capitò un...
+Hypothesis preview: Una volta c'era un mercante con tre figlie grandicelle: la prima Rosa, la seconda Giovannina, e la terza Ninetta, la più bella delle tre.
+
+Un giorno al mercante capitò un gran commercio e tornò a casa...
+  INSERT: ref='' hyp='Una volta c'era un mercante con tre figlie grandicelle: la prima Rosa, la seconda Giovannina, e la t'
+  INSERT: ref='' hyp='inetta, la più bella delle tre'
+  REPLACE: ref=' 148, Gràttula' hyp='
+
+Un giorno al mercante capitò un gran commercio e tornò a casa in pensieri. '
+  DELETE: ref='Beddàttula 
+
+Una volta c’era un mercante con tre figlie grandicelle: la prima Rosa, la seconda Giova' hyp=''
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref='ro' hyp='or'
+  INSERT: ref='' hyp='
+'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='–' hyp='
+-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='– le dissero le sorelle, –' hyp='- le dissero le sorelle, -'
+  REPLACE: ref='–' hyp='
+-'
+  REPLACE: ref='– disse il mercante, –' hyp='- disse il mercante, -'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref='’era ricordato l’' hyp=''era ricordato l''
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='’' hyp='''
+  REPLACE: ref='n' hyp='rono'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='e' hyp='a'
+  REPLACE: ref=' sempre prendere l’' hyp='o sempre prendere l''
+  INSERT: ref='' hyp='l'
+  REPLACE: ref='–' hyp='-'
+  INSERT: ref='' hyp='l'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' 
+–' hyp='
+
+-'
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='e galleggiava sul pel dell’' hyp='le galleggiava sul pel dell''
+  INSERT: ref='' hyp='ne'
+  REPLACE: ref='perse un varco spostando i mattoni e s’' hyp='sperse un varco spostando i mattoni e s''
+  REPLACE: ref='–' hyp='-'
+  REPLACE: ref='–' hyp='-'
+  ... (stopped after 50 differences)
+
+=== Cenerentola-Comparetti-p1-3.txt ===
+CER: 8.78% (distance=194, ref_len=2198, hyp_len=2173)
+Reference preview: XXIII
+
+La Cenerentola
+
+C'era una volta un uomo e una donna che avevano due figlie, una più bella dell'altra. Una di queste ragazze se ne stava sempre nel canto del fuoco e per questo la chiamavano la ...
+Hypothesis preview: C'era una volta un uomo e una donna che avevano due figlie, una più bella dell'altra. Una di queste ragazze se ne stava sempre nel canto del fuoco e per questo la chiamavano la Cenerentola. La mamma d...
+  DELETE: ref='XXIII
+
+La Cenerentola
+
+' hyp=''
+  REPLACE: ref='
+' hyp=' '
+  REPLACE: ref=' ' hyp='
+
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' "' hyp='
+« '
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='"' hyp=' »'
+  REPLACE: ref=' ' hyp='
+'
+  INSERT: ref='' hyp='— « O che ci fai qui? » — dice la vecchina. —
+« Ho menato fuori quest'anatre e devo filare questa li'
+  REPLACE: ref=' "' hyp='
+bra di canapa. » — « '
+  INSERT: ref='' hyp='per'
+  REPLACE: ref='e ci fai' hyp='è ti fanno fare'
+  REPLACE: ref='i' hyp='este cose
+proprio a te'
+  REPLACE: ref='" - dice la vecchina. - "Ho menato fuori quest'anatre e devo filare questa libra di canapa." - "O pe' hyp=' » — « '
+  REPLACE: ref='" ' hyp=' » — « O l'altra
+sorella non la manda mai fuori colle anatre? » — « Mai. »
+— « Tieni, carina, ti vog'
+  REPLACE: ref=' "O ' hyp='
+tità, e le anatre si misero a mangiare a crepapancia. Poi
+si pettina dal'
+  REPLACE: ref='sorella non la manda mai fuori colle
+anatre?" ' hyp='parte e di là venivano giù dai ca'
+  REPLACE: ref=' "Ma' hyp='
+pelli brillanti e rubin'
+  DELETE: ref='" - "Tieni, carina, ti voglio fare un regalo: prendi questo pettine e prova a pettinarti." - Le died' hyp=''
+  DELETE: ref=',' hyp=''
+  REPLACE: ref=' ' hyp='
+'
+  INSERT: ref='' hyp=' '
+  INSERT: ref='' hyp='— « Tieni, mettici dentro i bril'
+  REPLACE: ref=' "Tieni, mettici dentro i ' hyp='
+lanti e i ru'
+  REPLACE: ref='rillanti e i ru' hyp='ini, portali a casa e nascondili '
+  REPLACE: ref='ini, portali a casa e nascondili bene nella tua ' hyp='ene nella tua
+'
+  REPLACE: ref='" - "' hyp=' » — « '
+  REPLACE: ref='" - disse ' hyp=' » — disse
+'
+  REPLACE: ref='
+- "' hyp=' — « '
+  REPLACE: ref='" -' hyp=' » —'
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='- "' hyp='— « '
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='" - e in un attimo la canapa fu ' hyp=' » — e in un attimo la canapa fu
+'
+  REPLACE: ref='- "' hyp='— « '
+  REPLACE: ref=' ' hyp='
+'
+  REPLACE: ref='" ' hyp=' » — La Cenerentola tornò
+a casa e non disse nulla e stava sempre nel canto del
+fuoco ; tutte le mat'
+  REPLACE: ref=' La Cenerentola tornò a casa e non disse nulla e stava sempre nel canto
+del fuoco; tutte le mattine ' hyp='
+china le disse: — « Senti,'
+  REPLACE: ref='l posto, vedeva la vecc' hyp='sta sera il figlio del re dà
+una festa da ballo e '
+  REPLACE: ref='ina, e la vecchina la faceva pettinare e le filava la canapa' hyp='a invitato tuo padre, tua madre,
+e tua sorella: e ti diranno per burla se ci vuoi andare'
+  REPLACE: ref='Una mattina, dopo che la canapa fu filata, la vecchina le disse: ' hyp='Eccoti que'
+  REPLACE: ref=' "Senti, questa sera il figlio del re dà una festa da ballo e ha invitato tuo padre, tua madre, e tu' hyp='
+
+st’uccellino
 '

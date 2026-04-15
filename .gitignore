@@ -9,8 +9,8 @@ ocr-processor/outputs/*
 ocr-processor/pdfs/*
 ocr-processor/reports/*
 ocr-processor/gt/*
-analysis/input_dir/*
-analysis/output_tagged/*
+# analysis/input_dir/*
+# analysis/output_tagged/*
 
 
 

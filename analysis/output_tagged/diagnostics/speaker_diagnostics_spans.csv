@@ -1,0 +1,615 @@
+file,span_index,word_count,is_valid_span,skip_reason,speaker,speaker_source,context_chain_length,regex_candidate,regex_verb,regex_distance,nlp_candidate,nlp_verb,nlp_lemma,nlp_distance,candidate_disagreement,attribution_distance,speaker_quality_flags,candidate_verbs,original
+CaterinaSapiente-Calvino.txt,1,3,True,,Sconosciuto,unknown,0,,,,,,,,False,,,venne:venire|succedeva:succedere|aveva:avere|vedendo:vedere|chiamava:chiamare|studiare:studiare|leggere:leggere|era:essere|morì:morire|provò:provare,"""Caterina la Sapiente"""
+CaterinaSapiente-Calvino.txt,2,41,True,,Il Consiglio,regex,0,Il Consiglio,rispose,191,,,,,False,191,,pensò:pensare|tenere:tenere|Chiamò:chiamò|aveva:avere|sapete:sapere|ho:avere|morta:morire|chiusa:chiudere|vuole:volere|nominata:nominare|facendo:fare|studiare:studiare,"Signori, voi sapete che ho una figlia che è la pupilla dei miei occhi. Ma da che è morta sua madre, sta chiusa in casa come un gatto, e non vuole metter fuori neanche la punta del naso.
+
+Il Consiglio rispose:"
+CaterinaSapiente-Calvino.txt,3,33,True,,Il Consiglio,context,1,,,,,,,,False,,,nominata:nominare|facendo:fare|studiare:studiare|togliere:togliere|piace:piacere|Chiamò:chiamare|visto:vedere|vuoi:volere|pensato:pensare|aprire:aprire|sarai:saere|piace?</sp:piace?</sp|mise:mettere|dirigere:dirigere|andare:andare|studiare:studiare,"L'idea mi piace, - disse il padre. Chiamò la figlia. - Sentì, figlia mia, visto che non vuoi nessuna distrazione, ho pensato di aprire un collegio, e tu ne sarai padrona. Ti piace?"
+CaterinaSapiente-Calvino.txt,4,5,True,,Il Consiglio,context,2,,,,,,,,False,,,vennero:venire|faceva:fare|sedere:sedere|fa:fare|sedere:sedere|viene:venire|macina:macina|cominciò:cominciare,Ma quello è un carbonaio!
+CaterinaSapiente-Calvino.txt,5,12,True,,Il Consiglio,context,3,,,,,,,,False,,,sposare:sposare|sposare:sposare|mangia:mangiare|chiamare:chiamare|va:andare|incapricciato:incapricciare|fare:fare|Sposiamoli.</sp:sposiamoli.</sp|volete:volere|fa:fare|vuole:volere,Alzati! Mio figlio s'è incapricciato di tua figlia. Cosa dobbiamo fare? Sposiamoli.
+CaterinaSapiente-Calvino.txt,6,13,True,,Il Consiglio,context,4,,,,,,,,False,,,va:andare|incapricciato:incapricciare|fare:fare|Sposiamoli.</sp:sposiamoli.</sp|volete:volere|fa:fare|vuole:volere|tornò:tornare|è:essere|vuole:volere|dici:dici,"Come volete, Maestà. Ma io sono mercante e vostro figlio è sangue reale."
+CaterinaSapiente-Calvino.txt,7,9,True,,Il Consiglio,context,5,,,,,,,,False,,,incapricciato:incapricciare|fare:fare|Sposiamoli.</sp:sposiamoli.</sp|volete:volere|fa:fare|vuole:volere|tornò:tornare|è:essere|vuole:volere|dici:dici,Non fa niente: è mio figlio che la vuole...
+CaterinaSapiente-Calvino.txt,8,3,True,,Il Consiglio,context,6,,,,,,,,False,,,fa:fare|vuole:volere|tornò:tornare|è:essere|vuole:volere|dici:dici|mancava:mancare,Io lo piglio.
+CaterinaSapiente-Calvino.txt,9,16,True,,la Regina,regex,0,la Regina,disse,97,Regina,disse,dire,97,True,97,contains_pronoun,sposarono:sposare|andare:andare|spogliare:spogliare|metterla:metterla|dormire:dormire|è:essere|spogli:spogli|vesta:vesta|ricordi:ricordare|dato:dare|volete:volere,"Non c'è bisogno di gente che spogli né che vesta, né di guardie dietro la porta."
+CaterinaSapiente-Calvino.txt,10,12,True,,il Reuzzo,regex,0,il Reuzzo,disse,141,,,,,False,141,,è:essere|spogli:spogli|vesta:vesta|ricordi:ricordare|dato:dare|volete:volere|vuoi:volere,"Caterina, ti ricordi di quel manrovescio che m'hai dato? Ti sei pentita?"
+CaterinaSapiente-Calvino.txt,11,4,True,,le,regex,0,le,disse,131,,,,,False,131,lowercase_only|contains_pronoun|single_lowercase_token,ricordi:ricordare|dato:dare|volete:volere|vuoi:volere|pensa?</sp:pensa?</sp|faccio:fare|vedere:vedere|comincia:cominciare|preparare:preparare,Come? Non sei pentita?
+CaterinaSapiente-Calvino.txt,12,3,True,,le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,ricordi:ricordare|dato:dare|volete:volere|vuoi:volere|pensa?</sp:pensa?</sp|faccio:fare|vedere:vedere|comincia:cominciare|preparare:preparare|calarla:calare la,Manco per sogno.
+CaterinaSapiente-Calvino.txt,13,5,True,,le,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,dato:dare|volete:volere|vuoi:volere|pensa?</sp:pensa?</sp|faccio:fare|vedere:vedere|comincia:cominciare|preparare:preparare|calarla:calare la,E non ti vuoi pentire?
+CaterinaSapiente-Calvino.txt,14,4,True,,le,context,3,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,volete:volere|vuoi:volere|pensa?</sp:pensa?</sp|faccio:fare|vedere:vedere|comincia:cominciare|preparare:preparare|calarla:calare la,E chi ci pensa?
+CaterinaSapiente-Calvino.txt,15,9,True,,le,context,4,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,pensa?</sp:pensa?</sp|faccio:fare|vedere:vedere|comincia:cominciare|preparare:preparare|calarla:calare la|penti:pentare|calo:calo|starò:starare|fa:fare|prende:prendere,"Caterina, o ti penti, o ti calo nel trabocchetto!"
+CaterinaSapiente-Calvino.txt,16,2,True,,le,context,5,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,usa:usare|vennero:venire|dare:dare|entrare:entrare|sente:sentire|andò:andare|aprire:aprire|passato:passare,"""ben levata"""
+CaterinaSapiente-Calvino.txt,17,14,True,,le,context,6,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,dia:dare|usa:usare|vennero:venire|dare:dare|entrare:entrare|sente:sentire|andò:andare|aprire:aprire|passato:passare|pensi:pensare|hai:avere,"Non si può entrare, - disse il Reuzzo, - Caterina non si sente bene."
+CaterinaSapiente-Calvino.txt,18,5,True,,Penso,nlp,0,,,,Penso,rispose,rispondere,98,False,98,,sa:sapere|entrare:entrare|sente:sentire|andò:andare|aprire:aprire|passato:passare|pensi:pensare|hai:avere|Penso:pensare|devo:dovere|Passarono:passarono|cominciava:cominciare|tirarla:tirare la,"Bella fresca, - rispose Caterina."
+CaterinaSapiente-Calvino.txt,19,7,True,,Penso,nlp,0,,,,Penso,rispose,rispondere,54,False,54,,sente:sentire|andò:andare|aprire:aprire|passato:passare|pensi:pensare|hai:avere|Penso:pensare|devo:dovere|Passarono:passarono|cominciava:cominciare|tirarla:tirare la|sapendo:sapere|fare:fare|tolse:togliere,Ci pensi al manrovescio che m'hai dato?
+CaterinaSapiente-Calvino.txt,20,7,True,,Penso,nlp,0,,,,Penso,rispose,rispondere,4,False,4,,aprire:aprire|passato:passare|pensi:pensare|hai:avere|Penso:pensare|devo:dovere|Passarono:passarono|cominciava:cominciare|tirarla:tirare la|sapendo:sapere|fare:fare|tolse:togliere|mise:mettere|fare:fare,Penso a quello che vi devo dare.
+CaterinaSapiente-Calvino.txt,21,9,True,,Penso,context,1,,,,,,,,False,,,cominciò:cominciare|farle:fare lo|avere:avere|affacciava:affacciare|hai:avere|Pensate:pensate|darò:darò|lavoravano:lavorare|scavare:scavare,"Caterina, ti sei pentita dello schiaffo che m'hai dato?"
+CaterinaSapiente-Calvino.txt,22,6,True,,Penso,context,2,,,,,,,,False,,,cominciò:cominciare|averne:avere ne|basta:bastare|Aperse:aperse|vado:vado|hai:avere|dirmi:dire mi|arrivate:arrivare|ebbe:avere|richiuso:richiuso|corse:corse,"Tanto piacere, divertitevi, quando arrivate scrivetemi."
+CaterinaSapiente-Calvino.txt,23,2,True,,Penso,context,3,,,,,,,,False,,,Aperse:aperse|vado:vado|hai:avere|dirmi:dire mi|arrivate:arrivare|ebbe:avere|richiuso:richiuso|corse:corse,Allora vado?
+CaterinaSapiente-Calvino.txt,24,4,True,,Penso,context,4,,,,,,,,False,,,vado:vado|hai:avere|dirmi:dire mi|arrivate:arrivare|ebbe:avere|richiuso:richiuso|corse:corse|dovete:dovere|aiutare:aiutare|serve:servire,Come? Ancora lì siete?
+CaterinaSapiente-Calvino.txt,25,6,True,,Il Reuzzo la vide ed,regex,0,Il Reuzzo la vide ed,esclamò,10,,,,,False,10,too_many_tokens|contains_pronoun,affacciava:affacciare|sfoggiando:sfoggiare|vide:vedere|innamorò:innamorare|far:fare|scomoda:scomodare,Come assomiglia a Caterina la Sapiente!
+CaterinaSapiente-Calvino.txt,26,4,True,,lei,regex,0,lei,rispose,15,,,,,False,15,lowercase_only|contains_pronoun|single_lowercase_token,innamorò:innamorare|far:fare|scomoda:scomodare|Venne:venne|fecero:fare|sedettero:sedettero,Padrone! - lei rispose.
+CaterinaSapiente-Calvino.txt,27,7,True,,lei,regex,0,lei,rispose,122,,,,,False,122,lowercase_only|contains_pronoun|single_lowercase_token,Venne:venne|fecero:fare|sedettero:sedettero|sposare:sposare|ho:avere|somigliate:somigliare|piaceva:piacere|vorrei:volere,"E voi, Signora, siete ancora da sposare?"
+CaterinaSapiente-Calvino.txt,28,20,True,,lei,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,cero:cero|sedettero:sedettero|sposare:sposare|ho:avere|somigliate:somigliare|piaceva:piacere|vorrei:volere|ho:avere|fece:fare,"Anch'io. Ve l'ho a dire? Voi, Signora, somigliate a una ragazza che mi piaceva a Palermo. Vi vorrei per moglie."
+CaterinaSapiente-Calvino.txt,29,14,True,,lei,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sposare:sposare|ho:avere|somigliate:somigliare|piaceva:piacere|vorrei:volere|ho:avere|fece:fare|mettiamo:mettare,"Ne ho gran piacere, Reuzzo -. E di lì a otto giorni si sposarono."
+CaterinaSapiente-Calvino.txt,30,9,True,,Le fece una carta che,regex,0,Le fece una carta che,diceva,181,Caterina,disse,dire,20,True,181,too_many_tokens|contains_pronoun,fece:fare|mettiamo:mettare|Passarono:passarono|partire:partire|garbava:garbare|volle:volle|partire:partire|fece:fare,"Napoli, - disse Caterina. E gli misero nome Napoli."
+CaterinaSapiente-Calvino.txt,31,13,True,,Le fece una carta che,context,1,,,,,,,,False,,too_many_tokens|contains_pronoun,installò:installò|vide:vedere|mandò:mandare|dichiarò:dichiarare|riceverlo:ricevere lo|mise:mettere|far:fare|sposare:sposare,Come assomiglia a Caterina la Sapiente e anche a mia moglie di Napoli!
+CaterinaSapiente-Calvino.txt,32,7,True,,Caterina,nlp,0,,,,Caterina,rispose,rispondere,22,False,22,,mandò:mandare|dichiarò:dichiarare|riceverlo:ricevere lo|mise:mettere|far:fare|sposare:sposare|vedovo:vedovo|sapete:sapere|assomigliate:assomigliare|conoscevo:conoscere|conoscevo:conoscere,"Vedova, - rispose Caterina. - E voi?"
+CaterinaSapiente-Calvino.txt,33,28,True,,lo,regex,0,lo,dice,279,Caterina,rispose,rispondere,16,True,279,lowercase_only|contains_pronoun|single_lowercase_token,iarò:iarare|riceverlo:ricevere lo|mise:mettere|far:fare|sposare:sposare|vedovo:vedovo|sapete:sapere|assomigliate:assomigliare|conoscevo:conoscere|conoscevo:conoscere|sapete:sapere|assomigliarci:assomigliare ci,Anch'io vedovo. Con un figlio. Ma sapete che voi assomigliate come una stampa a una Signora che conoscevo a Palermo e a una Signora che conoscevo a Napoli?
+CaterinaSapiente-Calvino.txt,34,8,True,,lo,regex,0,lo,dice,5,,,,,False,5,lowercase_only|contains_pronoun|single_lowercase_token,conoscevo:conoscere|sapete:sapere|assomigliarci:assomigliare ci|farla:fare lo|fece:fare,"""lo dice il popolo per una sentenza tradizionale"""
+CaterinaSapiente-Calvino.txt,35,5,True,,lo,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,farla:fare lo|fece:fare|Passarono:passarono|tornò:tornare|partire:partire|lasciate:lasciare,"Reginella, che nome gli mettiamo?"
+CaterinaSapiente-Calvino.txt,36,6,True,,gli,regex,0,gli,disse,170,Reginella,disse,dire,183,True,170,lowercase_only|contains_pronoun|single_lowercase_token,fece:fare|Passarono:passarono|tornò:tornare|partire:partire|lasciate:lasciare,Genova! - E Genova lo chiamarono.
+CaterinaSapiente-Calvino.txt,37,16,True,,gli,regex,0,gli,disse,64,,,,,False,64,lowercase_only|contains_pronoun|single_lowercase_token,Passarono:passarono|tornò:tornare|partire:partire|lasciate:lasciare|faccio:fare|faceva:fare,"Partite, e mi lasciate così con un figlio tra le braccia? - gli disse la Reginella."
+CaterinaSapiente-Calvino.txt,38,67,True,,gli,regex,0,gli,disse,26,,,,,False,26,lowercase_only|contains_pronoun|single_lowercase_token,ono:ono|tornò:tornare|partire:partire|lasciate:lasciare|faccio:fare|faceva:fare|scrisse:scrivere|cameriere:cameriere|abiti:abito|andò:andare|Partì:partì|arrivò:arrivare|vide:vedere,"Vi faccio una carta, - le rassicurò il Reuzzo, - che questo è figlio mio ed è il Principino -. Mentre lui faceva i preparativi della partenza per Venezia, Caterina scrisse a Palermo al padre per un altro brigantino, con cameriere, governante, mobili, abiti nuovi e tutto. Il brigantino andò a Venezia. Partì il Reuzzo, sulla fregata; la Reginella partì sul brigantino e arrivò prima di lui."
+CaterinaSapiente-Calvino.txt,39,76,True,,gli,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,abiti:abire|andò:andare|Partì:partì|arrivò:arrivare|vide:vedere|assomigliava:assomigliare|assomigliava:assomigliare|è:essere|chiusa:chiudere|mando:mandere|andò:andare|sapete:sapere|assomigliate:assomigliare|conosco:conoscere,"Santo cielo! - esclamò il Reuzzo appena vide la bella Signora affacciata al finestrone. - Anche questa assomiglia tutta alla mia moglie di Genova che assomigliava tutta alla mia moglie di Napoli che assomigliava tutta a Caterina la Sapiente! Ma come può essere? Caterina è a Palermo chiusa nel trabocchetto; quella di Napoli è a Napoli, quella di Genova è a Genova, e questa è a Venezia... - Le mando l'ambasciatore e poi andò a trovarla."
+CaterinaSapiente-Calvino.txt,40,19,True,,gli,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,mando:mandere|andò:andare|sapete:sapere|assomigliate:assomigliare|conosco:conoscere|assomigliarci:assomigliare ci,"Ma sapete, Signora, che assomigliate a tante signore che conosco: una a Palermo, una a Napoli, una a Genova..."
+CaterinaSapiente-Calvino.txt,41,8,True,,gli,context,3,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,andò:andare|sapete:sapere|assomigliate:assomigliare|conosco:conoscere|assomigliarci:assomigliare ci|vedova:vedovo,Eh! In sette dobbiamo assomigliarci a questo mondo...
+CaterinaSapiente-Calvino.txt,42,3,True,,gli,context,4,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,assomigliarci:assomigliare ci|vedova:vedovo|sposarono:sposare|ebbe:avere,Siete da sposare?...
+CaterinaSapiente-Calvino.txt,43,6,True,,gli,context,5,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sposarono:sposare|ebbe:avere|mettiamo:mettere|Passarono:passarono|tornare:tornare|partire:partire|lascerò:lascerò,Venezia. - E Venezia fu battezzata.
+CaterinaSapiente-Calvino.txt,44,2,True,,gli,context,6,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,passò:passare|tornò:tornare|arrivato:arrivare|corse:corso|aprire:aprire|stai:stare|pentita:pentire|schiaffo:schiaffore|hai:avere|pensato:pensare|schiaffo:schiaffore|devo:devo,Io? Bene!
+CaterinaSapiente-Calvino.txt,45,9,True,,gli,context,7,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,tornò:tornare|arrivato:arrivare|corse:corso|aprire:aprire|stai:stare|pentita:pentire|schiaffo:schiaffore|hai:avere|pensato:pensare|schiaffo:schiaffore|devo:devo|sai:sai|risposatevi:risposatevi,Ti sei pentita di quello schiaffo che m'hai dato?
+CaterinaSapiente-Calvino.txt,46,12,True,,gli,context,8,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,ppena:ppenare|arrivato:arrivare|corse:corso|aprire:aprire|stai:stare|pentita:pentire|schiaffo:schiaffore|hai:avere|pensato:pensare|schiaffo:schiaffore|devo:devo|sai:sai|risposatevi:risposatevi|penti:pentare|tornerai:tornerai,E voi ci avete pensato a quello schiaffo che vi devo dare?
+CaterinaSapiente-Calvino.txt,47,7,True,,gli,context,9,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,pentita:pentire|schiaffo:schiaffore|hai:avere|pensato:pensare|schiaffo:schiaffore|devo:devo|sai:sai|risposatevi:risposatevi|penti:pentare|tornerai:tornerai|dichiarò:dichiarare,"Pentiti, Caterina, sai! Se no mi rispondo!"
+CaterinaSapiente-Calvino.txt,48,5,True,,gli,context,10,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,hai:avere|pensato:pensare|schiaffo:schiaffore|devo:devo|sai:sai|risposatevi:risposatevi|penti:pentare|tornerai:tornerai|dichiarò:dichiarare|morta:morire|risposarsi:risposare si,E risposatevi! Chi vi trattiene?
+CaterinaSapiente-Calvino.txt,49,9,True,,gli,context,11,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,pensato:pensare|schiaffo:schiaffore|devo:devo|sai:sai|risposatevi:risposatevi|penti:pentare|tornerai:tornerai|dichiarò:dichiarare|morta:morire|risposarsi:risposare si|Scrisse:scrisse,"Se invece ti penti, tornerai a essere mia moglie."
+CaterinaSapiente-Calvino.txt,50,1,True,,gli,context,12,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sai:sai|risposatevi:risposatevi|penti:pentare|tornerai:tornerai|dichiarò:dichiarare|morta:morire|risposarsi:risposare si|Scrisse:scrisse,No.
+CaterinaSapiente-Calvino.txt,51,11,True,,Caterina,regex,0,Caterina,disse,24,Caterina,disse,dire,24,False,24,,andò:andare|Veniva:veniva|andate:andare|baciare:baciare|corsero:corsero|baciare:baciare|vide:vedere|restava:restare|dichiararsi:dichiarare si|è:essere,"Napoli, Genova, Venezia, andate a baciare la mano a vostro padre!"
+CaterinaSapiente-Pitre.txt,1,34,True,,Sconosciuto,unknown,0,,,,,,,,False,,,Chiama:chiama|.tutta:.tutta|a-:a-|megghiu:megghiu|sapiti:sapire|figghia:figghiare|è:essere|morta:morire|comu:comure|porta:portare|tempu:tempu|misi:miso|dulura:dulura|Parturisci:parturisci|fa:fare|figghia:figghia|bedda:beddare,"<sp>"" Signuri mei, sapiti ch' haja
+'na figghia ch'è la pupidda di l'occhi mei ': quant'havi chi
+è morta sò matri, stà chiusa comu li gatti ', 'un voli cchiù
+affacciari mancu lu nasu."""
+CaterinaSapiente-Pitre.txt,2,7,True,,Sconosciuto,context,1,,,,,,,,False,,,porta:portare|tempu:tempu|misi:miso|dulura:dulura|Parturisci:parturisci|fa:fare|figghia:figghia|bedda:beddare|Luna.</sp>-:luna.</sp>-|spija:spijare|ha:avere|Sai:sai|viaggiu:viaggiue,""" Chi cci mittemu, Riggined-
+da? """
+CaterinaSapiente-Pitre.txt,3,3,True,,Sconosciuto,context,2,,,,,,,,False,,,fa:fare|figghia:figghia|bedda:beddare|Luna.</sp>-:luna.</sp>-|spija:spijare|ha:avere|Sai:sai|viaggiu:viaggiue|tornu:tornu,""" Vinezia. """
+CaterinaSapiente-Pitre.txt,4,38,True,,Sconosciuto,context,3,,,,,,,,False,,,spija:spijare|ha:avere|Sai:sai|viaggiu:viaggiue|tornu:tornu|fazzu:fazzu|principissa:principissare|dappressu:dappressure|va:andare|va:andare|Junci:junci,""" Sai chi pensu, Rigginedda ? Lu mé
+viaggiu l'haju fattu; ora tornu 'n Palermu; ma prima di
+pàrtiri ti fazzu 'na carta accussi e accussi : ca chista è
+figghia mia, ed è 'na principissa riali. """
+CaterinaSapiente-Pitre.txt,5,6,True,,Sconosciuto,context,4,,,,,,,,False,,,va:andare|va:andare|Junci:junci|pinseri:pinsero|comu:comure|da-:da-re|Pinsati:pinsati,"<sp>"" Catarina ! comu si' ?"
+CaterinaSapiente-Pitre.txt,6,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,fila:filare|nta:nta|Junci:junci|pinseri:pinsero|comu:comure|da-:da-re|Pinsati:pinsati,""" - """
+CaterinaSapiente-Pitre.txt,7,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,comu:comure|da-:da-re|Pinsati:pinsati|sai:sai|maritu:mariture,""" - """
+CaterinaSapiente-Pitre.txt,8,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,da-:da-re|Pinsati:pinsati|sai:sai|maritu:mariture|teni:teno|mugglieri:mugglierare,""" - """
+CaterinaSapiente-Pitre.txt,9,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,da-:da-re|Pinsati:pinsati|sai:sai|maritu:mariture|teni:teno,""" - """
+CaterinaSapiente-Pitre.txt,10,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,Pinsati:pinsati|sai:sai|maritu:mariture|teni:teno,""" - """
+CaterinaSapiente-Pitre.txt,11,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,sai:sai|maritu:mariture|teni:teno|ar-:ar-|Scrivi:scrivire|ritratti:ritrattare,""" - """
+CaterinaSapiente-Pitre.txt,12,229,True,,Sconosciuto,context,5,,,,,,,,False,,,maritu:mariture|teni:teno|ar-:ar-|Scrivi:scrivire|ritratti:ritrattare|ritratti:ritrattare|piaci:piaco|dici:dici|stando:stare|scelse:scegliere|mandò:mandare|dirle:dire le|verga:vergere|fatta:fare|Catarina:catarina|fa:fare|fa:fare|avia:aviare|vesti:vesta|pigghia:pigghiare|va:andare|dicu:dicu|manu:manure|suttu:suttu,"""
+Lu Riuzzu 'un sapennu cchiù chi fari nesci a diri ca
+la mugglieri cci muriu, e havi bisognu di maritarisi ar-
+reri. Scrivi pi li ritratti di li figghi di li Re pi marita-
+risi ?. Cei vennu li ritratti : la megghiu chi cci piaci è
+la figghia di lu Re d'Inghilterra; e cci manna a dici ca
+vinissiru la matri e la figghia, ca lu matrimoniu è cun-
+chiusu ?.
+¹ Stannu, qui stando.
+² La ricerca de' ritratti de' principi o delle principesse reali nella
+scelta d'uno sposo o d'una sposa è cosa ordinaria nelle novelle.
+³ Intendi che il principe dopo v sti vari ritra ti scelse la figlia del re
+d' Inghilterra, e mandò a dirle che verga insieme colla madre, perché
+la scelta per lui è stata fatta.
+
+56
+FIABE, RACCONTI, NOVELLE EC.
+Junci la principissa e lu Riuzzu d'Inghilittera 'n Sicilia,
+e vannu a Palazzu. 'Nta mentri, Catarina chi fa? fa pri-
+parari tri bell'abbiti a la riali a li picciriddi soi Napuli,
+Genua e Venezia. Lu 'nnumani di l'arrivo di la Princi-
+pissa d'Inghilittera s'avia a fari lu matrimoniu. Catarina
+si vesti di Riggina chi era, si pigghia a Napuli, vistutu
+di Riuzzu, e a Genua e a Venezia vistuti di Principi, si
+metti 'nta 'na carrozza di gala e va a Palazzu. Idda cei
+dici a li picciriddi: <sp>"""
+CaterinaSapiente-Pitre.txt,13,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,va:andare|dicu:dicu|manu:manure|suttu:suttu|dici:dici,""""
+CaterinaSapiente-Pitre.txt,14,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,suttu:suttu|dici:dici,""""
+CaterinaSapiente-Pitre.txt,15,14,True,,Sconosciuto,context,6,,,,,,,,False,,,suttu:suttu|dici:dici|dici:dici|abbrazza:abbrazzare|so:sapere,""" E li
+lassa jiri.
+Lu Riuzzu fici la morti ch' appi a fari."
+CaterinaSapiente-Pitre.txt,16,438,True,,perciò si,regex,0,perciò si,dice,917,,,,,False,917,lowercase_only,dici:dici|abbrazza:abbrazzare|so:sapere|comu:comure|ha:avere|accattatu:accattature|ha:avere|ha:avere|tuttu:tuttu|iddu:iddure|comu:comure|restare:restare|ho:avere|vuta:vuto|costumava:costumare|pròmettevano:pròmettevare|radessero:radessero|zili:zile|avea:avea|dicea:diceare|stau:staure|comprato:comprare|così:così|va:andare|compra:comprare|vosiru:vosiru|semu:semu|denti:dentare|cunverti:cunvertare|gono:gono|volesse:volere|pentirsi:pentire si|•:•|cunverti:cunvertare|•:•|reduce:reducere|causa:causare|va:andare|trovarlo:trovare lo|manu:manu|manu:manure|rinviene:rinvenere|cunverti:cunvertare|guarda:guardare|impietosisce:impietosire|cunvertu:cunvertu|risolve:risolve|guarisce:guarire|contata:contare|andava:andare|dava:dare|dovettero:dovettero|allontanarsi:allontanare si|andare:andare|affidarono:affidare|Al-:al-|cominciarono:cominciare|divertirsi:divertire si|prenderebbe:prendere|Raccontata:raccontata|dici:dici|chi:chi|grapiticii:grapiticii|forsi:fore si,""" cci dici a Catarina: scinni di lu sog-
+ghiu e s'abbrazza a li so' figghi. La Principissa d'Inghili-
+terra arristau comu la zita cu lu gigghiu rasu ¹. Lu 'nnu-
+mani s' ha accattatu lu Cássaru ² e ha partutu. Catarina
+cci ha cuntatu a sò maritu tuttu l' arcanu ; e iddu 'un
+putia cchiù di addimannàricci pirdunu di chiddu chi cci
+¹ Arristari comu la zita cu lu gigghiu rasu, restare come la sposa col
+sopracciglio rasò, cioè delusa, scornata. Ecco una spiegazione che ho a-
+vuta di queste frase in Salaparuta: Anticamente si costumava che le ra-
+gazze che si pròmettevano in matrimonio si radessero le sopracciglia; e que-
+sto era segno che già erano zili, cioè fidanzate. Quando il matrimonio
+non avea più luogo, allora si dicea: R stau cu lu gigghiu rasu.
+² Letteralmente: S'è comprato il Cassero. Dice si così di chi va via. E
+siccome il Cassero è il corso principale, e quasi il luogo ove uno può sva-
+garsì, perciò si dice che il tale si compra il Cassero.
+
+CATARINA LA SAPIENTI.
+57
+avia fattu pàtiri. E di ddu jornu 'n poi si vosiru beni
+sempri e
+Arristarù filici e cuntenti
+E nui semu ccà e nn’ammulamu li denti.
+Palermo'.
+VARIANTI E RISCONTRI.
+In un'altra versione col titolo Sapienza, ti cunverti! avven-
+gono gli stessi fatti, meno che quello delle lezioni. Il Re era
+corrivo che ella non volesse pentirsi, e le dicea sempre: • Sa-
+pienza, ti cunverti? • Alla fine, reduce dai viaggi, egli ammalà
+gravemente: causa la grande ostinazione di Sapienza. Al letto
+di morte ella va a trovarlo coi figli a nome: Napoli, Milano
+e Venezia, e dice loro:
+Napoli, Milano,
+Pigghiativi a Vinezia p'à manu,
+Vasàticei a vostu patri li manu.
+Così egli rinviene ; le dimanda : Sapienza ti cunverti? Essa
+lo guarda, impietosisce, e gli risponde: mi cunvertu! così si
+risolve e guarisce.
+Bella-e-sapiente.
+Bella-e-sapiente è il titolo d'una versione di Ficarazzi rac-
+contata da Giuseppa Furia. Bella-e-sapiente è il nome d'una
+principessa reale che andava a una scuola, ove intervenivano
+fanciulli e fanciulle; agli uni dava lezione il marito, alle al-
+tre la moglie. Un giorno i maestri dovettero allontanarsi per
+andare ad un corteo di nozze, e affidarono le classi, il maes-
+tro a un fanciullo che era figlio del Re, la maestra a Bella-
+e-sapiente, che era la più esperta tra le sue compagne. Al-
+lievi ed allieve cominciarono a divertirsi, e il principe si per-
+mise di dire che un giorno prenderebbe in moglie Bella-e-sa-
+' Raccontata dalla solita Aga'uzza Messia.
+
+CATARINA LA SAPIENTI.
+Lu Cunsigghiu dici: <sp>"""
+CaterinaSapiente-Pitre.txt,17,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,chi:chi|grapiticii:grapiticii|forsi:fore si|putissi:putissare|sta:stare|piaci:piaco|dici:dici|Chiama:chiamare|haju:ajuvere,""""
+CaterinaSapiente-Pitre.txt,18,10,True,,perciò si,context,1,,,,,,,,False,,lowercase_only,grapiticii:grapiticii|forsi:fore si|putissi:putissare|sta:stare|piaci:piaco|dici:dici|Chiama:chiamare|pia:piare,""" dici lu patri. Chiama la figghia e cci dici:<sp>"""
+CaterinaSapiente-Pitre.txt,19,18,True,,perciò si,context,2,,,,,,,,False,,lowercase_only,piaci:piacare|fannu:fannu,""" A idda cci piaciu, e si
+misi a diriggiri idda stissa li mastri pi fari stu culleg"
+CaterinaSapiente-Pitre.txt,20,27,True,,perciò si,context,3,,,,,,,,False,,lowercase_only,fannu:fannu|è:essere|javanu:javanure|java:jare|vanchi:vanco|appressu:appressu|Dici:dici|chiddu:chiddu|cina:cinare,"""
+Comu javanu vinennu li picciotti, masculi e fimmini,
+idda li java facennu assittari 'nta li vanchi unu appressu
+all'àutru senza particularità pi nuddu. Dici ²: """
+CaterinaSapiente-Pitre.txt,21,175,True,,perciò si,context,4,,,,,,,,False,,lowercase_only,java:jare|vanchi:vanco|appressu:appressu|Dici:dici|chiddu:chiddu|cina:cinare|Catarina:catarina|nsignava:nsignare|purtava:purtare|nchiummata:nchiummare|punta:puntare|cafuddava:cafuddare|sappi:sappare|sina:sina|vesti:vestare|trova:trovare|junciu:junciu|spijo:spijo|cafudda:cafuddere|togliersi:togliere si|guange:guangere|portasse:portasso|teneva:tenere|picchiava:picchiare|criju:crie ju|sta:stare|accihiana:accihiana|va:andare|vogghiu:vogghiu,""" 'Un fa nenti : lu carvanaru s' avia a 'ssittari
+allatu di la figghia di lu Principi. Cu' veni prima ma-
+cina lu mulinu ³. Accuminzò la scola. Catarina la Sapienti
+'nsignava a tutti aguali; a cui nun cci purtava lizioni, 'na
+ferra 'nchiummata 'n punta e cafuddava ⁴.
+La nnuminata si sappi sina a palazzu, e lu Riuzzu cci
+vosi jiri. Si vesti di gran tinuta, trasi, trova un postu, e
+idda lu fici assittari a ddu postu. Quannu junciu un' id-
+du, Catarina cci spijo 'na difigurtà; lu Riuzzu 'un cci sappi
+arrispunniri; ppuhm ! e idda cci cafudda un timpuluni ca
+
+¹ Forse potrebbe togliersi questa fantasia dal capo.
+² Dici, ma si potrebbe dire, osservare.
+³ Proverbio. Chi primo guange, primo macina.
+⁴ Per chi non le portasse la lezione, essa teneva una sferza impiom-
+bata in punta, e picchiava.
+
+48
+FIABE, NOVELLE, RACCONTI, EC.
+criju ca la mascidda ancora cci abbrucia '. Lu Riuzzu curri-
+vatu di sta parti, accihiana a Palazzu, e va nni sò patri. -
+"""
+CaterinaSapiente-Pitre.txt,22,21,True,,perciò si,context,5,,,,,,,,False,,lowercase_only,sta:stare|accihiana:accihiana|va:andare|vogghiu:vogghiu|va:andare|Mè:mè|figghia:figghiare,""" - Lu Re manna a chiamari a lu patri
+di Catarina la Sapienti, e lu patri cci va. - """
+CaterinaSapiente-Pitre.txt,23,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,va:andare|Mè:mè|figghia:figghiare,""" - """
+CaterinaSapiente-Pitre.txt,24,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,va:andare|Mè:mè|figghia:figghiare|fa:fa|figghiu:figghiu|torna:tornare,""" - """
+CaterinaSapiente-Pitre.txt,25,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,Mè:mè|figghia:figghiare|fa:fa|figghiu:figghiu|torna:tornare|voli:volare|dici:dici,""" - """
+CaterinaSapiente-Pitre.txt,26,9,True,,perciò si,context,6,,,,,,,,False,,lowercase_only,fa:fa|figghiu:figghiu|torna:tornare|voli:volare|dici:dici,"""
+Comu lu patri torna a la casa: <sp>"""
+CaterinaSapiente-Pitre.txt,27,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,fa:fa|figghiu:figghiu|torna:tornare|voli:volare|dici:dici|ammancava:ammancare|forsi:fore si|cantarana:cantaranare|prepara:preparare,""""
+CaterinaSapiente-Pitre.txt,28,68,True,,perciò si,context,7,,,,,,,,False,,lowercase_only,hiu:hiu|torna:tornare|voli:volare|dici:dici|ammancava:ammancare|forsi:fore si|cantarana:cantaranare|prepara:preparare|falla:falla|arrispusi:arrispusi|darréri:darrérare|dici:dici|dà:dare,"""
+'Nta termini ottu jorna, tutti cosi fòru pronti. (Chi cci
+ammancava forsi la lana? li cantarana ?) Lu Riuzzu cci
+prepara dudici dünzelli; hannu graputu cappella riali, e
+l'hannu maritatu.
+A la finuta di lu zitaggiu, ' la Riggina cci dissì a sti
+dünzelli di jiri a fari lu sò duviri 5, di jiri a spuggliari la
+. Rigginedda pi falla curcari 6. Lu Riuzzu arrispusi: <sp>"""
+CaterinaSapiente-Pitre.txt,29,4,True,,perciò si,context,8,,,,,,,,False,,lowercase_only,falla:falla|arrispusi:arrispusi|darréri:darrérare|dici:dici|dà:dare|forte:fortere|credo:credere|guancia:guanciare,"""
+Comu fòru suli:"
+CaterinaSapiente-Pitre.txt,30,2,True,,perciò si,context,9,,,,,,,,False,,lowercase_only,svestire:svestire|metterla:metterla|pensi:pensare|dasti:dasti|vuliti:vulitare|duggnu:duggnu|pintuta:pintere,"""
+<sp>"""
+CaterinaSapiente-Pitre.txt,31,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,pensi:pensare|dasti:dasti|vuliti:vulitare|duggnu:duggnu|pintuta:pintere,""" - """
+CaterinaSapiente-Pitre.txt,32,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,vuliti:vulitare|duggnu:duggnu|pintuta:pintere|chistu:chistu|è:essere|fazzu:fazzu,""" - """
+CaterinaSapiente-Pitre.txt,33,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,vuliti:vulitare|duggnu:duggnu|pintuta:pintere|chistu:chistu|è:essere|fazzu:fazzu|accumenza:accumenza,""" - """
+CaterinaSapiente-Pitre.txt,34,6,True,,perciò si,context,10,,,,,,,,False,,lowercase_only,pintuta:pintere|chistu:chistu|è:essere|fazzu:fazzu|accumenza:accumenza|corda:corda|nta:nta,""" E cu' nni
+parra! """
+CaterinaSapiente-Pitre.txt,35,13,True,,perciò si,context,11,,,,,,,,False,,lowercase_only,pintuta:pintere|chistu:chistu|è:essere|fazzu:fazzu|accumenza:accumenza|corda:corda|nta:nta|dici:dici|penti:pentare|calu:calu,""" Alha! chistu cc'è ? Ora ti fazzu avvidiri cu'
+sugnu io. """
+CaterinaSapiente-Pitre.txt,36,14,True,,perciò si,context,12,,,,,,,,False,,lowercase_only,chistu:chistu|è:essere|fazzu:fazzu|accumenza:accumenza|corda:corda|nta:nta|dici:dici|penti:pentare|calu:calu|trabbuccu:trabbuccu|staju:staju|dici:dici|attrivita:attrivire|ha:avere|nta:nta,"<sp>"" Catarina,
+o tu ti penti, o io ti calu 'nta stu trabbuccu! """
+CaterinaSapiente-Pitre.txt,37,8,True,,perciò si,context,13,,,,,,,,False,,lowercase_only,corda:corda|nta:nta|dici:dici|penti:pentare|calu:calu|trabbuccu:trabbuccu|staju:staju|dici:dici|attrivita:attrivire|ha:avere|nta:nta,""" E io staju
+echiù friscu ! """
+CaterinaSapiente-Pitre.txt,38,17,True,,perciò si,context,14,,,,,,,,False,,lowercase_only,nnumani:nnumano|livata:livare|dici:dici|ha:avere|spija:spijare|friscu:friscu|dici:dici|pensi:pensare,""" Un
+pò trásiri nuddu, dici lu Riuzzu, cà Catarina è malatedda.
+Gra pi lu trabbuccu: <sp>"""
+CaterinaSapiente-Pitre.txt,39,5,True,,perciò si,context,15,,,,,,,,False,,lowercase_only,livata:livare|dici:dici|ha:avere|spija:spijare|friscu:friscu|dici:dici|pensi:pensare|-mi:-mi|chidda:chidda,"""
+cci spija lu Riuzzu."
+CaterinaSapiente-Pitre.txt,40,6,True,,perciò si,context,16,,,,,,,,False,,lowercase_only,ha:avere|spija:spijare|friscu:friscu|dici:dici|pensi:pensare|-mi:-mi|chidda:chidda|passannu:passannu|pigghiava:pigghiare|dar-:dar-,""" cci dici Catarina.
+- """
+CaterinaSapiente-Pitre.txt,41,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,ha:avere|spija:spijare|friscu:friscu|dici:dici|pensi:pensare|-mi:-mi|chidda:chidda|passannu:passannu|pigghiava:pigghiare|dar-:dar-|leva:levare,""" - """
+CaterinaSapiente-Pitre.txt,42,141,True,,perciò si,context,17,,,,,,,,False,,lowercase_only,friscu:friscu|dici:dici|pensi:pensare|-mi:-mi|chidda:chidda|passannu:passannu|pigghiava:pigghiare|dar-:dar-|leva:levare|metti:mettare|Spir-:spir-|spiritusa:spiritusare|nec:nec|fiutare:fiutare|va:andare|augurare:augurare|lecata:lecare|nta:nta|sa:sapere|sta:stare|vinia:inniare|sugnu:sugnu|Catarina:catarinare,"""
+Ora passannu du’ jorna, la fami la pigghiava pi dar-
+reri lu cozzu '. 'Un sapennu chi fari, si leva la sticca di
+lu cerru ', e si metti a fari un pirtusu a lu muru. Spir-
+tusa, spiritusa, a lu capu di vintiquattr’uri vidi lustru, ca
+
+' Ardita, audace.
+' Parole in parte latine, in parte di semplice giochetto: nec li’i nec
+tabi (?); cioè senza fiutare, senza nulla osservare.
+' Altro uso nuziale, per cui si va ad augurare la ben lecata agli sposi.
+' Letteralmente : La fame la inseguiva di dietro la coca (l’occipite)
+e vale era sommamente affamata.
+' La steecca del busto.
+
+Pirnè. - Fiabe e Novelle - vol. I.
+
+50
+FIABE, NOVELLE, RACCONTI EC.
+si 'ntisi arrieriari. Allarga ddu pirtusu, e 'nta mentri chi
+talia, vidi passari lu scrivannu di sò patri: """
+CaterinaSapiente-Pitre.txt,43,19,True,,perciò si,context,18,,,,,,,,False,,lowercase_only,nta:nta|sa:sapere|sta:stare|vinia:inniare|sugnu:sugnu|Catarina:catarinare,""" A Don Tumasi 'un sa chi cei parsì ' sta vuci
+chi vinia di lu muru. - """
+CaterinaSapiente-Pitre.txt,44,21,True,,perciò si,context,19,,,,,,,,False,,lowercase_only,sa:sapere|sta:stare|vinia:inniare|sugnu:sugnu|Catarina:catarinare|nta:nta|trabbuccu:trabbuccu|Fa</sp>-:fa</sp>-,"""
+Veni lu patri accumpagnatu di Don Tumasi, (cà sulu 'un
+lu putia 'nzirtari, ?) e idda cei dici : <sp>"""
+CaterinaSapiente-Pitre.txt,45,29,True,,perciò si,context,20,,,,,,,,False,,lowercase_only,architravati:architravare|facia:facia|affacciava:affacciare|dasti:dastare|Pinsati:pinsati|hè:hè|mastrì:mastrì,""" La cosa iju bella. Sò patri ogni jorna
+cei facia junciri lu manciari: gaddini, gadduzzi, pitaggi
+di sustanza 4. Lu Riuzzu tri voti lu jorna cei affacciava:
+<sp>"""
+CaterinaSapiente-Pitre.txt,46,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,affacciava:affacciare|dasti:dastare|Pinsati:pinsati|hè:hè,""""
+CaterinaSapiente-Pitre.txt,47,78,True,,perciò si,context,21,,,,,,,,False,,lowercase_only,cciava:cciare|dasti:dastare|Pinsati:pinsati|hè:hè|aspittava:aspittare|chinija:chinijare|passava:passare|java:java|ci-:ci-|chistu:chistu|cu-:cu-|capiddi:capiddi|trabbuccu:trabbuccu|CATARINA·LA:catarina·la|•:•|vaju:vaju|ha:avere|•:•|arrivati:arrivare|sapiti:sapire|•:•|•:•,"""
+Li mastrì travagghìavannu a fari lu suttirraniu: ogni
+vinti passi un architravatu e un fanali. Comu fu lestu,
+idda facia, ca aspittava ca lu Riuzzu chinija lu trabbuccu,
+poi si nni passava nni sò patri, e accussi java a fari ci-
+lence 5. Passannu 'na picchidda di jorna, a chistu cci cu-
+minzaru a vuncìari li capiddi : 6 gra pi lu trabbuccu :<sp>CATARINA·LA SAPIENTI.
+51
+• Catarina, io vaju a Napuli; m'ha' a diri nenti? •"
+CaterinaSapiente-Pitre.txt,48,11,True,,perciò si,context,22,,,,,,,,False,,lowercase_only,•:•|•:•|•:•|•:•|quannu:quannu|•:•|iju:iju|chinj:chinj|bitu:bitu|nurrizza:nurrizza|siru:siru,"• Papà, ora è lu casu di darimi ajuto. Subbitu sub"
+CaterinaSapiente-Pitre.txt,49,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,cominciò:cominciare|spocchiarla:spocchiare la|pompeggiarla:pompeggiare la|cuminzò:cuminzare|cuminzò:cuminzare|tantu:tantu|Pa-:pa-|arrispunni:arrispunnare,""""
+CaterinaSapiente-Pitre.txt,50,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,tantu:tantu|Pa-:pa-|arrispunni:arrispunnare,""""
+CaterinaSapiente-Pitre.txt,51,26,True,,perciò si,context,23,,,,,,,,False,,lowercase_only,tantu:tantu|Pa-:pa-|arrispunni:arrispunnare|Dici:dici|siti:sito|schettu:schettu|haju:ajuvere|assimig-:assimig-,""" cci arrispunni idda. Veni lu Riuzzu vistutu di
+gran tinuta; cirimonii di cca, cirimonii di dda; si met-
+tinu 'n cuamirsazioni. Dici lu Riuzzu: <sp>"""
+CaterinaSapiente-Pitre.txt,52,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,Dici:dici|siti:sito|schettu:schettu|haju:ajuvere|assimig-:assimig-|ghiatì:ghiatire|picciotta:picciotta|vulia:vuliare,""""
+CaterinaSapiente-Pitre.txt,53,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,Dici:dici|siti:sito|schettu:schettu|haju:ajuvere|assimig-:assimig-|ghiatì:ghiatire|picciotta:picciotta|vulia:vuliare,""" - """
+CaterinaSapiente-Pitre.txt,54,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,schettu:schettu|haju:ajuvere|assimig-:assimig-|ghiatì:ghiatire|picciotta:picciotta|vulia:vuliare|hannu:annuvere,""" - """
+CaterinaSapiente-Pitre.txt,55,47,True,,perciò si,context,24,,,,,,,,False,,lowercase_only,assimig-:assimig-|ghiatì:ghiatire|picciotta:picciotta|vulia:vuliare|hannu:annuvere|novi:novo|Parturisci:parturisci|fa:fare|dici:dici,""" E 'nta
+termini ottu jorna lu Riuzzu e Catarina la Sapienti s'hannu
+maritatu.
+Sta signura nisciu gravita. Cuntu 'un porta tempu: *
+a li novi misi 'n puntu parturiu. Parturisci e fa un ma-
+sculiddu ch'era 'na biddizza 3. Lu Riuzzu 'ncugna vicinu
+lu lettù: <sp>"""
+CaterinaSapiente-Pitre.txt,56,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,Parturisci:parturisci|fa:fare|dici:dici|tici:ticare|iddu:iddu,""""
+CaterinaSapiente-Pitre.txt,57,112,True,,perciò si,context,25,,,,,,,,False,,lowercase_only,fa:fare|dici:dici|tici:ticare|iddu:iddue|fa:fare|dici:dici|ragazza:ragazzare|cunli:cunli|è:essere|equivale:equivalere|scano:scano|passa:passare|fa:fare,""" (dici Catarina). E cci hannu misu Napoli.
+Passannu du' anni lu Riuzzu vosi partiri. La Riggì-
+nedda si tici àghira, 5 ma iddu 'ntistau e vosi partiri.
+Prima di partiri cci fa 'na carta e cci dici ca lu picci-
+riddu era lu primugenitu sò 6, e avia a essiri cu lu tem-
+pu lu Re. E parti pi Genua. Com'iddu parti, idda scrivi
+a sò patri ca cci avissi mannatu a Genua un brigantinu
+1 Schetta, nobile, zitella, ragazza.
+2 Cuntu 'un porta tempu, o Lu cuntu 'un metti tempu, o 'Ntra li cunli
+nun ce' è tèmju, prove bio d' lle novellatrici, che equivale all' altro to-
+scano: """
+CaterinaSapiente-Pitre.txt,58,115,True,,perciò si,context,26,,,,,,,,False,,lowercase_only,tempu:teme pu|cunli:cunli|è:essere|equivale:equivalere|scano:scano|passa:passare|fa:fare|chiameremo:chiamare|nurrizza:nurrizza|càrrica:càrricare|partìnu:partìnu|pigghia:pigghiare|va:andare|nta:nta|Comu:comu|sta:stare|pittinata:pittinare|gioj:giojre|dici:dici|assimigghia:assimigghiare|Pigghia:pigghia,""" De GUBERNATIS, Norel-
+line di S. Stefano in Calcinaia, pag. 34.
+3 Partorisce e fa un maschietto ch'era una bellezza.
+4 Reginella, co' ne chiameremo noi questo bambino?
+5 Àghira, agra: alla Reginella seppe d'ostico.
+6 Sò, di lui, del Re.
+
+CATARINA LA SAPIENTI.
+càrricu di mobili, cammareri, 'na nurrizza e tuttu: addu-
+gàssiru un palazzu 'n facci lu Palazzu riali di Genua, e
+aspiittassiru a idda. Lu patri càrrica un brigantinu e lu
+manna a Genna. Quannu lu Riuzzu partìnu, idda pigghia
+un brigantinu e prima d'iddu si va a 'mpalazzari 'nta lu
+palazzu di Genua. Comu lu Riuzzu vidi sta bedda giu-
+vina pittinata a la riali, cu gioj e ricchizzi: """
+CaterinaSapiente-Pitre.txt,59,47,True,,perciò si,context,27,,,,,,,,False,,lowercase_only,va:andare|nta:nta|Comu:comu|sta:stare|pittinata:pittinare|gioj:giojre|dici:dici|assimigghia:assimigghiare|Pigghia:pigghia|cadi:cadire|siti:sire|schetta:schetta|dici:dici|puru:puru|sugnu:sugnu,"""
+(dici) assimigghia tutta a Catarina la Sapienti ! Pigghia un
+'mmasciatuuri e cei lu manna pi direcci ca lu Riuzzu cei
+vurrissi * fari 'na visita. Idda cei dici ch'è patruni; e lu
+Riuzzu cei acchiana. Discurrennu discurrennu, cadi lu di-
+scursu supra d'idda. - """
+CaterinaSapiente-Pitre.txt,60,7,True,,perciò si,context,28,,,,,,,,False,,lowercase_only,sita:sire|cadi:cadire|siti:sire|schetta:schetta|dici:dici|puru:puru|sugnu:sugnu|haju:ajuvere|vui:vui|assimigg:assimigg,""" cei dici
+lu Riuzzu. - """
+CaterinaSapiente-Pitre.txt,61,8,True,,perciò si,context,29,,,,,,,,False,,lowercase_only,cadi:cadire|siti:sire|schetta:schetta|dici:dici|puru:puru|sugnu:sugnu|haju:ajuvere|vui:vui|assimigghiatì:assimigghiatire,""" (cei rispunnu Catarina). E vui ? """
+CaterinaSapiente-Pitre.txt,62,30,True,,perciò si,context,30,,,,,,,,False,,lowercase_only,siti:sire|schetta:schetta|dici:dici|puru:puru|sugnu:sugnu|haju:ajuvere|vui:vui|assimigghiatì:assimigghiatire|setti:setto,""" Io puru sugnu ' cattivu, ed haju un figghiu. Ma vui, cei
+dici a la Rigginedda, assimigghiatì 'na stampa * a 'na si-
+gnura chi canuscivi 'n Palermu. """
+CaterinaSapiente-Pitre.txt,63,13,True,,perciò si,context,31,,,,,,,,False,,lowercase_only,haju:ajuvere|vui:vui|assimigghiatì:assimigghiatire|setti:setto|maritatù:maritatù|Sta:stare|misi:midere,""" Chi maraviggìa ! A
+lu munnu setti un'avemu a 'ssimigghiarì * """
+CaterinaSapiente-Pitre.txt,64,3,True,,perciò si,context,32,,,,,,,,False,,lowercase_only,rtu:rtu|fa:fare|cunsiddirati:cunsiddirati|dici:dici|comu:comure|vorrebbe:volere|vedova:vedovare,""" Genua! """
+CaterinaSapiente-Pitre.txt,65,3,True,,perciò si,context,33,,,,,,,,False,,lowercase_only,cunsiddirati:cunsiddirati|dici:dici|comu:comure|vorrebbe:volere|vedova:vedovare|puru:puru,""" Genua. """
+CaterinaSapiente-Pitre.txt,66,17,True,,Lo,regex,0,Lo,dice,120,,,,,False,120,contains_pronoun,perderne:perdere ne|comu:comure|dici:dicare|ntra:ntrare|arrispanni:arrispannare|fazzu:fazzu|chistu:chistu|figghiu:figghiu,""" E comu partiti ? ecci dici la Rigginedda, cu un figghiu ’ntra la facci ? """
+CaterinaSapiente-Pitre.txt,67,21,True,,Lo,context,1,,,,,,,,False,,contains_pronoun,comu:comure|dici:dicare|ntra:ntrare|arrispanni:arrispannare|fazzu:fazzu|chistu:chistu|figghiu:figghiu|prepara:preparare,""" No, ecci arrispanni lu Riuzzu, io ti fazzu ’na carta, ca chistu è figghiu mio, ed è lu principinu. """
+CaterinaSapiente-Pitre.txt,68,46,True,,Lo,context,2,,,,,,,,False,,contains_pronoun,va:andare|comu:comure|nni:nni|assimigghia:assimigghiare|chiusa:chiudere|nta:nta|è:essere|assimigghia:assimigghiare|fa:fare|va:andare|dici:dici|assimigghiatì:assimigghiatire,""" Maria! ma chista assimigghia tutta a Catarina la Sapienti ! a Napuli, la stissa; a Genua, la stissa!.. Ma idda ’un pò essiri, pirchì chidda è chiusa ’nta lu trabbuccu; chidda è a Napuli, e l’àutra è a Genua..... Ma idda ecci assimigghia tutta..... """
+CaterinaSapiente-Pitre.txt,69,21,True,,Lo,context,3,,,,,,,,False,,contains_pronoun,è:essere|assimigghia:assimigghiare|fa:fare|va:andare|dici:dici|assimigghiatì:assimigghiatire|vitti:vitti|Setti:settire|fannu:fannu|discursi:discure si|schetta:schetta,"<sp>"" Mi pari ’na cosa curiosa: Signura, vui assimigghiatì a ’na signura chi vitti ’n Palermu, a Napuli, a Genua. """
+CaterinaSapiente-Pitre.txt,70,13,True,,Lo,context,4,,,,,,,,False,,contains_pronoun,isita:isire|dici:dici|assimigghiatì:assimigghiatire|vitti:vitti|Setti:settire|fannu:fannu|discursi:discure si|schetta:schetta|sugnu:sugnu|haju:ajuvere,""" Chi maravigghia, Riuzzu ! Setti nu’avemu a ’ssimigghiarì a stu munnu. """
+CaterinaSapiente-Pitre.txt,71,5,True,,Lo,context,5,,,,,,,,False,,contains_pronoun,Setti:settire|fannu:fannu|discursi:discure si|schetta:schetta|sugnu:sugnu|haju:ajuvere,""" Siti schetta ? """
+CaterinaSapiente-Pitre.txt,72,5,True,,Lo,context,6,,,,,,,,False,,contains_pronoun,Setti:settire|fannu:fannu|discursi:discure si|schetta:schetta|sugnu:sugnu|haju:ajuvere|Sta:stare|gravita:gravito,""" No, sugnu cattiva """
+CaterinaSapiente-Pitre.txt,73,5,True,,Lo,context,7,,,,,,,,False,,contains_pronoun,uzzu:uzzu|Setti:settire|fannu:fannu|discursi:discure si|schetta:schetta|sugnu:sugnu|haju:ajuvere|Sta:stare|gravita:gravito|misi:midere,""" E cui ? """
+CaterinaSapiente-Pitre.txt,74,9,True,,Lo,context,8,,,,,,,,False,,contains_pronoun,fannu:fannu|discursi:discure si|schetta:schetta|sugnu:sugnu|haju:ajuvere|Sta:stare|gravita:gravito|misi:midere,""" Sugnu cattiru puru, e haju du’ picciriddi. """
+Cenerentola-Bernoni.txt,1,32,True,,Sconosciuto,unknown,0,,,,,,,,False,,,eva:ere|gaveva:gavere|pensa:pensare|andar:andare|trovo:trovare|andar:andare|senare:senare|star:star|va:andare|dise:dise|vastu:vasru|Va:va,"<sp>"" Vogio andar a vedar se me trovo
+in qualche logo da andar a servir: magari che i me
+toga per conza senare! Ma no vòi star più quà co
+costore. """
+Cenerentola-Bernoni.txt,2,7,True,,Sconosciuto,context,1,,,,,,,,False,,,senare:senare|star:star|va:andare|dise:dise|vastu:vasru|vedar:vedare|trovo:trovare|andar:andare|so:sapere|darme:darme,"<sp>"" Dove
+vastu, putela, cussì sola? """
+Cenerentola-Bernoni.txt,3,58,True,,Sconosciuto,context,2,,,,,,,,False,,,va:andare|dise:dise|vastu:vasru|vedar:vedare|trovo:trovare|andar:andare|so:sapere|darme:darme|trovasse:trovare|tolesse:tolere|senare:senare|vago:vago|dise:dise|bachetina:bachetinare|batarà:batara|sta:stare,""" Vago quà a vedar
+se in qualche logo me trovo da andar a servir, par-
+chè mi so' co le mie sorele, e lore no le vol 'darme
+da magnar' nè da vestir, e mi gò pensà de scampar
+via: magari che trovasse che i me tolesse per conza
+senare! ma a casa no ghe vago più."""
+Cenerentola-Bernoni.txt,4,37,True,,Sconosciuto,context,3,,,,,,,,False,,,trovasse:trovare|tolesse:tolere|senare:senare|vago:vago|dise:dise|bachetina:bachetinare|batarà:batara|sta:stare|vegnàrà:vegnàràre|fora:forare|desiderar:desiderar|so:sapere|stra-:stra-,"<sp>"" Ben, le ghe dise, aspetà!
+ciapa: questa la xè 'na bachetina che te demo.
+Quando che ti batarà sta bachetina, e che ti dirà:
+comando, comando, te vegnàrà fora tutto quelò
+che ti savarà desiderar. """
+Cenerentola-Bernoni.txt,5,6,True,,Sconosciuto,context,4,,,,,,,,False,,,batarà:batara|sta:stare|vegnàrà:vegnàràre|fora:forare|desiderar:desiderar|so:sapere|stra-:stra-|sto:stare,""" Ben! grazie tan-
+to. """
+Cenerentola-Bernoni.txt,6,12,True,,Sconosciuto,context,5,,,,,,,,False,,,stra-:stra-o|sto:stare|fora:forare|dise:dise|senare:senare|scriva:scrire|vol:vol,"<sp>"" Cossa
+
+osservazioni del Raccoglitore), la xè la fiaba de la Conza"
+Cenerentola-Bernoni.txt,7,33,True,,Sconosciuto,context,6,,,,,,,,False,,,scriva:scrire|vol:vol|avevano:avere|voleu:voleu|vagnuda:vagnuda|ghe:go|rancurasse:rancurasse|andar:andar|dise:dise|andaremo:andare|va:andare|dise:dise|Sa</sp>-:sa</sp>-,""" So’ vagnuda a vedâr se ghe oco-
+resse’na tosa per farghe qualche servizio: magari
+scoarghe su el fogher, pur che i me rancurasse (1)
+parché no sò dove andar, no gò nissun."""
+Cenerentola-Bernoni.txt,8,13,True,,Sconosciuto,context,7,,,,,,,,False,,,rancurasse:rancurasse|andar:andar|dise:dise|andaremo:andare|va:andare|dise:dise|Sa</sp>-:sa</sp>-|ghe:ga|dise:dise|fassesse:fassere,"""Ben, i
+dise, adesso andaremo dì la regina a domandarghe
+se ghe ocore."""
+Cenerentola-Bernoni.txt,9,2,True,,Sconosciuto,context,8,,,,,,,,False,,,andar:andar|dise:dise|andaremo:andare|va:andare|dise:dise|Sa</sp>-:sa</sp>-|ghe:ga|dise:dise|fassesse:fassere|curarla:curarla,"<sp>"" Sa"
+Cenerentola-Bernoni.txt,10,20,True,,Sconosciuto,context,9,,,,,,,,False,,,dise:dise|fassesse:fassere|curarla:curarla|va:andare|vede:vedere|senare:senare|fastu:fasture,""" Ben, diseghe pur che la vegna
+de suzo: metéla là in cusina, che la tegnara neto el
+fogher. """
+Cenerentola-Bernoni.txt,11,8,True,,Sconosciuto,context,10,,,,,,,,False,,,va:andare|vede:vedere|senare:senare|fastu:fasture|dise:dise|senare:senare|vegnua:vegnuare|Ricordite:ricordite|sastu:sasture|fa:fare,""" Cossa fastu là, el dise,
+conza-senare? """
+Cenerentola-Bernoni.txt,12,9,True,,Sconosciuto,context,11,,,,,,,,False,,,usina:usinare|va:andare|vede:vedere|senare:senare|fastu:fasture|dise:dise|senare:senare|vegnua:vegnuare|Ricordite:ricordite|sastu:sasture|fa:fare|vede:vedere|sto:stare|ghe:go,""" So’ vegnua a tegnir neto el
+fogher. """
+Cenerentola-Bernoni.txt,13,14,True,,Sconosciuto,context,12,,,,,,,,False,,,vede:vedere|senare:senare|fastu:fasture|dise:dise|senare:senare|vegnua:vegnuare|Ricordite:ricordite|sastu:sasture|fa:fare|vede:vedere|sto:stare|ghe:go|dise:dettere|dar:dare,""" Ricordite ben de no tocar gnente,
+sastu, parchè ti me fa stomego. """
+Cenerentola-Bernoni.txt,14,4,True,,Sconosciuto,context,13,,,,,,,,False,,,sastu:sasture|fa:fare|vede:vedere|sto:stare|ghe:go|dise:dettere|dar:dare|dise:dise|tute:tutere|senare:senare,"<sp>"" Sacra Maesta ma"
+Cenerentola-Bernoni.txt,15,9,True,,Sconosciuto,context,14,,,,,,,,False,,,dise:didere|dar:dare|dise:dise|tute:tutere|senare:senare|dise:dise|andar</sp>-anca:andar</sp>-anca|andar-:andar-|ghe:go|dise:dise|astu:astu,"La conza-senare, che gà sentio, la dise a pianin"
+Cenerentola-Bernoni.txt,16,3,True,,Sconosciuto,context,15,,,,,,,,False,,,o.:o.|dise:dise|tute:tutere|senare:senare|dise:dise|andar</sp>-anca:andar</sp>-anca|andar-:andar-|ghe:go|dise:dise|astu:astu|gnente:gnente,"<sp>"" Vòi andar"
+Cenerentola-Bernoni.txt,17,7,True,,Sconosciuto,context,16,,,,,,,,False,,,senare:senare|dise:dise|andar</sp>-anca:andar</sp>-anca|andar-:andar-|ghe:go|dise:dise|astu:astu|gnente:gnente|va:andare|sta:stare|tute:tute|tuti:tuto|gaveva:gavere,"<sp>"" Coss’ astu dito,
+ciò ? """
+Cenerentola-Bernoni.txt,18,5,True,,Sconosciuto,context,17,,,,,,,,False,,,andar</sp>-anca:andar</sp>-anca|andar-:andar-|ghe:go|dise:dise|astu:astu|gnente:gnente|va:andare|sta:stare|tute:tute|tuti:tuto|gaveva:gavere|senare:senare|va:andare,""" Eh, gnente ! """
+Cenerentola-Bernoni.txt,19,5,True,,Sconosciuto,context,18,,,,,,,,False,,,andar</sp>-anca:andar</sp>-anca|andar-:andar-|ghe:go|dise:dise|astu:astu|gnente:gnente|va:andare|sta:stare|tute:tute|tuti:tuto|gaveva:gavere|senare:senare|va:andare|dise:disa,""" Ah, ben ! """
+Cenerentola-Bernoni.txt,20,4,True,,Sconosciuto,context,19,,,,,,,,False,,,va:andare|sta:stare|tute:tute|tuti:tuto|gaveva:gavere|senare:senare|va:andare|dise:disa|so:sapere|dise:disa|accogliere:accogliere|comando:comare|vegna:vegnare|fora:forare|tuto:tere,"<sp>"" Aspeta
+mi! """
+Cenerentola-Bernoni.txt,21,63,True,,Sconosciuto,context,20,,,,,,,,False,,,gaveva:gavere|senare:senare|va:andare|dise:disa|so:sapere|dise:disa|accogliere:accogliere|comando:comare|vegna:vegnare|fora:forare|tuto:tere|vestia:vestia|vegna:vegnare|tuta:tere|cavai:cavai|andar:andare|tuta:tere|sta:stare|va:andare|va:andare,"(1) Rancurar: accogliere in casa.
+
+<sp>"" Comando, comando che me vegna fora un abito
+color sielo tuto a stele d' oro, e che sia vestia come
+'na regina, e che me vegna 'na carrozza tuta fornia
+de oro co dô cavai tuti guarnii de oro, e che me
+vegna dei servitori e un saco de sabion, che vogio
+andar a la festa. """
+Cenerentola-Bernoni.txt,22,2,True,,Sconosciuto,context,21,,,,,,,,False,,,dimanda:dimandare|ghe:go|dise:didere|ghe:go|dimanda:dimandare|diseva:disere|senare:senare|senare:senare|torna:tornare,"<sp>"" So'"
+Cenerentola-Bernoni.txt,23,9,True,,Sconosciuto,context,22,,,,,,,,False,,,ghe:go|dimanda:dimandare|diseva:disere|senare:senare|senare:senare|torna:tornare|va:andare,""" Ma cossa, che no capisso
+gnente ? """
+Cenerentola-Bernoni.txt,24,3,True,,Sconosciuto,context,23,,,,,,,,False,,,diseva:disere|senare:senare|senare:senare|torna:tornare|va:andare|dise:didere|so:sapere,""" So'-la-conza-senare, """
+Cenerentola-Bernoni.txt,25,18,True,,Sconosciuto,context,24,,,,,,,,False,,,senare:senare|torna:tornare|va:andare|dise:didere|so:sapere|vedar:vedare|va:andare|va:andare|vede:vedere|buta:ibut|orba:orbare|andar:andare|va:andare,"<sp>"" Presto presto, el dise
+a i so servitori, andè a vedar dove che va quella
+regina. """
+Cenerentola-Bernoni.txt,26,10,True,,Sconosciuto,context,25,,,,,,,,False,,,va:andare|vede:vedere|buta:ibut|orba:orbare|andar:andare|va:andare|ghe:go|dise:dise|visto:vedere|buta:butare|orbà:orbà|avemo:aeve|podesto:poderre|senare:senare,"<sp>"" Aven visto dove che la xè andada ? """
+Cenerentola-Bernoni.txt,27,26,True,,Sconosciuto,context,26,,,,,,,,False,,,orba:orbare|andar:andare|va:andare|ghe:go|dise:dise|visto:vedere|buta:butare|orbà:orbà|avemo:aeve|podesto:poderre|senare:senare|va:andare|dise:didere|comando:comare|senare:senare|giera:gierare,""" No, i dise, parchè la n'à buta tanto sabion in
+t' i oci che la n'à orbà tutti, e no avemo podesto
+vedar gnente. """
+Cenerentola-Bernoni.txt,28,21,True,,Sconosciuto,context,27,,,,,,,,False,,,buta:butare|orbà:orbà|avemo:aeve|podesto:poderre|senare:senare|va:andare|dise:didere|comando:comare|senare:senare|giera:gierare|torna:tornare|senare:senare|va:andare|anca:ancare|va:andare|so:sapere|ghe:go|dise:dise,"<sp>"" Comandó, comando de tornar conza
+senare, come che giera prima, là su la mia cusina e
+su 'l fogher. """
+Cenerentola-Bernoni.txt,29,10,True,,Sconosciuto,context,28,,,,,,,,False,,,torna:tornare|senare:senare|va:andare|anca:ancare|va:andare|so:sapere|ghe:go|gavessi:gavere|visto:vedere|senare:senare|dise:didere,"<sp>"" Se gavessi visto che bela regina che xè ve"
+Cenerentola-Bernoni.txt,30,2,True,,Sconosciuto,context,29,,,,,,,,False,,,va:andare|anca:ancare|va:andare|so:sapere|ghe:go|gavessi:gavere|visto:vedere|senare:senare|dise:didere,40 -
+Cenerentola-Bernoni.txt,31,2,True,,se,regex,0,se,parla,77,,,,,False,77,lowercase_only|single_lowercase_token,senare:senare|dise:didere|co:co|brontoli:brontolare|ruzi:ruzare|capisse:capire|dighi:digare,"<sp>"" Giera"
+Cenerentola-Bernoni.txt,32,31,True,,se,regex,0,se,parla,33,,,,,False,33,lowercase_only|single_lowercase_token,senare:senare|dise:didere|co:co|brontoli:brontolare|ruzi:ruzare|capisse:capire|dighi:digare|dise:dise|so:sapere|vardasse:vardasse,""" Ma cossa gastu ti, che co’ se parla ti ti brontoli e ti ruzi, e no se capisse gnente cossa che ti dighi?... Tendi al to fogher, e tasi. """
+Cenerentola-Bernoni.txt,33,18,True,,se,regex,0,se,parla,140,,,,,False,140,lowercase_only|single_lowercase_token,co:co|brontoli:brontolare|ruzi:ruzare|capisse:capire|dighi:digare|dise:dise|so:sapere|vardasse:vardasse|orbai:orbai,"<sp>"" Gò mandà adrio i servitori, parchè i vardasse dove che la stà, ma no i gà pode"
+Cenerentola-Bernoni.txt,34,43,True,,se,context,1,,,,,,,,False,,lowercase_only|single_lowercase_token,istesse:istesse|so:sapere|va:andare|anca:ancare|senare:senare|va:andare|so:sapere|dise:disa|comando:comare|vegna:vegnare|perle:pere le|vegna:vegnare|cavai:cavai|sta:stare|comparisce:comparire|tuto:tuto|va:andare|giera:gierare,"<sp>"" Comando, comando che me vegna un belissimo abito da regina tuto fornio de perle e de brilanti, e che me vegna dei servitori e ’na carrozza a quattro cavai tutti guarnii de brilanti, e drento sta carrozza un saco de soldi. """
+Cenerentola-Bernoni.txt,35,12,True,,se,context,2,,,,,,,,False,,lowercase_only|single_lowercase_token,va:andare|giera:gierare|dar:dare|capitava:capitare|sta:stare|vede:vedere|dise:dise|ecola:ecolare|ecola:ecolare|ghe:go|va:andare|va:andare|inchinarla:inchinare la|conduse:condudere|mete:metere|prego:pregare,"<sp>"" Ecola quà, tutto contento el dise, ecola quà, ecola quà! """
+Cenerentola-Bernoni.txt,36,29,True,,se,context,3,,,,,,,,False,,lowercase_only|single_lowercase_token,ecola:ecolare|ghe:go|va:andare|va:andare|inchinarla:inchinare la|conduse:condudere|mete:metere|prego:pregare|ghe:go|dise:dise|diga:diga|so:sapere|ghe:go|dise:dise|’:’|conza</sp>-senare:conza</sp>-senare|senare:senare|torna:tornare,""" Ma... la prego! el ghe dise; la me diga chi la xè; la mé diga in dove che la stà. Mi so’ inamorà de ela, ina-morà morto. """
+Cenerentola-Bernoni.txt,37,3,True,,se,context,4,,,,,,,,False,,lowercase_only|single_lowercase_token,ego:ego|ghe:go|dise:dise|diga:diga|so:sapere|ghe:go|dise:dise|’:’|conza</sp>-senare:conza</sp>-senare|senare:senare|torna:tornare|senare:senare,So’ la conza
+Cenerentola-Bernoni.txt,38,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,so:sapere|ghe:go|dise:dise|’:’|conza</sp>-senare:conza</sp>-senare|senare:senare|torna:tornare|senare:senare|senare:senare|desparà:despniae,""" - """
+Cenerentola-Bernoni.txt,39,9,True,,se,context,5,,,,,,,,False,,lowercase_only|single_lowercase_token,ghe:go|dise:dise|’:’|conza</sp>-senare:conza</sp>-senare|senare:senare|torna:tornare|senare:senare|senare:senare|desparà:despare|podeva:podere|diseva:disere,""" - E ela ghe torna a dir: <sp>"""
+Cenerentola-Bernoni.txt,40,42,True,,se,context,6,,,,,,,,False,,lowercase_only|single_lowercase_token,senare:senare|torna:tornare|senare:senare|senare:senare|desparà:despare|podeva:podere|ghe:go|diseva:disere|va:andare|ghe:go|manda:mandare|vedar:vedare|po-:po-|vedar:vedare|va:andare|vede:vedere|buta:buta|so:sapere,""" - Questo
+el giera desparà parchè no 'l podeva capir gnente, e
+più de cussì zà ela no ghe diseva. Co'xè su l'ul-
+timo balo, la ciapa suzo e la va via. E elo ghe manda
+drio i servitori. - """
+Cenerentola-Bernoni.txt,41,50,True,,ghe,regex,0,ghe,risponde,266,,,,,False,266,lowercase_only|single_lowercase_token,va:andare|ghe:go|manda:mandare|vedar:vedare|po-:po-|vedar:vedare|va:andare|vede:vedere|buta:buta|ferma:fermare|va:andare|vedar:vedare|va:andare|ghe:go|dimanda:dimanda|visto:vedere|gavemo:gaeve|visto:vedere|a</sp:a</sp,""" - I ghe core adrio.
+Ela, co’la li vede, la ghe buta adrio tanti soldi e tanti
+soldi, e lori i se ferma a tor su sti soldi e intanto
+ela va avanti, e lori no i pol vedar gnente. I va dal
+re, e elo ghe dimanda: <sp>"""
+Cenerentola-Bernoni.txt,42,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,ferma:fermare|va:andare|vedar:vedare|va:andare|ghe:go|dimanda:dimanda|visto:vedere|gavemo:gaeve|visto:vedere|a</sp>-:a</sp>-|vemo:vemo|fermà:fermà,""""
+Cenerentola-Bernoni.txt,43,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,va:andare|vedar:vedare|va:andare|ghe:go|dimanda:dimanda|visto:vedere|gavemo:gaeve|visto:vedere|a</sp>-:a</sp>-|vemo:vemo|fermà:fermà,""""
+Cenerentola-Bernoni.txt,44,11,True,,ghe,context,1,,,,,,,,False,,lowercase_only|single_lowercase_token,visto:vedere|a</sp>-:a</sp>-|vemo:vemo|fermà:fermà|va:andare|dise:disa|mando:mare|giera:gierare|essar:essar|torna:tornare|senare:senare,""" -
+Ela la va a casa, e la dise: <sp>"""
+Cenerentola-Bernoni.txt,45,27,True,,ghe,context,2,,,,,,,,False,,lowercase_only|single_lowercase_token,va:andare|dise:disa|mando:mare|giera:gierare|essar:essar|torna:tornare|senare:senare|vien:vien|va:andare|so:sapere|ghe:go|dise:dise|so':so'|posso:potere|stà:stàre|senare:senare,""" - La torna conza
+senare, e la resta là.
+Intanto vien a casa el re, e 'l va da so mare, e
+el ghe dise: <sp>"""
+Cenerentola-Bernoni.txt,46,11,True,,ghe,context,3,,,,,,,,False,,lowercase_only|single_lowercase_token,va:andare|so:sapere|ghe:go|dise:dise|so':so'|posso:potere|stà:stàre|senare:senare|giera</sp>-:giera</sp>-|bruto:bruto|ciapa:ciapa,""" - La conza-senare, che la gà sentio,
+la dise: <sp>"""
+Cenerentola-Bernoni.txt,47,11,True,,ghe,context,4,,,,,,,,False,,lowercase_only|single_lowercase_token,ionà:ionà|posso:potere|stà:stàre|senare:senare|giera</sp>-:giera</sp>-|bruto:bruto|ciapa:ciapa|ghe:go|dà:dare,""" - El re gà
+sentio, e' l gà dito: <sp>"""
+Cenerentola-Bernoni.txt,48,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,giera</sp>-:giera</sp>-|bruto:bruto|ciapa:ciapa|ghe:go|dà:dare,""""
+Cenerentola-Bernoni.txt,49,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,bruto:bruto|ciapa:ciapa|ghe:go|dà:dare|vegnarave:vegnaravere,""""
+Cenerentola-Bernoni.txt,50,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,bruto:bruto|ciapa:ciapa|ghe:go|dà:dare|vegnarave:vegnaravere|dà:dare,""" - """
+Cenerentola-Bernoni.txt,51,50,True,,parchè me vegnarave un estro da co-,regex,0,parchè me vegnarave un estro da co-,parla,8,,,,,False,8,lowercase_only|too_many_tokens,vegnarave:vegnaravere|dà:dare|fa:fare|so:sapere|va:andare|senare:senare|va:andare|so:sapere|dise:disa|mando:mare|vegna':vegnao|cavai:cavai|guarnii:guarnii|perle:pere le|vestia:vestiare|lusa:lusare,""" -
+Co' xè da là un pochi de giorni, el re dà l'ultima
+festa. El fa i so soliti inviti, e el ciapa su e el va a
+la festa. La conza senare la ciapa suzo, la va da basso,
+
+la bate la so bachetina, e la dise: <sp>"""
+Cenerentola-Bernoni.txt,52,102,True,,parchè me vegnarave un estro da co-,context,1,,,,,,,,False,,lowercase_only|too_many_tokens,luse:luse|vardar:vardar|fornia:fornia|gabia:gabiare|sta:stare|va:andare|giera:gierare|tuto:tuto|vardava:vardare|vedeva:vedere|sente:sentire|vede:vedere|vegniva:vegnire|podeva:podere|vardar:vardar|cavava:cavare|Va:va|va:andare|conduse:condudere|regina:regino|prego:pregare|sta:stare|ghe:go|senare:senare|senare:senare,""" - Là ghe comparisse subito tutta sta
+roba con tanti servitori. Là i la veste da regina, la
+monta in carozza, e la va a la festa.
+
+El re el giera tuto ansioso; el vardava per tuti
+quanti i balconi se'l la vedeva, e da là un poco el
+sente un sussuro de cavai, e el vede a la lontana un
+splendor che vegniva avanti, che no 'l podeva gnanca
+vardar, parchè el se cavava i oci. Va sta regina; el re
+ghe va incontro, el la inchina el la ciapa per man, e el
+la conduse a balar. - """
+Cenerentola-Bernoni.txt,53,6,True,,parchè me vegnarave un estro da co-,context,2,,,,,,,,False,,lowercase_only|too_many_tokens,conduse:condudere|regina:regino|prego:pregare|sta:stare|ghe:go|senare:senare|senare:senare|torna:tornare,"""- E ela ghe
+dise: <sp>"""
+Cenerentola-Bernoni.txt,54,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,prego:pregare|sta:stare|ghe:go|senare:senare|senare:senare|torna:tornare|senare:senare|lu:lu,""" -
+"""
+Cenerentola-Bernoni.txt,55,8,True,,parchè me vegnarave un estro da co-,context,3,,,,,,,,False,,lowercase_only|too_many_tokens,ghe:go|senare:senare|senare:senare|torna:tornare|senare:senare|lu:lu|Basta:bastare|mete:mete,""" - La ghe torna a dir: <sp>"""
+Cenerentola-Bernoni.txt,56,8,True,,parchè me vegnarave un estro da co-,context,4,,,,,,,,False,,lowercase_only|too_many_tokens,senare:senare|torna:tornare|senare:senare|lu:lu|Basta:bastare|mete:mete|va:andare|sto:stare,""" - E lu ancora a dirghe: <sp>"""
+Cenerentola-Bernoni.txt,57,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,torna:tornare|senare:senare|lu:lu|Basta:bastare|mete:mete|va:andare|sto:stare|ghe:go|manda:mandare,""""
+Cenerentola-Bernoni.txt,58,44,True,,parchè me vegnarave un estro da co-,context,5,,,,,,,,False,,lowercase_only|too_many_tokens,va:andare|sto:stare|ghe:go|manda:mandare|saver:saver|va:andare|vede:vedere|sta:stare|toca:tocare|va:andare|ghe:go|dise:dise|visto:vedere|dise:dise|orbà:orbàre|sta:stare,""" - E la vede sti servitori e la ghe buta
+adrio tanto sabion e una scarpeta. Lori i rancura sta
+scarpeta, e ghe toca a tornar indrio parchè i xè orbi
+dal sabion. I va dal re, e lu el ghe dise: <sp>"""
+Cenerentola-Bernoni.txt,59,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,sta:stare|toca:tocare|va:andare|ghe:go|dise:dise|visto:vedere|dise:dise|orbà:orbàre|sta:stare|nualtri:nualtro,""""
+Cenerentola-Bernoni.txt,60,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,toca:tocare|va:andare|ghe:go|dise:dise|visto:vedere|dise:dise|orbà:orbàre|sta:stare|nualtri:nualtro|ecola:ecolare,""""
+Cenerentola-Bernoni.txt,61,68,True,,parchè me vegnarave un estro da co-,context,6,,,,,,,,False,,lowercase_only|too_many_tokens,"sp>""</sp:sp>""</sp|orbà:orbàre|sta:stare|nualtri:nualtro|ecola:ecolare|va:andare|tuto:tere|so:sapere|ghe:go|dise:dise|gnente:gnere|giera:gierare|sente:sentire|senare:senare|va:andare|comando:comare|giera:gierare|torna:tornare",""" - E re se la tol e el se la porta a casa. E el va a casa tuto amalà da la passion; el ciama so mare, e el ghe dise cussì che elo no 'l pol saver gnente chi che giera quella regina, e che lu da la passion el se sente a morir.
+Intanto la conza senare la va a casa e la dise: <sp>"""
+Cenerentola-Bernoni.txt,62,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|va:andare|comando:comare|giera:gierare|torna:tornare|grando:grare|Giera:giera|sibava:sibare,""""
+Cenerentola-Bernoni.txt,63,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|senare:senare|dise:dise|vado:vado|metarà:metare|va:andare|far:fare|panadela:panadela|senare:senare,""""
+Cenerentola-Bernoni.txt,64,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|dise:dise|vado:vado|metarà:metare|va:andare|far:fare|panadela:panadela|senare:senare|atenta:atenta|anca:ancare|vecia:veciare|volta:volgere|sena:senare,""""
+Cenerentola-Bernoni.txt,65,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|panada:panada|so:sapere|dise:dise|dise:didere|so:sapere|spartia:spartiare|co:co,""""
+Cenerentola-Bernoni.txt,66,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,cazzà:cazzàre|panada:panada|so:sapere|dise:dise|dise:didere|so:sapere|spartia:spartiare|co:co|sta:stare|panada:panada,""""
+Cenerentola-Bernoni.txt,67,24,True,,parchè me vegnarave un estro da co-,context,7,,,,,,,,False,,lowercase_only|too_many_tokens,so:sapere|dise:dise|dise:didere|so:sapere|spartia:spartiare|co:co|sta:stare|panada:panada|giazasse:giazare|vien:vien|scugier:scugierre|senare:senare|va:andare|so:sapere|fio:fio,""" - Intanto co 'l scugier el missia sta panada, perchè la se giazasse, e ghe vien in sto scugier l'anelo. El ciama: <sp>"""
+Cenerentola-Bernoni.txt,68,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,sta:stare|panada:panada|giazasse:giazare|vien:vien|scugier:scugierre|senare:senare|va:andare|so:sapere,""""
+Cenerentola-Bernoni.txt,69,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|va:andare|so:sapere|dise:dise|digo:digere,""""
+Cenerentola-Bernoni.txt,70,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|va:andare|so:sapere|dise:dise|digo:digere|ghe:go|giera:gierare|giera:gierare,""""
+Cenerentola-Bernoni.txt,71,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,so:sapere|dise:dise|digo:digere|ghe:go|giera:gierare|giera:gierare|dise:dise|giera:gierare|senare:senare,""" - """
+Cenerentola-Bernoni.txt,72,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,dise:dise|digo:digere|ghe:go|giera:gierare|giera:gierare|dise:dise|giera:gierare|senare:senare|so:sapere|stada:stada,""" - """
+Cenerentola-Bernoni.txt,73,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,dise:dise|digo:digere|ghe:go|giera:gierare|giera:gierare|dise:dise|giera:gierare|senare:senare|so:sapere|stada:stada|dise:dise|vegna:vegnare,""" - """
+Cenerentola-Bernoni.txt,74,3,False,punctuation_only,Sconosciuto,skipped,0,,,,,,,,False,,,giera:gierare|dise:dise|giera:gierare|senare:senare|so:sapere|stada:stada|dise:dise|vegna:vegnare|va:andare|senare:senare|vede:vedere|torna:tornare,""" - """
+Cenerentola-Bernoni.txt,75,27,True,,parchè me vegnarave un estro da co-,context,8,,,,,,,,False,,lowercase_only|too_many_tokens,dise:dise|giera:gierare|senare:senare|so:sapere|stada:stada|dise:dise|vegna:vegnare|va:andare|senare:senare|vede:vedere|torna:tornare|dise:dise|dise:dettere|vogio:vogiare|senare:senare,""" - La va in cucina
+per ciamar la conza-senare, e la vede che no la ghe
+xè. La torna in camara, e la ghe dise: <sp>"""
+Cenerentola-Bernoni.txt,76,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,va:andare|senare:senare|vede:vedere|torna:tornare|dise:dise|dise:dettere|vogio:vogiare|senare:senare|dise:disa|comando:comare,""""
+Cenerentola-Bernoni.txt,77,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,senare:senare|vede:vedere|torna:tornare|dise:dise|dise:dettere|vogio:vogiare|senare:senare|dise:disa|vestia:vestia,""""
+Cenerentola-Bernoni.txt,78,12,True,,parchè me vegnarave un estro da co-,context,9,,,,,,,,False,,lowercase_only|too_many_tokens,torna:tornare|dise:dise|dise:dettere|vogio:vogiare|senare:senare|dise:disa|vestia:vestia|tuto:tere,""" -
+La conza-senare la giera da basso, e la dise: <sp>"""
+Cenerentola-Bernoni.txt,79,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,-senare:-senare|dise:disa|vestia:vestia|tuto:tere|veste:vestire|va:andare|va:andare|dise:dise|conza</sp>-senare:conza</sp>-senare,""""
+Cenerentola-Bernoni.txt,80,1,False,too_short,Sconosciuto,skipped,0,,,,,,,,False,,,tuto:tere|veste:vestire|va:andare|va:andare|dise:dise|conza</sp>-senare:conza</sp>-senare|gavè:gavè|dà:dare|disevi:disevare,""""
+Cenerentola-Calvino.txt,1,16,True,,gli,regex,0,gli,disse,136,,,,,False,136,lowercase_only|contains_pronoun|single_lowercase_token,capitò:capitare|tornò:tornare|avete:avere|capita:capitare|andarci:andare ci|lasciarvi:lasciare vi|confonde:confondere|Vossignoria:vossignoria|faccia:fare|avrà:avere|stare:stare|faccia:fare|murare:murare,"Niente, figlie mie: mi capita una gran mercanzia, e non posso andarci per non lasciarvi sole."
+Cenerentola-Calvino.txt,2,37,True,,gli,regex,0,gli,disse,33,,,,,False,33,lowercase_only|contains_pronoun|single_lowercase_token,avete:avere|capita:capitare|andarci:andare ci|lasciarvi:lasciare vi|confonde:confondere|Vossignoria:vossignoria|faccia:fare|avrà:avere|stare:stare|faccia:fare|murare:murare|vedremo:vedere|piace:piacere|Dio.</sp:dio.</sp|fece:fare|comprò:comprare|provviste:provvista|mangiare:mangiare|diede:dare|servi:sere vi|chiamasse:chiamasse,"E vossignoria si confonde? - gli disse la grande. - Vossignoria faccia la provvista per tutto il tempo che avrà a stare lontano, faccia murare le porte con noi dentro e ci vedremo quando piace a Dio."
+Cenerentola-Calvino.txt,3,8,True,,Salutandole,regex,0,Salutandole,chiese,9,,,,,False,9,,diede:dare|servi:sere vi|chiamasse:chiamasse|facesse:facesso|vuoi:volere|porti:portare|>:>|voglio:volere|vossignoria:vossignoriare,"Rosa, cosa vuoi che ti porti?
+E lei:"
+Cenerentola-Calvino.txt,4,3,True,,Salutandole,regex,0,Salutandole,chiese,84,,,,,False,84,,rada:rada|facesse:facesso|vuoi:volere|porti:portare|>:>|voglio:volere|vossignoria:vossignoriare|porti:portare,"E tu, Giovannina?"
+Cenerentola-Calvino.txt,5,5,True,,Salutandole,regex,0,Salutandole,chiese,111,,,,,False,111,,facesse:facesso|vuoi:volere|porti:portare|>:>|voglio:volere|vossignoria:vossignoriare|porti:portare|porta:portare,Un vestito color dei diamanti.
+Cenerentola-Calvino.txt,6,3,True,,Salutandole,context,1,,,,,,,,False,,,vuoi:volere|porti:portare|>:>|voglio:volere|vossignoria:vossignoriare|porti:portare|porta:portare|andare:andare,"E tu, Ninetta?"
+Cenerentola-Calvino.txt,7,32,True,,le,regex,0,le,dissero,195,,,,,False,195,lowercase_only|contains_pronoun|single_lowercase_token,porti:portare|>:>|voglio:volere|vossignoria:vossignoriare|porti:portare|porta:portare|andare:andare|sai:sai|mandare:mandare,"Io voglio che vossignoria mi porti un bel ramo di datteri in un vaso d'argento. E se non me lo porta, che il bastimento non possa più andare né avanti né indietro."
+Cenerentola-Calvino.txt,8,19,True,,le,regex,0,le,dissero,22,,,,,False,22,lowercase_only|contains_pronoun|single_lowercase_token,porti:portare|porta:portare|andare:andare|sai:sai|mandare:mandare|prendete:prendere|lasciar:lasciare,"Ah, sciagurata, - le dissero le sorelle, - ma non sai che puoi mandare a tuo padre un incantesimo?"
+Cenerentola-Calvino.txt,9,21,True,,le,regex,0,le,dissero,84,,,,,False,84,lowercase_only|contains_pronoun|single_lowercase_token,sa:sapere|andare:andare|sai:sai|mandare:mandare|prendete:prendere|lasciar:lasciare|Fece:fece|pensò:pensare|comprare:comprare,"Ma no, - disse il mercante, - non ve la prendete con lei, che è piccola e si deve lasciar dire."
+Cenerentola-Calvino.txt,10,117,True,,Allora il mercante che s'era ricordato l'incantesimo della figlia,regex,0,Allora il mercante che s'era ricordato l'incantesimo della figlia,disse,8,,,,,False,8,too_many_tokens,disperava:disperare|uscito:uscire|ricordato:ricordare|dimenticato:dimenticare|fare:fare|salvarci:salvare ci|voltiamo:voltire|è:essere|voltarono:voltarere|cambiò:cambiare|tornarono:tornare|comprò:comprare|piantò:piantare|tornò:tornare|alzane:alzane|arrivò:arrivare|stavano:stare|mancava:mancare|avevano:avere|potevan:potevan|prendere:prendere|angustiate:angustiare|ripiglio:ripigliare,"Capitano, mi sono dimenticato di fare una commissione. Se vogliamo salvarci, voltiamo il timone.
+Che è che non è, appena voltarono il timone il tempo cambiò, e col vento in poppa tornarono al porto. Il mercante scese, comprò il ramo di datteri, lo piantò in un vaso d'argento e tornò a bordo. I marinai alzane le vele, e in tre giorni di viaggio tranquillo il bastimento arrivò a destinazione.
+Intanto, mentre il mercante era via, le tre ragazze stavano nella casa dalle porte murate. Non mancava loro niente, avevano anche un pozzo dentro il cortile cosicché potevan sempre prendere l'acqua. Accadde che un giorno, alla più grande delle sorelle cadde il ditale nel pozzo. E Ninetta disse:"
+Cenerentola-Calvino.txt,11,10,True,,Ninetta,regex,0,Ninetta,disse,86,,,,,False,86,,angustiate:angustiare|ripiglio:ripigliare|scendere:scendere|pigliarlo:pigliare lo|galleggiava:galleggiare|prese:prendere|rialzando:rialzare,Scendere nel pozzo: scherzi? - le disse la più grande.
+Cenerentola-Calvino.txt,12,11,True,,le,regex,0,le,disse,27,,,,,False,27,lowercase_only|contains_pronoun|single_lowercase_token,angustiate:angustiare|ripiglio:ripigliare|scendere:scendere|pigliarlo:pigliare lo|galleggiava:galleggiare|prese:prendere|rialzando:rialzare|vide:vedere|donde:dondere|veniva:venire,"Sì, voglio scendere a pigliarlo, - e le sorelle la calarono."
+Cenerentola-Calvino.txt,13,1,True,,le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,riempì:riempì|rimise:rimettere|tornò:tornare|videro:videro|hai:avere,Tiratemi!
+Cenerentola-Calvino.txt,14,13,True,,le,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,videro:videro|preso:prendere|importa:importare|calate:calare|prendiamo:prendere|vide:vedere|saccheggiate:saccheggiare|cominciò:cominciare|far:fare,Che ve ne importa? Domani mi calate di nuovo e prendiamo il resto.
+Cenerentola-Calvino.txt,15,29,True,,le,context,3,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,vide:vedere|saccheggiate:saccheggiare|cominciò:cominciare|far:fare|so:sapere|badava:badare|ordinò:ordinare|stare:stare|sennò:sennòe|scendere:scendere|hai:avere|bevuto:bere,"Non so niente, come può essere? - badava a dire il giardiniere ma il Reuzzo gli ordinò di stare più in guardia d'ora in poi, sennò guai a lui."
+Cenerentola-Calvino.txt,16,2,True,,le,context,4,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,ordinò:ordinare|stare:stare|sennò:sennòe|scendere:scendere|hai:avere|bevuto:bere|scese:scendere,"Ragazze, calatemi!"
+Cenerentola-Calvino.txt,17,12,True,,le,context,5,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,scendere:scendere|hai:avere|bevuto:bere|scese:scendere|andava:andare,Non sono né pazza né ubriaca: calatemi. - E la dovettero calare.
+Cenerentola-Calvino.txt,18,2,True,,le,context,6,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,scese:scendere|andava:andare|affacciato:affacciare|vide:vedere|saltar:saltar|scappata:scappare,Tiratemi su!
+Cenerentola-Calvino.txt,19,5,True,,le,context,7,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,andava:andare|affacciato:affacciare|vide:vedere|saltar:saltar|scappata:scappare|Chiamò:chiamò|è:essere|ragazza:ragazzare|coglie:cogliere|visto:vedere|glielo:gli lo,"Quella ragazza, per dov'è passata?"
+Cenerentola-Calvino.txt,20,11,True,,le,context,8,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,scappata:scappare|Chiamò:chiamò|è:essere|ragazza:ragazzare|coglie:cogliere|visto:vedere|glielo:gli lo|metterò:metterare,Quella che coglie i fiori e i frutti nel mio giardino.
+Cenerentola-Calvino.txt,21,8,True,,le,context,9,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,amò:amare|è:essere|ragazza:ragazzare|coglie:cogliere|visto:vedere|glielo:gli lo|metterò:metterare|vide:vedere|far:fare|entrare:entrare,"Io non ho visto niente, Maestà, glielo giuro."
+Cenerentola-Calvino.txt,22,7,True,,le,context,10,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,ragazza:ragazzare|coglie:cogliere|visto:vedere|glielo:gli lo|metterò:metterare|vide:vedere|far:fare|entrare:entrare|riempirsi:riempire si,"Bene, domani, mi metterò alla posta io."
+Cenerentola-Calvino.txt,23,29,True,,gli,regex,0,gli,domanda,117,,,,,False,117,lowercase_only|contains_pronoun|single_lowercase_token,fa:fare|chiamare:chiamare|racconta:raccontare|sposa:sposare|trovare:trovare|fate:fare|portino:portare|approvò:approvare|proclamò:proclamare|tornato:tornare|fatto:fare|smurare:smurare|dato:dare,"Maestà, fate tre giorni di feste a palazzo, e fate gridare un bando che tutti i padri e le madri d'ogni condizione vi portino le figlie, pena la vita"
+Cenerentola-Calvino.txt,24,8,True,,le,regex,0,le,dice,105,,,,,False,105,lowercase_only|contains_pronoun|single_lowercase_token,va:andare|bello:bello|alzò:alzò|ho:avere|è:essere|scherza:scherzare|volete:volere|sappia:sappia|avete:avere,"Andateci voialtri, che io non ne ho voglia."
+Cenerentola-Calvino.txt,25,16,True,,le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sse:re|ho:avere|è:essere|scherza:scherzare|volete:volere|sappia:sappia|avete:avere|Fate:fate|averne:avere ne|venire:venire|vengo:vengare|restò:restare,E io che c'entro? Chi volete che sappia che avete tre figlie? Fate conto d'averne due.
+Cenerentola-Calvino.txt,26,26,True,,gli,regex,0,gli,disse,202,,,,,False,202,lowercase_only|contains_pronoun|single_lowercase_token,è:essere|scherza:scherzare|volete:volere|sappia:sappia|avete:avere|Fate:fate|averne:avere ne|venire:venire|vengo:vengare|restò:restare|uscite:uscire|rivolse:rivolgere,"E - Si che devi venire! - e - No che non ci vengo, - la sera della prima festa da ballo Ninetta restò a casa."
+Cenerentola-Calvino.txt,27,3,True,,le,regex,0,le,chiese,9,,,,,False,9,lowercase_only|contains_pronoun|single_lowercase_token,restare:restare|vide:vedere|riconobbe:ricono|venne:venire|fece:fare|signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp,"Come state, signora?"
+Cenerentola-Calvino.txt,28,3,True,,le,regex,0,le,chiese,66,,,,,False,66,lowercase_only|contains_pronoun|single_lowercase_token,conobbe:conoscere|venne:venire|fece:fare|signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp,Come vi chiamate?
+Cenerentola-Calvino.txt,29,3,True,,le,regex,0,le,chiese,93,,,,,False,93,lowercase_only|contains_pronoun|single_lowercase_token,venne:venire|fece:fare|signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp,Col mio nome.
+Cenerentola-Calvino.txt,30,3,True,,le,regex,0,le,chiese,116,,,,,False,116,lowercase_only|contains_pronoun|single_lowercase_token,fece:fare|signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp|fate:fare,E dove state?
+Cenerentola-Calvino.txt,31,5,True,,le,regex,0,le,chiese,139,,,,,False,139,lowercase_only|contains_pronoun|single_lowercase_token,signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp|fate:fare,Nella casa con la porta.
+Cenerentola-Calvino.txt,32,3,True,,le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,signora?</sp>-:signora?</sp>-|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp|fate:fare,In che strada?
+Cenerentola-Calvino.txt,33,8,True,,le,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,tate:tare|chiamate?</sp:chiamate?</sp|state?</sp:state?</sp|strada?</sp:strada?</sp|fate:fare|conversando:conversare|ballarono:ballarono|lasciare:lasciare,Nella vanedda (Nota 2 Vanedda: vicolo.) del polverone.
+Cenerentola-Calvino.txt,34,5,True,,le,context,3,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,state?</sp:state?</sp|strada?</sp:strada?</sp|fate:fare|conversando:conversare|ballarono:ballarono|lasciare:lasciare,"Signora, voi mi fate morire!"
+Cenerentola-Calvino.txt,35,2,True,,le,context,4,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,strada?</sp:strada?</sp|fate:fare|conversando:conversare|ballarono:ballarono|lasciare:lasciare|Finito:finito,Fate pure!
+Cenerentola-Calvino.txt,36,25,True,,le,context,5,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,trovò:trovare|spogliata:spogliare|vestita:vestire|Tornarono:tornarono|sapessi:sapessare|era:essere|assomigliava:assomigliare|saputo:sapere|eri:eri|scambiata:scambiare|venire:venire|sai:sai|servi:servare|tornarono:tornare,"Ninetta, Ninetta, sapessi che bella festa. C'era una bella signora che un po' t'assomigliava. Se non avessimo saputo che eri qua, l'avremmo scambiata per te..."
+Cenerentola-Calvino.txt,37,6,True,,le,context,6,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,assomigliava:assomigliare|saputo:sapere|eri:eri|scambiata:scambiare|venire:venire|sai:sai|servi:servare|tornarono:tornare|infide:infidere|tradite:tradito,"Ma domani sera devi venire, sai..."
+Cenerentola-Calvino.txt,38,34,True,,le,context,7,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,venire:venire|sai:sai|servi:servare|tornarono:tornare|infide:infidere|tradite:tradito|seguite:seguire|guai:guaio|volle:volle|andar:andare|diventa:diventare|matta:matta|Andiamo:andiamo|andarono:andare|volse:volgere,"Anime infide! Per un po' di quattrini tradite gli ordini! Se domani sera non la seguite fino a casa, guai a voi.
+Neanche la sera dopo, Ninetta volle andar al ballo con le sorelle."
+Cenerentola-Calvino.txt,39,4,True,,le,context,8,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,guardarla:guardare la|chiamate?</sp:chiamate?</sp|prendeva:prendere|invitò:invitò|ballare:ballare|Ballarono:ballarono,"Come estate, così inverno."
+Cenerentola-Calvino.txt,40,3,True,,le,context,9,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,arla:are la|chiamate?</sp:chiamate?</sp|prendeva:prendere|invitò:invitò|ballare:ballare|Ballarono:ballarono,Come vi chiamate?
+Cenerentola-Calvino.txt,41,7,True,,le,context,10,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,cialmente:cialmere|chiamate?</sp:chiamate?</sp|prendeva:prendere|invitò:invitò|ballare:ballare|Ballarono:ballarono,"Col mio nome, - e così via."
+Cenerentola-Calvino.txt,42,13,True,,le,context,11,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,chiamate?</sp:chiamate?</sp|prendeva:prendere|invitò:invitò|ballare:ballare|Ballarono:ballarono|accompagnava:accompagnare|fece:fare|vide:vedere|seguita:seguita|tirò:tirò|stavo:stare,"Madonna mia! - diceva una sorella all'altra, - quella signora è Ninetta sputata!"
+Cenerentola-Calvino.txt,43,20,True,,Ma,regex,0,Ma,disse,8,,,,,False,8,,fece:fare|perdere:perdere|fece:fare|tornare:tornare|ebbe:avere|bisogna:bisogna|saper:saper|cambiata:cambiare|arrivando:arrivare,"Domani sera è l'ultimo ballo: in un modo o nell'altro bisogna saper qualcosa.
+Intanto Ninetta diceva al suo ramo: Grättula"
+Cenerentola-Calvino.txt,44,18,True,,Re,nlp,0,,,,Re,dice,dire,23,False,23,,andarsene:andare si ne|chiamata:chiamare|va:andare|fa:fare|preso:prendere|riuscirai.</sp:riuscirai.</sp|fatto:fare|fatto:fare|consuma:consumare|credere:credere|aspetta:aspettare,"Ragazza, - dice il Re, - m'hai preso in giro per due sere, alla terza non ci riuscirai."
+Cenerentola-Calvino.txt,45,6,True,,Re,nlp,0,,,,Re,dice,dire,72,False,72,,va:andare|fa:fare|preso:prendere|riuscirai.</sp:riuscirai.</sp|fatto:fare|fatto:fare|consuma:consumare|credere:credere|aspetta?</sp:aspetta?</sp|diventerai:diventerai,"Ma cosa ho mai fatto, Maestà?"
+Cenerentola-Calvino.txt,46,13,True,,Re,nlp,0,,,,Re,dice,dire,111,False,111,,fa:fare|preso:prendere|riuscirai.</sp:riuscirai.</sp|fatto:fare|fatto:fare|consuma:consumare|credere:credere|aspetta?</sp:aspetta?</sp|diventerai:diventerai|ho:avere|ho:avere,Hai fatto che mio figlio si consuma per te. Non credere di sfuggire.
+Cenerentola-Calvino.txt,47,5,True,,Re,context,1,,,,,,,,False,,,riuscirai.</sp:riuscirai.</sp|fatto:fare|fatto:fare|consuma:consumare|credere:credere|aspetta?</sp:aspetta?</sp|diventerai:diventerai|ho:avere|ho:avere,E quale sentenza mi aspetta?
+Cenerentola-Calvino.txt,48,8,True,,Re,context,2,,,,,,,,False,,,fatto:fare|fatto:fare|consuma:consumare|credere:credere|aspetta?</sp:aspetta?</sp|diventerai:diventerai|ho:avere|ho:avere|chiamato:chiamare|sentì:sentì,La sentenza che diventerai la moglie del Reuzzo.
+Cenerentola-Calvino.txt,49,13,True,,Re,context,3,,,,,,,,False,,,consuma:consumare|credere:credere|aspetta?</sp:aspetta?</sp|diventerai:diventerai|ho:avere|ho:avere|chiamato:chiamare|sentì:sentì|chiamare:chiamare|pensò:pensare,"Maestà, io non ho la mia libertà: ho padre e due sorelle maggiori."
+Cenerentola-Calvino.txt,50,4,True,,Re,context,4,,,,,,,,False,,,diventerai:diventerai|ho:avere|ho:avere|chiamato:chiamare|sentì:sentì|chiamare:chiamare|pensò:pensare|venne:venire,Sia chiamato il padre.
+Cenerentola-Calvino.txt,51,7,True,,Re,context,5,,,,,,,,False,,,ho:avere|ho:avere|chiamato:chiamare|sentì:sentì|chiamare:chiamare|pensò:pensare|venne:venire|aveva:avere|imbrogli:imbroe lo|fece:fare,"""Chiamata di Re, tanto buona non è"""
+Cenerentola-Comparetti.txt,1,21,True,,Sconosciuto,unknown,0,,,,,,,,False,,,aveva:avere|dava:dare|colle:colle|arriva:arrivare|manda:mandare|bere:bere|bere:bere|bere:bere|vede:vedere|fai:fare|menato:menare,""" Nane, nane a bere a bere,
+Se gli è torba non la bere,
+Se gli è chiara gara, gara! """
+Cenerentola-Comparetti.txt,2,7,True,,Sconosciuto,context,1,,,,,,,,False,,,bere:bere|bere:bere|bere:bere|vede:vedere|fai:fare|menato:menare|filare:filare|fanno:fare|fare:fare,"<sp>"" O che ci fai qui? """
+Cenerentola-Comparetti.txt,3,14,True,,Sconosciuto,context,2,,,,,,,,False,,,vede:vedere|fai:fare|menato:menare|filare:filare|fanno:fare|fare:fare|vuole:volere|manda:mandare,""" Ho menato fuori quest'anatre e devo filare questa li-
+bra di canapa. """
+Cenerentola-Comparetti.txt,4,12,True,,Sconosciuto,context,3,,,,,,,,False,,,fai:fare|menato:menare|filare:filare|fanno:fare|fare:fare|vuole:volere|manda:mandare,""" O perchè ti fanno fare queste cose
+proprio a te? """
+Cenerentola-Comparetti.txt,5,6,True,,Sconosciuto,context,4,,,,,,,,False,,,menato:menare|filare:filare|fanno:fare|fare:fare|vuole:volere|manda:mandare|fare:fare|prendi:prendere,""" La mamma vuole così. """
+Cenerentola-Comparetti.txt,6,12,True,,Sconosciuto,context,5,,,,,,,,False,,,filare:filare|fanno:fare|fare:fare|vuole:volere|manda:mandare|fare:fare|prendi:prendere|diede:dare,""" O l'altra
+sorella non la manda mai fuori colle anatre? """
+Cenerentola-Comparetti.txt,7,3,True,,Sconosciuto,context,6,,,,,,,,False,,,fare:fare|vuole:volere|manda:mandare|fare:fare|prendi:prendere|diede:dare|pettinò:pettinare,""" Mai. """
+Cenerentola-Comparetti.txt,8,16,True,,Sconosciuto,context,7,,,,,,,,False,,,vuole:volere|manda:mandare|fare:fare|prendi:prendere|diede:dare|pettinò:pettinare|pettinava:pettinare|veniva:venire|grano:grare,""" Tieni, carina, ti voglio fare un regalo: prendi questo
+pettine e prova a pettinarti. """
+Cenerentola-Comparetti.txt,9,6,True,,Sconosciuto,context,8,,,,,,,,False,,,pettina:pettinare|venivano:venire|cava:cavare|gliela:gliela|dà:dare|ho:avere|filare:filare,"<sp>"" Tieni, mettici dentro i bril"
+Cenerentola-Comparetti.txt,10,9,True,,Sconosciuto,context,9,,,,,,,,False,,,gliela:gliela|dà:dare|ho:avere|filare:filare|dar:dare|penso:pensare|aveva:avere|filata:filare,""" Ma ora ho da filare la canapa, """
+Cenerentola-Comparetti.txt,11,9,True,,Sconosciuto,context,10,,,,,,,,False,,,ho:avere|filare:filare|dar:dare|penso:pensare|aveva:avere|filata:filare|filata:filare,""" Non ti dar pena, ci penso io. """
+Cenerentola-Comparetti.txt,12,8,True,,Sconosciuto,context,11,,,,,,,,False,,,ho:avere|filare:filare|dar:dare|penso:pensare|aveva:avere|filata:filare|filata:filare|vai:vai|torna:tornare|troverai:troverai,"<sp>"" Comando
+che sia filata la canapa """
+Cenerentola-Comparetti.txt,13,18,True,,non,regex,0,non,disse,125,,,,,False,125,lowercase_only|single_lowercase_token,aveva:avere|filata:filare|filata:filare|vai:vai|torna:tornare|troverai:troverai|tornò:tornare|stava:stare|tornava:tornare|vedeva:vedere,""" Ora vai a casa, disse la vecchina, e torna tutti
+i giorni qui, chè mi troverai. """
+Cenerentola-Comparetti.txt,14,34,True,,"la vec-
+china le",regex,0,"la vec-
+china le",disse,8,,,,,False,8,lowercase_only|contains_pronoun,vedeva:vedere|vecchina:vecchinare|faceva:fare|pettinare:pettinare|filava:filare|filata:filare|china:chinare|dà:dare|invitato:invitare|burla:burla|andare:andare|andati:andare|vattene:vattene|digli:diglio,"<sp>"" Senti, questa sera il figlio del re dà
+una festa da ballo e ha invitato tuo padre, tua madre,
+e tua sorella: e ti diranno per burla se ci vuoi andare. Eccoti que"
+Cenerentola-Comparetti.txt,15,75,True,,"la vec-
+china le",context,1,,,,,,,,False,,lowercase_only|contains_pronoun,andati:andare|vattene:vattene|digli:diglio|so:sapere|vedrai:vedere|troverai:troverai|vestita:vestito|dare:dare|prendi:prendere|apparirà:apparire|Vattene:vattene|riconoscerà:riconoscere|ballerà:ballere|bada:bada|andranno:andranno|fai:fare|venire:venire|vattene:vattene|avessero:avere|vedere:vedere|vai:vai|torna:tornare|dirai:dirai|so:sapere|tornerai:tornerai|rimettiti:rimettire,"""
+E vedrai che a un tratto ti troverai tutta vestita da an-
+dare al ballo: e prendi anche questa bacchettina, battila
+e apparirà una carrozza. Vattene al ballo e nessuno ti
+riconoscerà, e il figlio del re ballerà con te; ma tu bada
+bene, quando andranno alla sala del rinfresco, fai venire
+la carrozza e vattene via, chè non avessero a vedere dove
+tu vai. Allora torna dall'uccellino e gli dirai così :
+"""
+Cenerentola-Comparetti.txt,16,16,True,,le,regex,0,le,disse,201,,,,,False,201,lowercase_only|contains_pronoun|single_lowercase_token,avessero:avere|vedere:vedere|vai:vai|torna:tornare|dirai:dirai|so:sapere|tornerai:tornerai|rimettiti:rimettire|prese:prendere|portò:portare|nascose:nascosere|vide:vedere|Sai:sai,"""
+E tornerai come prima; rimettiti al tuo canto al fuoco
+e non dir nulla. """
+Cenerentola-Comparetti.txt,17,17,True,,le,regex,0,le,disse,8,,,,,False,8,lowercase_only|contains_pronoun|single_lowercase_token,prese:prendere|portò:portare|nascose:nascosere|vide:vedere|Sai:sai|invitati:invitare|venire:venire|divertitevi:divertiteve|andarono:andare|lasciarono:lasciare,"<sp>"" Sai, siamo invitati al ballo
+del figlio del re; che, ci vorresti venire anche tu? """
+Cenerentola-Comparetti.txt,18,15,True,,le,regex,0,le,disse,113,,,,,False,113,lowercase_only|contains_pronoun|single_lowercase_token,vide:vedere|Sai:sai|invitati:invitare|venire:venire|divertitevi:divertiteve|andarono:andare|lasciarono:lasciare|usciti:uscire|va:andare|fa:fare,""" Io no davvero, rispose lei, divertitevi pure ch'io me ne
+sto a casa. """
+Cenerentola-Comparetti.txt,19,31,True,,le,regex,0,le,disse,36,,,,,False,36,lowercase_only|contains_pronoun|single_lowercase_token,invitava:invitare|Tornano:tornano|vano:vare|era:essere|sa:sapere|fosse:essere|visto:vedere|importa:importare,""" È stata una
+gran bella festa, le disse la mamma, e c'era una signora
+ch'era una bellezza e non si sa chi fosse; se tu avessi
+visto com'era bella! """
+Cenerentola-Comparetti.txt,20,7,True,,le,regex,0,le,disse,123,,,,,False,123,lowercase_only|contains_pronoun|single_lowercase_token,era:essere|sa:sapere|fosse:essere|visto:vedere|importa:importare|sarà:essere,""" Non me ne importa niente, """
+Cenerentola-Comparetti.txt,21,18,True,,le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,visto:vedere|importa:importare|sarà:essere|venire:venire|sto:stare|sto:stare|va:andare|trova:trovare|andata:andare,""" Vedi, disse la mamma, domani ce ne sarà un'altra delle feste; ci potresti venire anche tu. """
+Cenerentola-Comparetti.txt,22,15,True,,le,context,2,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sarà:essere|venire:venire|sto:stare|sto:stare|va:andare|trova:trovare|andata:andare|fai:fare|hai:avere|fa:fare,""" No, no, io me ne sto nel canto del fuoco e sto bene. """
+Cenerentola-Comparetti.txt,23,5,True,,le,context,3,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sto:stare|sto:stare|va:andare|trova:trovare|andata:andare|fai:fare|fatto:fare|vedrai:vedere|verranno:verre|vai:vai,""" È andata bene """
+Cenerentola-Comparetti.txt,24,29,True,,le,context,4,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,sto:stare|sto:stare|va:andare|trova:trovare|andata:andare|fai:fare|fatto:fare|vedrai:vedere|verranno:verre|vai:vai|comanda:comandare|prendi:prendere|fermeranno:fermere|raccoglierli:raccogliere li|perderanno:perdere|venuta:venire,""" questa sera tornaci e fai come hai fatto ieri: ma bada, vedrai che ti verranno dietro quando te ne vai; te allora batti la bacchettina e comanda: """
+Cenerentola-Comparetti.txt,25,19,True,,le,context,5,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,fai:fare|fatto:fare|vedrai:vedere|verranno:verre|vai:vai|comanda:comandare|prendi:prendere|fermeranno:fermere|raccoglierli:raccogliere li|perderanno:perdere|venuta:venire|andarono:andare|lasciarono:lasciare|fece:fare|diventare:diventare,"""; prendi i quattrini e gittali via dalla carrozza; si fermeranno a raccoglierli e ti perderanno di vista. """
+Cenerentola-Comparetti.txt,26,41,True,,le,context,6,,,,,,,,False,,lowercase_only|contains_pronoun|single_lowercase_token,ola:ola|sarebbe:essere|sapere:sapere|faceva:fare|va:andare|trova:trovare|andata:andare|avrai:avrai|vedrai:vedere|vengono:venire|tiragli:tiragli|scopriranno:scoprari|entri:entrare|fu:essere|rimase:rimanere|fece:fare|venire:venire,""" Fin qui è andata bene; ma bada, questa sera tu avrai una veste coi campanelli d'oro e avrai le pianelle d'oro; vedrai che ti vengono dietro; tu tiragli una pianella e dei quattrini; ma ormai scopriranno dove tu entri. """
+Cenerentola-Comparetti.txt,27,11,True,,questa le,regex,0,questa le,dice,6,,,,,False,6,lowercase_only|contains_pronoun,ricompensò:ricompensare|appresso:appresso|va:andare|incontra:incontrare|hai:avere|viene:venire|diede:dare|filò:filò|fece:fare|tornare:tornare|vide:vedere|torni:tornare,"<sp>"" Stamattina hai a sbrigarti perchè il re viene a prender"
+Cenerentola-Comparetti.txt,28,8,True,,questa le,context,1,,,,,,,,False,,lowercase_only|contains_pronoun,viene:venire|diede:dare|filò:filò|fece:fare|tornare:tornare|vide:vedere|torni:tornare|Andate:andate|vedere:vedere|son:son|vide:vedere|stiede:stiedere,"<sp>"" O come torni così presto stamane? """
+Cenerentola-Comparetti.txt,29,9,True,,questa le,context,2,,,,,,,,False,,lowercase_only|contains_pronoun,filò:filò|fece:fare|tornare:tornare|vide:vedere|torni:tornare|Andate:andate|vedere:vedere|son:son|vide:vedere|stiede:stiedere|arriva:arrivare|picchia:picchiare,""" Andate a vedere l'anatre come son satolle, """
+Cenerentola-Comparetti.txt,30,9,True,,gli,regex,0,gli,dice,7,,,,,False,7,lowercase_only|contains_pronoun|single_lowercase_token,picchia:picchia|vedono:vedere|corrono:correre|va:andare|fece:fare|tornare:tornare,""" Uccellin Verdirìo
+Fammi più bella che non so'."""
+Cenerentola-Comparetti.txt,31,5,True,,Il re intanto,regex,0,Il re intanto,domanda,23,,,,,False,23,,fece:fare|tornare:tornare|avete:avere|avete:avere|ho:avere|vergogno:vergognare|sempr:sempr,"<sp>"" Quante figlie avete? """
+Cenerentola-Comparetti.txt,32,6,True,,Il re intanto,regex,0,Il re intanto,domanda,67,,,,,False,67,,avete:avere|avete:avere|ho:avere|vergogno:vergognare|sta:stare,""" Una sola, eccola qui. """
+Cenerentola-Comparetti.txt,33,9,True,,Il re intanto,regex,0,Il re intanto,domanda,104,,,,,False,104,,avete:avere|avete:avere|ho:avere|vergogno:vergognare|sta:stare|andatela:andatelare,""" Come ? non ne avete al-tre ? """
+Cenerentola-Comparetti.txt,34,19,True,,to,regex,0,to,domanda,148,,,,,False,148,lowercase_only|single_lowercase_token,avete:avere|avete:avere|ho:avere|vergogno:vergognare|sta:stare|andatela:andatelare|chiamare:chiamare|chiamò:chiamare,""" Sì, Maestà, ne ho un'altra, ma mi vergogno.... sta sempre nel canto del fuoco; è tutta cenerosa! """
+Cenerentola-Comparetti.txt,35,9,True,,to,context,1,,,,,,,,False,,lowercase_only|single_lowercase_token,avete:avere|ho:avere|vergogno:vergognare|sta:stare|andatela:andatelare|chiamare:chiamare|chiamò:chiamare,""" Sia come si sia, andatela a chiamare, """
+Cenerentola-Comparetti.txt,36,7,True,,to,context,2,,,,,,,,False,,lowercase_only|single_lowercase_token,andatela:andatelare|chiamare:chiamare|chiamò:chiamare|facevano:fare|citrulla:citrullare|strascicata:strascicare,""" Ohì, Cenerentola, scendi un po'. """
+Cenerentola-Comparetti.txt,37,15,True,,Eccola,nlp,0,,,,Eccola,disse,dire,187,False,187,,chiamò:chiamare|facevano:fare|citrulla:citrullare|strascicata:strascicare|comparve:comparvire|rimasero:rimasero,""" Vedi, citrulla! disse la mamma, s'è strascicata dietro le palette e le molle! """
+Cenerentola-Comparetti.txt,38,3,True,,Eccola,nlp,0,,,,Eccola,disse,dire,10,False,10,,strascicata:strascicare|comparve:comparvire|rimasero:rimasero|manca:mancare|vediamo:vedere,"<sp>"" Eccola, """
+Cenerentola-Comparetti.txt,39,19,True,,Eccola,nlp,0,,,,Eccola,disse,dire,16,False,16,,comparve:comparvire|rimasero:rimasero|manca:mancare|vediamo:vedere|diede:dare|fece:fare|vide:vedere,""" quella che cercavo e, non le manca che una pianella d'oro, vediamo se per caso fosse questa! """

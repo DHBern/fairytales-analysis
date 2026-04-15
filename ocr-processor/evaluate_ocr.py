@@ -6,6 +6,11 @@ import shutil
 from pathlib import Path
 
 
+OCR_PROCESSOR_DIR = Path(__file__).resolve().parent
+DEFAULT_GT_DIR = OCR_PROCESSOR_DIR / "gt"
+DEFAULT_REPORT_CSV = OCR_PROCESSOR_DIR / "reports" / "cer.csv"
+
+
 def clear_directory(dir_path):
     """Clear all contents of a directory."""
     print(f"[LOG] Clearing and creating directory: {dir_path}")
@@ -113,11 +118,13 @@ def evaluate_all(merged_dir, manual_dir, output_csv=None):
     merged_files = collect_txt_files(merged_dir)
     results = []
     detailed_output = []
+    skipped_files = []
 
     for merged_path in merged_files:
         manual_path = Path(manual_dir) / merged_path.name
         if not manual_path.exists():
             print(f"Skipping {merged_path}: manual file not found at {manual_path}")
+            skipped_files.append((merged_path.name, str(manual_path)))
             continue
 
         hyp = merged_path.read_text(encoding="utf-8", errors="replace")
@@ -149,6 +156,14 @@ def evaluate_all(merged_dir, manual_dir, output_csv=None):
                 break
         detailed_output.append("")
 
+    if not results:
+        print(
+            f"No comparable OCR/manual file pairs found in {merged_dir} against {manual_dir}. "
+            f"Skipped {len(skipped_files)} file(s)."
+        )
+    else:
+        print(f"Evaluated {len(results)} file(s); skipped {len(skipped_files)} file(s).")
+
     if output_csv:
         output_csv_path = Path(output_csv)
         output_csv_path.parent.mkdir(parents=True, exist_ok=True)
@@ -177,8 +192,8 @@ def main():
 
     eval_parser = sub.add_parser("evaluate", help="Evaluate CER between merged output and manual references")
     eval_parser.add_argument("--merged", default="outputs/merged", help="Folder with merged OCR outputs")
-    eval_parser.add_argument("--manual", default="gt", help="Folder with manual corrected text files")
-    eval_parser.add_argument("--csv", default="reports/cer.csv", help="CSV report output path")
+    eval_parser.add_argument("--manual", default=str(DEFAULT_GT_DIR), help="Folder with manual corrected text files")
+    eval_parser.add_argument("--csv", default=str(DEFAULT_REPORT_CSV), help="CSV report output path")
 
     args = parser.parse_args()
 

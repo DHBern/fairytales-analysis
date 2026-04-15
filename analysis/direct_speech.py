@@ -204,7 +204,7 @@ def analyze_directory(input_dir=None, output_dir=None):
                 "features": item["features"],
             })
 
-    report_path = output_dir / "pronoun_report.csv"
+    report_path = output_dir / "dialogue_report.csv"
     write_pronoun_report(report_rows, report_path)
 
     return processed, report_path

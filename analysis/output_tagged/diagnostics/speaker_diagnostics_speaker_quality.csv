@@ -1,0 +1,37 @@
+speaker,spans,words,flags,file_count,is_singleton
+perciò si,34,1551,lowercase_only,1,False
+Sconosciuto,50,909,,4,False
+le,50,578,contains_pronoun|lowercase_only|single_lowercase_token,3,False
+gli,20,363,contains_pronoun|lowercase_only|single_lowercase_token,3,False
+parchè me vegnarave un estro da co-,10,349,lowercase_only|too_many_tokens,1,False
+se,9,189,lowercase_only|single_lowercase_token,1,False
+Lo,9,142,contains_pronoun,1,False
+Allora il mercante che s'era ricordato l'incantesimo della figlia,1,117,too_many_tokens,1,True
+Il Consiglio,7,116,,1,False
+ghe,5,110,lowercase_only|single_lowercase_token,1,False
+"la vec-
+china le",2,109,contains_pronoun|lowercase_only,1,False
+Re,8,74,,1,False
+lei,4,45,contains_pronoun|lowercase_only|single_lowercase_token,1,False
+lo,3,41,contains_pronoun|lowercase_only|single_lowercase_token,1,False
+Penso,7,40,,1,False
+Eccola,3,37,,1,False
+to,3,35,lowercase_only|single_lowercase_token,1,False
+questa le,3,28,contains_pronoun|lowercase_only,1,False
+Le fece una carta che,2,22,contains_pronoun|too_many_tokens,1,False
+Il re intanto,3,20,,1,False
+Ma,1,20,,1,True
+Salutandole,4,19,,1,False
+Caterina,2,18,,1,False
+non,1,18,lowercase_only|single_lowercase_token,1,True
+la Regina,1,16,contains_pronoun,1,True
+il Reuzzo,1,12,,1,True
+Ninetta,1,10,,1,True
+Il Reuzzo la vide ed,1,6,contains_pronoun|too_many_tokens,1,True
+
+file,unique_speakers,singleton_speakers,singleton_word_share
+CaterinaSapiente-Calvino.txt,12,4,6.1%
+CaterinaSapiente-Pitre.txt,3,0,0.0%
+Cenerentola-Bernoni.txt,4,0,0.0%
+Cenerentola-Calvino.txt,7,3,21.9%
+Cenerentola-Comparetti.txt,9,2,4.6%
